@@ -1,0 +1,15 @@
+# ignore backup files
+*.bak
+
+# ignore ini files
+*.ini
+
+# ignore modesim proj files
+*.mpf
+*.cr.mti
+
+# ignore work folder
+work
+
+# ignore waveform files
+*.wlf
