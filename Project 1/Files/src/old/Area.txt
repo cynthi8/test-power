@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 20:44:32 2021
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/Classes/Testing/Proj1/Files/db/saed90nm_typ_ht.db)
+
+Number of ports:                           62
+Number of nets:                           145
+Number of cells:                           88
+Number of combinational cells:             62
+Number of sequential cells:                23
+Number of macros/black boxes:               0
+Number of buf/inv:                         13
+Number of references:                       2
+
+Combinational area:                679.219196
+Buf/Inv area:                       71.884802
+Noncombinational area:             562.175995
+Macro/Black Box area:                0.000000
+Net Interconnect area:              43.854177
+
+Total cell area:                  1241.395191
+Total area:                       1285.249368

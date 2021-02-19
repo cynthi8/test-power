@@ -1,0 +1,155 @@
+Information: Changed wire load model for 'sqrt_Top' from 'ForQA' to '8000'. (OPT-170)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 21:21:27 2021
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: m1/state_reg[0]
+              (rising edge-triggered flip-flop)
+  Endpoint: ready (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sqrt_Top           8000                  saed90nm_typ_ht
+  sqrt_controller    ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  m1/state_reg[0]/CLK (DFFARX1)            0.00       0.00 r
+  m1/state_reg[0]/Q (DFFARX1)              0.34       0.34 f
+  m1/U12/Q (XOR2X1)                        0.21       0.56 f
+  m1/U5/QN (NOR2X0)                        0.10       0.65 r
+  m1/ready (sqrt_controller)               0.00       0.65 r
+  ready (out)                              0.00       0.65 r
+  data arrival time                                   0.65
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+ 
+****************************************
+Report : cell
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 21:21:37 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+m1                        sqrt_controller                 143.769602
+                                                                    h, n
+m2                        sqrt_data_path                  1097.625589
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 2 cells                                             1241.395191
+ 
+****************************************
+Report : area
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 21:21:42 2021
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/Classes/Testing/Proj1/Files/db/saed90nm_typ_ht.db)
+
+Number of ports:                           62
+Number of nets:                           145
+Number of cells:                           88
+Number of combinational cells:             62
+Number of sequential cells:                23
+Number of macros/black boxes:               0
+Number of buf/inv:                         13
+Number of references:                       2
+
+Combinational area:                679.219196
+Buf/Inv area:                       71.884802
+Noncombinational area:             562.175995
+Macro/Black Box area:                0.000000
+Net Interconnect area:              43.854177
+
+Total cell area:                  1241.395191
+Total area:                       1285.249368
+Loading db file '/home/hernannr/Classes/Testing/Proj1/Files/db/saed90nm_typ_ht.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 21:21:48 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/Classes/Testing/Proj1/Files/db/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sqrt_Top               8000              saed90nm_typ_ht
+sqrt_controller        ForQA             saed90nm_typ_ht
+sqrt_data_path         8000              saed90nm_typ_ht
+sqrt_data_path_DW01_add_0
+                       ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  18.0680 uW   (73%)
+  Net Switching Power  =   6.8325 uW   (27%)
+                         ---------
+Total Dynamic Power    =  24.9005 uW  (100%)
+
+Cell Leakage Power     =  18.7940 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         4.5731            0.4093        9.2561e+06           14.2385  (  32.59%)
+combinational     13.4949            6.4232        9.5379e+06           29.4560  (  67.41%)
+--------------------------------------------------------------------------------------------------
+Total             18.0680 uW         6.8325 uW     1.8794e+07 pW        43.6945 uW

@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Thu Feb 18 20:45:21 2021
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: start (input port clocked by clk)
+  Endpoint: m2/finish_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sqrt_Top           8000                  saed90nm_typ_ht
+  sqrt_data_path     8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.30       0.30
+  input external delay                     2.00       2.30 f
+  start (in)                               0.00       2.30 f
+  m1/start (sqrt_controller)               0.00       2.30 f
+  m1/U11/Q (AND2X1)                        0.15       2.45 f
+  m1/load_data (sqrt_controller)           0.00       2.45 f
+  m2/load_data (sqrt_data_path)            0.00       2.45 f
+  m2/U21/ZN (INVX0)                        0.17       2.63 r
+  m2/U4/Q (AO22X1)                         0.21       2.83 r
+  m2/U38/QN (NOR2X0)                       0.11       2.95 f
+  m2/U39/QN (NOR2X0)                       0.11       3.05 r
+  m2/U40/QN (AOI222X1)                     0.23       3.29 f
+  m2/U41/Q (AO221X1)                       0.15       3.44 f
+  m2/U42/Q (OA221X1)                       0.17       3.61 f
+  m2/U43/Q (AO221X1)                       0.16       3.76 f
+  m2/U44/Q (OA221X1)                       0.17       3.93 f
+  m2/U45/Q (AO21X1)                        0.13       4.07 f
+  m2/finish_reg/D (DFFX1)                  0.04       4.10 f
+  data arrival time                                   4.10
+
+  clock clk (rise edge)                   40.00      40.00
+  clock network delay (ideal)              0.30      40.30
+  m2/finish_reg/CLK (DFFX1)                0.00      40.30 r
+  library setup time                      -0.08      40.22
+  data required time                                 40.22
+  -----------------------------------------------------------
+  data required time                                 40.22
+  data arrival time                                  -4.10
+  -----------------------------------------------------------
+  slack (MET)                                        36.12
+
+

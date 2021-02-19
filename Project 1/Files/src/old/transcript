@@ -1,0 +1,414 @@
+vsim work.sqrt_controller
+# vsim work.sqrt_controller 
+# Start time: 20:53:43 on Feb 18,2021
+# Loading work.sqrt_controller
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(16): Instantiation of 'DFFARX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(18): Instantiation of 'DFFARX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(20): Instantiation of 'AO21X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(21): Instantiation of 'NAND3X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(22): Instantiation of 'AND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(23): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(24): Instantiation of 'NAND3X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(25): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(26): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(27): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(28): Instantiation of 'NAND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(29): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(30): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_controller File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# Error loading design
+# End time: 20:53:43 on Feb 18,2021, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+# Loading project SQRT_syn
+# Compile of SQRT_tb_syn.v was successful.
+# Compile of SQRT_syn.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.sqrt_tb
+# vsim work.sqrt_tb 
+# Start time: 20:54:20 on Feb 18,2021
+# Loading work.sqrt_tb
+# Loading work.sqrt_Top
+# Loading work.sqrt_controller
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(16): Instantiation of 'DFFARX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(18): Instantiation of 'DFFARX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(20): Instantiation of 'AO21X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(21): Instantiation of 'NAND3X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(22): Instantiation of 'AND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(23): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(24): Instantiation of 'NAND3X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(25): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(26): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(27): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(28): Instantiation of 'NAND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(29): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(30): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m1 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# Loading work.sqrt_data_path
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(71): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(72): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(73): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(74): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(75): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(76): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(77): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(78): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(79): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(80): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(81): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(82): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(83): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(84): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(85): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(86): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(87): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(88): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(89): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(90): Instantiation of 'DFFX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(91): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(93): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(95): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(97): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(99): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(101): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(103): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(105): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(107): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(109): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(111): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(113): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(114): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(115): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(117): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(119): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(120): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(121): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(122): Instantiation of 'AO22X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# Loading work.sqrt_data_path_DW01_add_0
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(43): Instantiation of 'FADDX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(45): Instantiation of 'FADDX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(47): Instantiation of 'FADDX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(49): Instantiation of 'FADDX1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(50): Instantiation of 'XNOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(51): Instantiation of 'NAND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(52): Instantiation of 'AND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(53): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(54): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2/add_25_S2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(125): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(126): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(127): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(128): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(129): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(130): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(131): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(132): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(133): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(134): Instantiation of 'INVX0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(135): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(136): Instantiation of 'AND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(138): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(139): Instantiation of 'AND2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(140): Instantiation of 'XOR2X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(141): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(142): Instantiation of 'NOR2X0' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(143): Instantiation of 'AOI222X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(145): Instantiation of 'AO221X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(147): Instantiation of 'OA221X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(149): Instantiation of 'AO221X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(151): Instantiation of 'OA221X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# ** Error: (vsim-3033) /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v(153): Instantiation of 'AO21X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /sqrt_tb/a1/m2 File: /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.v
+#         Searched libraries:
+#             /home/hernannr/Classes/Testing/Proj1/Files/src/work
+# Error loading design
+# End time: 20:54:20 on Feb 18,2021, Elapsed time: 0:00:00
+# Errors: 84, Warnings: 0
+# Project file /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file /home/hernannr/Classes/Testing/Proj1/Files/src/SQRT_syn.mpf is write protected, data cannot be saved.
+# Unable to save project.

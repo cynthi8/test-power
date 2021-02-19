@@ -1,0 +1,16 @@
+link
+create_clock clk -period 40 -waveform {0 20}
+set_clock_latency 0.3 clk
+set_input_delay 2.0 -clock clk [all_inputs]
+set_output_delay 1.65 -clock clk [all_outputs]
+set_load 0.1 [all_outputs]
+set_max_fanout 1 [all_inputs]
+set_fanout_load 8 [all_outputs]
+set_max_area 0
+report_port
+uplevel #0 check_design
+
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+uplevel #0 { report_cell }
+uplevel #0 { report_area }
+uplevel #0 { report_power -analysis_effort low }
