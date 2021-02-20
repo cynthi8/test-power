@@ -1,0 +1,5 @@
+1. Open modelsim in this directory with
+modelsim
+
+2. Compile the synthesized file and testbench with
+do setup_simulation.tcl
