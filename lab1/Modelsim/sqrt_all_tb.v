@@ -13,12 +13,13 @@ module sqrt_tb();
     clk = 0;
     start = 0;
     clear = 1;
-    #10;
-    // Start test for sqrt(1)
-    start = 1;
-    clear = 0;
+    // Setup sqrt(1) test
     answer = 1;
     num = answer*answer;
+    #10;
+    // Start test
+    start = 1;
+    clear = 0;
   end
 
   always #1 clk = ~clk;
