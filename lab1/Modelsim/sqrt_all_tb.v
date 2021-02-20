@@ -20,6 +20,8 @@ module sqrt_tb();
     // Start test
     start = 1;
     clear = 0;
+    #2;
+    start = 0;
   end
 
   always #1 clk = ~clk;
@@ -28,13 +30,17 @@ module sqrt_tb();
     // Check results of last test
     if(result != answer)
         $display("test failed for answer=", answer);
-    clear = 1;
     #2;
-    // Start test for next sqrt
-    clear = 0;
+    // Clean and setup test for next sqrt
+    clear = 1;
     answer = answer + 1;
     num = answer*answer;
-    
+    #2
+    // Start test
+    start = 1;
+    clear = 0;
+    #2;
+    start = 0;
     if(answer>11) begin
         $display("Simulation Complete");
         $stop;
