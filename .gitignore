@@ -13,3 +13,6 @@ work
 
 # ignore waveform files
 *.wlf
+
+# ignore waveform files
+*transcript
