@@ -8,6 +8,8 @@ module sqrt_tb();
 
   sqrt_Top a1(start, clk, clear, num, result, ready);
 
+  parameter period = 40;
+
   initial begin
     // Initialize
     clk = 0;
@@ -16,35 +18,35 @@ module sqrt_tb();
     // Setup sqrt(1) test
     answer = 1;
     num = answer*answer;
-    #10;
+    #(10 * period);
     // Start test
     start = 1;
     clear = 0;
-    #2;
+    #(2 * period);
     start = 0;
   end
 
-  always #1 clk = ~clk;
+  always #(period/2) clk = ~clk;
 
   always @(posedge ready) begin
     // Check results of last test
     if(result != answer)
         $display("test failed for answer=", answer);
-    #2;
+    #(2 * period);
     // Clean and setup test for next sqrt
     clear = 1;
     answer = answer + 1;
     num = answer*answer;
-    #2
-    // Start test
-    start = 1;
-    clear = 0;
-    #2;
-    start = 0;
     if(answer>11) begin
         $display("Simulation Complete");
         $stop;
     end
+    #(2 * period);
+    // Start test
+    start = 1;
+    clear = 0;
+    #(2 * period);
+    start = 0;
   end
 
 endmodule
