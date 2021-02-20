@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module sqrt_tb();
   integer answer;
   reg start, clk, clear;
