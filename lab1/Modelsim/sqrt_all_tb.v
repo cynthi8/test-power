@@ -28,25 +28,27 @@ module sqrt_tb();
 
   always #(period/2) clk = ~clk;
 
-  always @(posedge ready) begin
-    // Check results of last test
-    if(result != answer)
-        $display("test failed for answer=", answer);
-    #(2 * period);
-    // Clean and setup test for next sqrt
-    clear = 1;
-    answer = answer + 1;
-    num = answer*answer;
-    if(answer>11) begin
-        $display("Simulation Complete");
-        $stop;
+  always @(negedge clk) begin
+    if(ready) begin
+        // Check results of last test
+        if(result != answer)
+            $display("%0t test failed for answer=", $time,  answer);
+        #(2 * period);
+        // Clean and setup test for next sqrt
+        clear = 1;
+        answer = answer + 1;
+        num = answer*answer;
+        if(answer>11) begin
+            $display("Simulation Complete");
+            $stop;
+        end
+        #(2 * period);
+        // Start test
+        start = 1;
+        clear = 0;
+        #(2 * period);
+        start = 0;
     end
-    #(2 * period);
-    // Start test
-    start = 1;
-    clear = 0;
-    #(2 * period);
-    start = 0;
   end
 
 endmodule
