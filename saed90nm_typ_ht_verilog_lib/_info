@@ -1,0 +1,6740 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/colden/test-power
+vAND2X1
+Z1 !s110 1613799084
+!i10b 1
+!s100 bdRhECA=>eK4P]41=T_;I3
+I`4Fj5LeAo6=[]i?Y4Mb9>2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1393868472
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X1.v
+L0 3
+Z4 OV;L;10.6c;65
+r1
+!s85 0
+31
+Z5 !s108 1613799084.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X1.v|
+!i113 1
+Z6 o-work saed90nm_typ_ht_verilog_lib
+Z7 tCvgOpt 0
+n@a@n@d2@x1
+vAND2X2
+R1
+!i10b 1
+!s100 =ShUZ]lAkD@H2gkbVRWZf1
+IQV9jFRh;FmTi]_UPFP^j00
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X2.v|
+!i113 1
+R6
+R7
+n@a@n@d2@x2
+vAND2X4
+R1
+!i10b 1
+!s100 9ncG<jXF4dSWz_m=:LHIY1
+II3hFkVZWjaBn6KPzKzNQa3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND2X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND2X4.v|
+!i113 1
+R6
+R7
+n@a@n@d2@x4
+vAND3X1
+Z8 !s110 1613799085
+!i10b 1
+!s100 Db6eSLPcTmUaoWj[J_L`>3
+IjQMdHzAZTZ;IgJzFDTR]71
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X1.v|
+!i113 1
+R6
+R7
+n@a@n@d3@x1
+vAND3X2
+R8
+!i10b 1
+!s100 N8i<Gc5GZT@U_<ZkzR9<52
+IAiC5^MWGzfkY=>L<b[ceg3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1613799085.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X2.v|
+!i113 1
+R6
+R7
+n@a@n@d3@x2
+vAND3X4
+R8
+!i10b 1
+!s100 FJJ3kHA6OiX2GXFFliJO;2
+I>:dA7I1KSXG?O@dckm>hh3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND3X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND3X4.v|
+!i113 1
+R6
+R7
+n@a@n@d3@x4
+vAND4X1
+R8
+!i10b 1
+!s100 h:Wz2mEH1n<=A2P:3dC3M1
+IVXY[3hET>1[[S4hZ8aS:g2
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND4X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X1.v|
+!i113 1
+R6
+R7
+n@a@n@d4@x1
+vAND4X2
+R8
+!i10b 1
+!s100 zX68OZfB85iJ1F8NfAKXK0
+IVh1];[hE>cJkdNm;cQU>M0
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND4X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X2.v|
+!i113 1
+R6
+R7
+n@a@n@d4@x2
+vAND4X4
+Z10 !s110 1613799086
+!i10b 1
+!s100 RK8:PHWaP8EEW5S^ae[;^2
+IWQ2`Zcc5Qh2WGUMB_iBoi3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AND4X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AND4X4.v|
+!i113 1
+R6
+R7
+n@a@n@d4@x4
+vANTENNA
+R10
+!i10b 1
+!s100 fhX1l:lcQd0XLYdEI>ciZ1
+IT:gcA2E>E5`dh=nQfz<?E3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ANTENNA.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ANTENNA.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z11 !s108 1613799086.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ANTENNA.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ANTENNA.v|
+!i113 1
+R6
+R7
+n@a@n@t@e@n@n@a
+vAO21X1
+R10
+!i10b 1
+!s100 no8aUANLezQ[fgQa4]bco1
+I]maBe24?[PoaBPlmfdFmI3
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO21X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X1.v|
+!i113 1
+R6
+R7
+n@a@o21@x1
+vAO21X2
+R10
+!i10b 1
+!s100 <TPe:YaX`P7>@BJ<a[^=j1
+I`@;05K9_ScI`d^0K8MA@j1
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO21X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO21X2.v|
+!i113 1
+R6
+R7
+n@a@o21@x2
+vAO221X1
+Z12 !s110 1613799087
+!i10b 1
+!s100 i[dd`[X8ciHnZ;MF7PIPU3
+I2DEdJWTMmP[EiFj_jX5X?2
+R2
+R0
+R3
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z13 !s108 1613799087.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO221X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X1.v|
+!i113 1
+R6
+R7
+n@a@o221@x1
+vAO221X2
+R12
+!i10b 1
+!s100 :<24hVE8eH_LZj@@:Lh>J3
+IO;C4VD]9ZFb2Z13B8JWiC2
+R2
+R0
+Z14 w1393868474
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO221X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO221X2.v|
+!i113 1
+R6
+R7
+n@a@o221@x2
+vAO222X1
+Z15 !s110 1613799088
+!i10b 1
+!s100 Wc8A7FXjNEVoWoVVFa8=Q0
+I3m:Lm621FiRL=YT?CY^]?1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z16 !s108 1613799088.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO222X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X1.v|
+!i113 1
+R6
+R7
+n@a@o222@x1
+vAO222X2
+R15
+!i10b 1
+!s100 aF38>iTP67=KzekTXBUdd3
+I?bIX]WL2<@29Nn?1RR>gG1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R16
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO222X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO222X2.v|
+!i113 1
+R6
+R7
+n@a@o222@x2
+vAO22X1
+R10
+!i10b 1
+!s100 ]=VX5jDd<`ZObTFS@cD^R2
+Ie?N=A9GdbH?VTUIzg321l2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO22X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X1.v|
+!i113 1
+R6
+R7
+n@a@o22@x1
+vAO22X2
+R12
+!i10b 1
+!s100 8G5M2f[OKGe?FiEMUd?=V2
+IIOMPSSf:aH]Q:FkeX4Id<2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AO22X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AO22X2.v|
+!i113 1
+R6
+R7
+n@a@o22@x2
+vAOBUFX1
+R15
+!i10b 1
+!s100 ejjh_aJCTZW=DB7WM7UbI3
+IO=[bN5Xd6^a5KZ0Z6Hfd]0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R16
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX1.v|
+!i113 1
+R6
+R7
+n@a@o@b@u@f@x1
+vAOBUFX2
+R15
+!i10b 1
+!s100 knQ5`o@f5lI;MG[Y=j3mn1
+I=j[;31YEbb>kXUe9YX3FT2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R16
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX2.v|
+!i113 1
+R6
+R7
+n@a@o@b@u@f@x2
+vAOBUFX4
+R15
+!i10b 1
+!s100 XRLZI<ebcbUkiMHIQ7LbY3
+IYjXhlDln3b7dlDXaOgRj43
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R16
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOBUFX4.v|
+!i113 1
+R6
+R7
+n@a@o@b@u@f@x4
+vAODFFARX1
+Z17 !s110 1613799089
+!i10b 1
+!s100 LPPHk75joUnFIlfI<Z_^R1
+ICTFE=D7D;2GHMQJi03?1g1
+R2
+R0
+R14
+Z18 8/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX1.v
+Z19 F/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z20 !s108 1613799089.000000
+Z21 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX1.v|
+Z22 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX1.v|
+!i113 1
+R6
+R7
+n@a@o@d@f@f@a@r@x1
+vAODFFARX2
+R17
+!i10b 1
+!s100 oZfZ[bQjn]CQ==T7R;l9_3
+IEYQ417zV[:z5YkY`BRLPU1
+R2
+R0
+R14
+Z23 8/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX2.v
+Z24 F/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R20
+Z25 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX2.v|
+Z26 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFARX2.v|
+!i113 1
+R6
+R7
+n@a@o@d@f@f@a@r@x2
+vAODFFNARX1
+R17
+!i10b 1
+!s100 @60G4Bk0n5^[JBjUDMZ9_3
+IblA=NGn9bS9SSz1;i2Gc53
+R2
+R0
+R14
+Z27 8/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX1.v
+Z28 F/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R20
+Z29 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX1.v|
+Z30 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX1.v|
+!i113 1
+R6
+R7
+n@a@o@d@f@f@n@a@r@x1
+vAODFFNARX2
+R17
+!i10b 1
+!s100 4:CWNPk[iNZ23Ai_OU=7W2
+IAa8Vm[4d1YT49aLA6c?z;0
+R2
+R0
+R14
+Z31 8/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX2.v
+Z32 F/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R20
+Z33 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX2.v|
+Z34 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AODFFNARX2.v|
+!i113 1
+R6
+R7
+n@a@o@d@f@f@n@a@r@x2
+vAOI21X1
+Z35 !s110 1613799090
+!i10b 1
+!s100 0T9WX4LRRX:JYAiaCI@5Q3
+I9b2X_MY7USRLL8lBiG;Ho1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z36 !s108 1613799090.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X1.v|
+!i113 1
+R6
+R7
+n@a@o@i21@x1
+vAOI21X2
+R35
+!i10b 1
+!s100 4;:X=jCQ`PFh3Y<L`i_L[1
+IJV`9fb[aIa91;ekbF1g`G2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI21X2.v|
+!i113 1
+R6
+R7
+n@a@o@i21@x2
+vAOI221X1
+R35
+!i10b 1
+!s100 F>RUfP5[2hfV_D_:GL=K]3
+I@:GhcJA_U`RZ8=V?ohdej3
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X1.v|
+!i113 1
+R6
+R7
+n@a@o@i221@x1
+vAOI221X2
+Z37 !s110 1613799091
+!i10b 1
+!s100 8LciJCRP6TcAmSiZ1X71Z3
+IzQLbhlf?K0;?@]RnAgLck0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z38 !s108 1613799091.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI221X2.v|
+!i113 1
+R6
+R7
+n@a@o@i221@x2
+vAOI222X1
+R37
+!i10b 1
+!s100 jo]EDjM_zZH@fJhaj22_m3
+IPU1R5mUmBCUSmfXe]9WDJ0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R38
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X1.v|
+!i113 1
+R6
+R7
+n@a@o@i222@x1
+vAOI222X2
+R37
+!i10b 1
+!s100 mRgEC]RDl]aiVm5nI>Ico0
+I:kjENk4Q4U5lUSf5eS@ZW2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R38
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI222X2.v|
+!i113 1
+R6
+R7
+n@a@o@i222@x2
+vAOI22X1
+R35
+!i10b 1
+!s100 zn>De?n0lf<RM>a;9_Tc`3
+IL3Sld9eI@2NClH[fcP_1a1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X1.v|
+!i113 1
+R6
+R7
+n@a@o@i22@x1
+vAOI22X2
+R35
+!i10b 1
+!s100 9K5jE?ZD^VoKBMVW5H8RY0
+IG?K6jcPJN?gMWCOGhIbQ[0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R36
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOI22X2.v|
+!i113 1
+R6
+R7
+n@a@o@i22@x2
+vAOINVX1
+R37
+!i10b 1
+!s100 N>[LdK<O8]aYhSHz<>7?J3
+I_QcOOe6E<07eB81PG75TU2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R38
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX1.v|
+!i113 1
+R6
+R7
+n@a@o@i@n@v@x1
+vAOINVX2
+Z39 !s110 1613799092
+!i10b 1
+!s100 IeOB7fNXjL7]noF6`L8_J0
+Ic[<:AiAN6ML4T:5TZkmb@0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z40 !s108 1613799092.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX2.v|
+!i113 1
+R6
+R7
+n@a@o@i@n@v@x2
+vAOINVX4
+R39
+!i10b 1
+!s100 BaMo_klc1cBP=`?H6]Vb41
+IC`<49P`I?zZcC>D]5oPNK3
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R40
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/AOINVX4.v|
+!i113 1
+R6
+R7
+n@a@o@i@n@v@x4
+vBSLEX1
+R39
+!i10b 1
+!s100 BKzGTIfOVM1oki3Pl<UYF2
+I3AVbf;dCOON>?UIiPl5N`0
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R40
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX1.v|
+!i113 1
+R6
+R7
+n@b@s@l@e@x1
+vBSLEX2
+Z41 !s110 1613799093
+!i10b 1
+!s100 9?Q[o4cLhDB53Td8[_Z:00
+I[5WeT[g;i:fke7M3XW<2T1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z42 !s108 1613799093.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX2.v|
+!i113 1
+R6
+R7
+n@b@s@l@e@x2
+vBSLEX4
+R41
+!i10b 1
+!s100 MgY5P:c^O_PoBzkdflPR>3
+IlWgV9lThW?BSYJ1TH@5aN2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R42
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/BSLEX4.v|
+!i113 1
+R6
+R7
+n@b@s@l@e@x4
+vBUSKP
+R41
+!i10b 1
+!s100 DhE_`E39aUhNGk]hJG3nT2
+IG<=^KObKh9;ZgSHX1n[hN1
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/BUSKP.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/BUSKP.v
+L0 3
+R4
+r1
+!s85 0
+31
+R42
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/BUSKP.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/BUSKP.v|
+!i113 1
+R6
+R7
+n@b@u@s@k@p
+vCLOAD1
+R41
+!i10b 1
+!s100 hP3a86bkS4chK<>i114]W1
+In48dRPhWLQVWooYgQgTf^2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/CLOAD1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/CLOAD1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R42
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/CLOAD1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/CLOAD1.v|
+!i113 1
+R6
+R7
+n@c@l@o@a@d1
+vDCAP
+R41
+!i10b 1
+!s100 ^]43_E7njYPoNQdW@c`jM3
+IO3Vd@]T`9;o@9PGelN<kh2
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DCAP.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DCAP.v
+L0 3
+R4
+r1
+!s85 0
+31
+R42
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DCAP.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DCAP.v|
+!i113 1
+R6
+R7
+n@d@c@a@p
+vDEC24X1
+Z43 !s110 1613799094
+!i10b 1
+!s100 UGoUZ6`8oEMZzJRUEB`^I1
+I]>e31@`hnJYc1]HTniKF62
+R2
+R0
+R14
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z44 !s108 1613799094.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X1.v|
+!i113 1
+R6
+R7
+n@d@e@c24@x1
+vDEC24X2
+R43
+!i10b 1
+!s100 2iPaZ46:lgCOhKi3b^9:M0
+IQjlzDECg`1zZnP;D3z_kg3
+R2
+R0
+Z45 w1393868476
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R44
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DEC24X2.v|
+!i113 1
+R6
+R7
+n@d@e@c24@x2
+vDELLN1X2
+R43
+!i10b 1
+!s100 7n5mCbUXBzzQ7cHNaaIkn0
+IHW`ka`;cLJ^?EeGj6UOaJ0
+R2
+R0
+R45
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN1X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN1X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R44
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DELLN1X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN1X2.v|
+!i113 1
+R6
+R7
+n@d@e@l@l@n1@x2
+vDELLN2X2
+Z46 !s110 1613799095
+!i10b 1
+!s100 lLNM3K72BN2gbzdjoaMH82
+I;@Idb0EoBIc5g;SdYYm;C3
+R2
+R0
+R45
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R44
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DELLN2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN2X2.v|
+!i113 1
+R6
+R7
+n@d@e@l@l@n2@x2
+vDELLN3X2
+R46
+!i10b 1
+!s100 4=UL=@?mXiCZ@62F5PlH=3
+IbhaSD?R5So^[J@VI2O1Fn2
+R2
+R0
+R45
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z47 !s108 1613799095.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DELLN3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DELLN3X2.v|
+!i113 1
+R6
+R7
+n@d@e@l@l@n3@x2
+vDFFARX1
+R46
+!i10b 1
+!s100 VhYkTVVHG88G7HDZ4gPa`0
+Ih1>KdUjL1@gMmgIiQ<_>P1
+R2
+R0
+R45
+Z48 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX1.v
+Z49 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R47
+Z50 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX1.v|
+Z51 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@r@x1
+vDFFARX2
+R46
+!i10b 1
+!s100 RR@VYVPZk;bOalh]U@Y?70
+IEcG3cgC_90U5>R4VQD4U82
+R2
+R0
+R45
+Z52 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX2.v
+Z53 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R47
+Z54 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX2.v|
+Z55 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFARX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@r@x2
+vDFFASRX1
+R46
+!i10b 1
+!s100 mELFJ[hNL?b;Z5g:Uf>1h2
+InCL31Y5cSh3VaYlmUgoM@0
+R2
+R0
+R45
+Z56 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX1.v
+Z57 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R47
+Z58 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX1.v|
+Z59 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@s@r@x1
+vDFFASRX2
+Z60 !s110 1613799096
+!i10b 1
+!s100 ]h?W[2j9FfT@UU:M>?I<J0
+InVN92kYe@D;F9mNC1N^[n3
+R2
+R0
+R45
+Z61 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX2.v
+Z62 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z63 !s108 1613799096.000000
+Z64 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX2.v|
+Z65 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASRX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@s@r@x2
+vDFFASX1
+R60
+!i10b 1
+!s100 DJmzM2W`P?6YNoAN8j1l`2
+I?d_KC25B]J3DQolL7<ac?3
+R2
+R0
+R45
+Z66 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX1.v
+Z67 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R63
+Z68 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX1.v|
+Z69 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@s@x1
+vDFFASX2
+R60
+!i10b 1
+!s100 R]@:^Ng24S;>Yb3gF`GLc1
+Ig?H4m@Y742[EbP0X;`zeE2
+R2
+R0
+R45
+Z70 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX2.v
+Z71 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R63
+Z72 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX2.v|
+Z73 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFASX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@a@s@x2
+vDFFNARX1
+Z74 !s110 1613799097
+!i10b 1
+!s100 ESGN7FQJ8:Aa^`H2RB4Gd1
+I_l[0G>GC@AM4I[6L^6j=b2
+R2
+R0
+R45
+Z75 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX1.v
+Z76 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z77 !s108 1613799097.000000
+Z78 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX1.v|
+Z79 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@r@x1
+vDFFNARX2
+R74
+!i10b 1
+!s100 XnaK08:cPT=c=OOFI0ZUQ1
+IPmfQZi;Im>FMEKnbKJ70<1
+R2
+R0
+R45
+Z80 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX2.v
+Z81 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R77
+Z82 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX2.v|
+Z83 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNARX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@r@x2
+vDFFNASRNX1
+R74
+!i10b 1
+!s100 S_c_U^U[a>MJ7KVbDZ5bE1
+ICo]Dbe[_MfCkbXLc40`Yn1
+R2
+R0
+R45
+Z84 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX1.v
+Z85 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R77
+Z86 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX1.v|
+Z87 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@n@x1
+vDFFNASRNX2
+Z88 !s110 1613799098
+!i10b 1
+!s100 fABzGZIU=<X;n=TGhf1P22
+Iz]I6QUf5PTcV2]E`8aUfF3
+R2
+R0
+R45
+Z89 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX2.v
+Z90 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R77
+Z91 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX2.v|
+Z92 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRNX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@n@x2
+vDFFNASRQX1
+R88
+!i10b 1
+!s100 JJaEmfTo47DG9fe0ZFRD<1
+Iz:U]i]<Ha[n829@gU_YOX1
+R2
+R0
+R45
+Z93 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX1.v
+Z94 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z95 !s108 1613799098.000000
+Z96 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX1.v|
+Z97 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@q@x1
+vDFFNASRQX2
+R88
+!i10b 1
+!s100 Wk4zA3U?VZJ0GFY2b?6@>0
+IgMILO;L:P6hOm^:0TOhTi2
+R2
+R0
+R45
+Z98 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX2.v
+Z99 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R95
+Z100 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX2.v|
+Z101 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRQX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@q@x2
+vDFFNASRX1
+R88
+!i10b 1
+!s100 5WoDS:PBRL:;WVON8Y4mW3
+ID1iYN`0SV;_`Y?H=Z1L@i0
+R2
+R0
+R45
+Z102 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX1.v
+Z103 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R95
+Z104 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX1.v|
+Z105 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@x1
+vDFFNASRX2
+Z106 !s110 1613799099
+!i10b 1
+!s100 5d9E2aR8nCiHGE^D<TGVl2
+I;j`c6A<_[28No0R[bTGOe2
+R2
+R0
+R45
+Z107 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX2.v
+Z108 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z109 !s108 1613799099.000000
+Z110 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX2.v|
+Z111 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASRX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@r@x2
+vDFFNASX1
+R106
+!i10b 1
+!s100 6<?4MHa?Hem4a1RSIdNUK1
+IOdSUoN[;=TDY80mUKEfG_3
+R2
+R0
+R45
+Z112 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX1.v
+Z113 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R109
+Z114 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX1.v|
+Z115 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@x1
+vDFFNASX2
+R106
+!i10b 1
+!s100 Pe`_[KjbSJ3aUG5@IkM5Z3
+IO@;=8ihGFmSoceJXYIl>c1
+R2
+R0
+R45
+Z116 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX2.v
+Z117 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R109
+Z118 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX2.v|
+Z119 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNASX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@a@s@x2
+vDFFNX1
+R106
+!i10b 1
+!s100 CJ@OF5Y7OEzaX05N2i;X>3
+IMG2I<i<e4]8Q329d]C]c`2
+R2
+R0
+R45
+Z120 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX1.v
+Z121 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R109
+Z122 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX1.v|
+Z123 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@x1
+vDFFNX2
+Z124 !s110 1613799100
+!i10b 1
+!s100 9E8l0>ij?g9haChHTW]^E3
+IO?MfVL5ZB8FFU8NF;]P7h1
+R2
+R0
+R45
+Z125 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX2.v
+Z126 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R109
+Z127 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX2.v|
+Z128 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFNX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@n@x2
+vDFFSSRX1
+R124
+!i10b 1
+!s100 ?MFimCl?z3QoRgg[?9LgS1
+ISLjl_eF62m=Rc^I]BRf^90
+R2
+R0
+R45
+Z129 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX1.v
+Z130 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z131 !s108 1613799100.000000
+Z132 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX1.v|
+Z133 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@s@s@r@x1
+vDFFSSRX2
+R124
+!i10b 1
+!s100 0BAg]]jKhKG;8_h=XQL092
+I:j1VWh:=>]70FnVH<BCQ52
+R2
+R0
+R45
+Z134 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX2.v
+Z135 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R131
+Z136 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX2.v|
+Z137 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFSSRX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@s@s@r@x2
+vDFFX1
+Z138 !s110 1613799101
+!i10b 1
+!s100 IKE8mnYVW2kjnWRF>@^2E3
+IMLl0AC:FaIDm<XTh<9VSU0
+R2
+R0
+R45
+Z139 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX1.v
+Z140 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R131
+Z141 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFX1.v|
+Z142 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX1.v|
+!i113 1
+R6
+R7
+n@d@f@f@x1
+vDFFX2
+R138
+!i10b 1
+!s100 5NK6WQUn5V;F;fcGzd0jV3
+ICXhOb]`CHiSiR8^d@_AEM3
+R2
+R0
+R45
+Z143 8/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX2.v
+Z144 F/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z145 !s108 1613799101.000000
+Z146 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DFFX2.v|
+Z147 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DFFX2.v|
+!i113 1
+R6
+R7
+n@d@f@f@x2
+vDHFILLHLH2
+R138
+!i10b 1
+!s100 D23`:AZk=A4gzkA0Y972K2
+I]eE:UT?VS<];5Kg`HajFT3
+R2
+R0
+R45
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLH2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLH2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R145
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLH2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLH2.v|
+!i113 1
+R6
+R7
+n@d@h@f@i@l@l@h@l@h2
+vDHFILLHLHLS11
+R138
+!i10b 1
+!s100 H@W^NXZlEEBRQg]lQSPGC3
+IoQY=fRjOTJ3obzQ7M]Jm73
+R2
+R0
+R45
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLHLS11.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLHLS11.v
+L0 3
+R4
+r1
+!s85 0
+31
+R145
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLHLS11.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLHLHLS11.v|
+!i113 1
+R6
+R7
+n@d@h@f@i@l@l@h@l@h@l@s11
+vDHFILLLHL2
+Z148 !s110 1613799102
+!i10b 1
+!s100 b[d?ORUFh0M:CK0Un>>^A3
+IfLA^hVTK4[Q6EfGK3gS7[0
+R2
+R0
+Z149 w1393868478
+8/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLLHL2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLLHL2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z150 !s108 1613799102.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLLHL2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/DHFILLLHL2.v|
+!i113 1
+R6
+R7
+n@d@h@f@i@l@l@l@h@l2
+vFADDX1
+R148
+!i10b 1
+!s100 H13fQ8Y:m9<[MWURJ]=:a2
+I0kRWE2z;@b0G8CIfhzdlX0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R150
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/FADDX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX1.v|
+!i113 1
+R6
+R7
+n@f@a@d@d@x1
+vFADDX2
+R148
+!i10b 1
+!s100 5_emP1AYi2;:MjZ_n[PL;1
+I[87[?h7di_JG<6QZ_>XlQ1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R150
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/FADDX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/FADDX2.v|
+!i113 1
+R6
+R7
+n@f@a@d@d@x2
+vHADDX1
+R148
+!i10b 1
+!s100 Yn@k?d@kU4T635eaiW1WZ2
+I8Sl`_8l]EM?j;Qo3>FQnP0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R150
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HADDX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX1.v|
+!i113 1
+R6
+R7
+n@h@a@d@d@x1
+vHADDX2
+Z151 !s110 1613799103
+!i10b 1
+!s100 7MdUd8gS6[@]bT<1UPBm>2
+II[iBFj23aV2eN1ka=PzzE3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z152 !s108 1613799103.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HADDX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HADDX2.v|
+!i113 1
+R6
+R7
+n@h@a@d@d@x2
+vHEAD2X16
+Z153 !s110 1613799104
+!i10b 1
+!s100 >H5:fN6Vkg2YP2?41VUd71
+I:_OPBR<AEn_AhDk5W;zmD1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z154 !s108 1613799104.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X16.v|
+!i113 1
+R6
+R7
+n@h@e@a@d2@x16
+vHEAD2X2
+R151
+!i10b 1
+!s100 SW@dDEbdGYXEe63b0c`8[3
+Ie>KXLI[gS?Zd?bG=[Dlf:0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R152
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X2.v|
+!i113 1
+R6
+R7
+n@h@e@a@d2@x2
+vHEAD2X32
+R153
+!i10b 1
+!s100 N?EhE[ioeO_@Dg7K>Q<5S3
+I6iM]`VbZh>RRa88jccb:z3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X32.v
+L0 3
+R4
+r1
+!s85 0
+31
+R154
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X32.v|
+!i113 1
+R6
+R7
+n@h@e@a@d2@x32
+vHEAD2X4
+R151
+!i10b 1
+!s100 g6lXQ=`RLc5<e_zdHz[0h1
+Ik:?O[`8g6m>I6QUC5;6C^0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R152
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X4.v|
+!i113 1
+R6
+R7
+n@h@e@a@d2@x4
+vHEAD2X8
+R153
+!i10b 1
+!s100 [k584ETIRnK;OhcQ]>L>C0
+IgigngA3zTKMYYGET1R?K]0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R152
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEAD2X8.v|
+!i113 1
+R6
+R7
+n@h@e@a@d2@x8
+vHEADX16
+Z155 !s110 1613799105
+!i10b 1
+!s100 1LjTlMcCHDN`gO[[eCQgb3
+Ie9Y[?U75PhJ1ZcOK^KjV53
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z156 !s108 1613799105.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEADX16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX16.v|
+!i113 1
+R6
+R7
+n@h@e@a@d@x16
+vHEADX2
+R153
+!i10b 1
+!s100 RFO8QoR]Gdd:O[OCVYKNP0
+IN_^M@;V>B?3P`2_b3ZIES1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R154
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEADX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX2.v|
+!i113 1
+R6
+R7
+n@h@e@a@d@x2
+vHEADX32
+R155
+!i10b 1
+!s100 @_hPa^G6MmlOBHSZOe=EC2
+IoRagDdRl_@6aM]>A61agY2
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX32.v
+L0 3
+R4
+r1
+!s85 0
+31
+R156
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEADX32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX32.v|
+!i113 1
+R6
+R7
+n@h@e@a@d@x32
+vHEADX4
+R155
+!i10b 1
+!s100 O^nm_JNzn;AQg@_9f4eM22
+IS=Zgi>>=;G@BiI``:;[?Q1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R154
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEADX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX4.v|
+!i113 1
+R6
+R7
+n@h@e@a@d@x4
+vHEADX8
+R155
+!i10b 1
+!s100 BMOP@ZfPzT@NiBN6z4Fb:3
+I`HjKVC:n]9<och8=_df6M0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R156
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/HEADX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/HEADX8.v|
+!i113 1
+R6
+R7
+n@h@e@a@d@x8
+vIBUFFX16
+Z157 !s110 1613799106
+!i10b 1
+!s100 31OXPMh^ALb3dmKCDmPz<2
+Id[VP>TeZi1Gf4gRa8Um_P2
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z158 !s108 1613799106.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX16.v|
+!i113 1
+R6
+R7
+n@i@b@u@f@f@x16
+vIBUFFX2
+R157
+!i10b 1
+!s100 M=HKDi@W3L6X>bH]H8bW_1
+I`5MfbaA67Ce[hHolBQYAT1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R156
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX2.v|
+!i113 1
+R6
+R7
+n@i@b@u@f@f@x2
+vIBUFFX32
+Z159 !s110 1613799107
+!i10b 1
+!s100 SGk4>OA:<:N6nQMQ<BTXT1
+IY5ifE:LLVP4aNPbY71UE=3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX32.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z160 !s108 1613799107.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX32.v|
+!i113 1
+R6
+R7
+n@i@b@u@f@f@x32
+vIBUFFX4
+R157
+!i10b 1
+!s100 JlToezMbcInjRPUKGlZK93
+I_;X0i<o3=c;;Ck>nNW1kO1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R158
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX4.v|
+!i113 1
+R6
+R7
+n@i@b@u@f@f@x4
+vIBUFFX8
+R157
+!i10b 1
+!s100 KLQ`Yno88fgVH27OgmjV^1
+Ih4zFkRj@TBG1JMKEBl>]Y3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R158
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/IBUFFX8.v|
+!i113 1
+R6
+R7
+n@i@b@u@f@f@x8
+vINVX0
+R159
+!i10b 1
+!s100 8AC0JelFJg^ZO9LXoF]C71
+I4U8P?ISBJS`FM`7[QZCdh3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R160
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX0.v|
+!i113 1
+R6
+R7
+n@i@n@v@x0
+vINVX1
+R159
+!i10b 1
+!s100 2ZUL3`<iI15]SPY_Dg?GE0
+IomiEE2`8^f<b[`N:Lnh5i1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R160
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX1.v|
+!i113 1
+R6
+R7
+n@i@n@v@x1
+vINVX16
+Z161 !s110 1613799108
+!i10b 1
+!s100 mhU8V^9Z1RzZ<b<^A7DQ_0
+Ibke28S]Ikc>FoHUf]6[Az3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z162 !s108 1613799108.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX16.v|
+!i113 1
+R6
+R7
+n@i@n@v@x16
+vINVX2
+R159
+!i10b 1
+!s100 PFe2O^6VRT773:PjCz6OF2
+I0EZ8hRQWFT5[kzMIRW37a0
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R160
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX2.v|
+!i113 1
+R6
+R7
+n@i@n@v@x2
+vINVX32
+Z163 !s110 1613799109
+!i10b 1
+!s100 6I6TA2>f=d`loA0kjg1YO3
+IIPPY3dae<M3DNGeO0TE1z3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX32.v
+L0 3
+R4
+r1
+!s85 0
+31
+R162
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX32.v|
+!i113 1
+R6
+R7
+n@i@n@v@x32
+vINVX4
+R161
+!i10b 1
+!s100 CX7GW4`KEhFEAIhkG2Hg[1
+IV@UfBCBo1czbYn^;mgUCm1
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R162
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX4.v|
+!i113 1
+R6
+R7
+n@i@n@v@x4
+vINVX8
+R161
+!i10b 1
+!s100 L^QCA1[b@k_GVdC0^f:Nd3
+I?0I>MF@]H8kiH]=GmMX063
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/INVX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/INVX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R162
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/INVX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/INVX8.v|
+!i113 1
+R6
+R7
+n@i@n@v@x8
+vISOLANDX1
+R163
+!i10b 1
+!s100 cWcHR]AXDZeBAgYR@hzm30
+I]HI[0:1LN1=ogdaW49PK41
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z164 !s108 1613799109.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX1.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@a@n@d@x1
+vISOLANDX2
+R163
+!i10b 1
+!s100 3ISITjX]9<`F^2NoL54^z3
+I4nkHXgXoXR]cj?142Z1dj3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R164
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX2.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@a@n@d@x2
+vISOLANDX4
+R163
+!i10b 1
+!s100 Ugikoc=OATVc8_P5]djXd3
+ImY`gn0YB^46Gg]DeXf8OD2
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R164
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX4.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@a@n@d@x4
+vISOLANDX8
+Z165 !s110 1613799110
+!i10b 1
+!s100 =bbULc<a5UZmAUb=YZ_ki2
+If]oCQGIcmRgiG0IZ8aojQ3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R164
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLANDX8.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@a@n@d@x8
+vISOLORX1
+R165
+!i10b 1
+!s100 ]TZYJZV1HBV1oUhbA`BYf2
+IVZlGkZ<Gg`3NQNQiK_iZi3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z166 !s108 1613799110.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX1.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@o@r@x1
+vISOLORX2
+R165
+!i10b 1
+!s100 c9ET0NS4n6@me=9nLehkB0
+Ik5e0gC[X>9Ze>F^nz_Ymm3
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R166
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX2.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@o@r@x2
+vISOLORX4
+R165
+!i10b 1
+!s100 4FiFKfoEIi>^6gZZ6aA3b2
+ITnlSHk<B1T2>`LoHI5YE`2
+R2
+R0
+R149
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R166
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX4.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@o@r@x4
+vISOLORX8
+Z167 !s110 1613799111
+!i10b 1
+!s100 L`WhR6_1Ig5QSNkQK2jgM3
+I@DIfPY8d5[e1Q:P4`RZn82
+R2
+R0
+Z168 w1393868480
+8/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z169 !s108 1613799111.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/ISOLORX8.v|
+!i113 1
+R6
+R7
+n@i@s@o@l@o@r@x8
+vLARX1
+R167
+!i10b 1
+!s100 @9kdQiR=]_jeHi@DKmiHc1
+I^lZlTjP<LiW4TdQL0<5>`3
+R2
+R0
+R168
+Z170 8/home/colden/test-power/saed90nm_typ_ht_verilog/LARX1.v
+Z171 F/home/colden/test-power/saed90nm_typ_ht_verilog/LARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R169
+Z172 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LARX1.v|
+Z173 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LARX1.v|
+!i113 1
+R6
+R7
+n@l@a@r@x1
+vLARX2
+R167
+!i10b 1
+!s100 <;D<CfMlJ_1e8fcKURF@^3
+ILb3[:anX=DnjH^oVhNFL?1
+R2
+R0
+R168
+Z174 8/home/colden/test-power/saed90nm_typ_ht_verilog/LARX2.v
+Z175 F/home/colden/test-power/saed90nm_typ_ht_verilog/LARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R169
+Z176 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LARX2.v|
+Z177 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LARX2.v|
+!i113 1
+R6
+R7
+n@l@a@r@x2
+vLASRNX1
+Z178 !s110 1613799112
+!i10b 1
+!s100 _72;:S=_MD@Ya@6UZ5A_M2
+I9@l0^H3>V_9`0iHa0oU3z0
+R2
+R0
+R168
+Z179 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX1.v
+Z180 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z181 !s108 1613799112.000000
+Z182 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX1.v|
+Z183 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX1.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@n@x1
+vLASRNX2
+R178
+!i10b 1
+!s100 KaP9zj``8GBV@3j@B>e7[2
+IzYIgODnT:KXUd:HAS_dC[1
+R2
+R0
+R168
+Z184 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX2.v
+Z185 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R181
+Z186 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX2.v|
+Z187 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRNX2.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@n@x2
+vLASRQX1
+R178
+!i10b 1
+!s100 GhA2gaDZeBVVjMf4b_5Sb3
+I_`Gcne>2j]g1KfnTb@fMA3
+R2
+R0
+R168
+Z188 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX1.v
+Z189 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R181
+Z190 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX1.v|
+Z191 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX1.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@q@x1
+vLASRQX2
+R178
+!i10b 1
+!s100 B^U`K2_X8Kl<OK<_J_XD@2
+I<IUaJQnUM?3=b?Sj?T8h=3
+R2
+R0
+R168
+Z192 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX2.v
+Z193 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R181
+Z194 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX2.v|
+Z195 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRQX2.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@q@x2
+vLASRX1
+Z196 !s110 1613799113
+!i10b 1
+!s100 mVK@Qe_IHm<P7B_KKA1hc3
+I1BZ<?ieNh]A`6gPQWlYN82
+R2
+R0
+R168
+Z197 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX1.v
+Z198 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z199 !s108 1613799113.000000
+Z200 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRX1.v|
+Z201 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX1.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@x1
+vLASRX2
+R196
+!i10b 1
+!s100 zF@HQ<T@<7[abhc4@EIW32
+I<1b2OPKm4]T[[Z70^Od?93
+R2
+R0
+R168
+Z202 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX2.v
+Z203 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R199
+Z204 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASRX2.v|
+Z205 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASRX2.v|
+!i113 1
+R6
+R7
+n@l@a@s@r@x2
+vLASX1
+R196
+!i10b 1
+!s100 K8_>:bLkZnVG?j4NiT`dR2
+INm<X>Fah1`3o>;6?LKk=e2
+R2
+R0
+R168
+Z206 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASX1.v
+Z207 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R199
+Z208 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASX1.v|
+Z209 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASX1.v|
+!i113 1
+R6
+R7
+n@l@a@s@x1
+vLASX2
+Z210 !s110 1613799114
+!i10b 1
+!s100 NB:bVZ:j=4hIQR<PELQ1X2
+INn68Jj[ZB3[LYc=zI=LE23
+R2
+R0
+R168
+Z211 8/home/colden/test-power/saed90nm_typ_ht_verilog/LASX2.v
+Z212 F/home/colden/test-power/saed90nm_typ_ht_verilog/LASX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R199
+Z213 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LASX2.v|
+Z214 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LASX2.v|
+!i113 1
+R6
+R7
+n@l@a@s@x2
+vLATCHX1
+R210
+!i10b 1
+!s100 oXD@B:T7WAK]UVR4Z3Y552
+IVAd[fn=`VF95K`k70D`DB2
+R2
+R0
+R168
+Z215 8/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX1.v
+Z216 F/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z217 !s108 1613799114.000000
+Z218 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX1.v|
+Z219 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX1.v|
+!i113 1
+R6
+R7
+n@l@a@t@c@h@x1
+vLATCHX2
+R210
+!i10b 1
+!s100 Tl:9K0GgkIdm?J[m6CGWo0
+I0ZGPJC[XVHlz4BPkY2KY63
+R2
+R0
+R168
+Z220 8/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX2.v
+Z221 F/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R217
+Z222 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX2.v|
+Z223 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LATCHX2.v|
+!i113 1
+R6
+R7
+n@l@a@t@c@h@x2
+vLNANDX1
+R210
+!i10b 1
+!s100 AQ:P0_01:`aQXDX:>zNYC3
+IJ]P2aK_NNNPmV?RTRC_B40
+R2
+R0
+R168
+Z224 8/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX1.v
+Z225 F/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R217
+Z226 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX1.v|
+Z227 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX1.v|
+!i113 1
+R6
+R7
+n@l@n@a@n@d@x1
+vLNANDX2
+Z228 !s110 1613799115
+!i10b 1
+!s100 4BOUIBG5O8EngaJg5W^M<0
+I_hiQeXKD0e:CzL`;8WVcJ2
+R2
+R0
+R168
+Z229 8/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX2.v
+Z230 F/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R217
+Z231 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX2.v|
+Z232 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/LNANDX2.v|
+!i113 1
+R6
+R7
+n@l@n@a@n@d@x2
+vMUX21X1
+R228
+!i10b 1
+!s100 36@PDnH8_oZ>HbOLRie151
+IMB=jeKi3zB;oM`Q3d9S6>1
+R2
+R0
+R168
+Z233 8/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X1.v
+Z234 F/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z235 !s108 1613799115.000000
+Z236 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X1.v|
+Z237 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X1.v|
+!i113 1
+R6
+R7
+n@m@u@x21@x1
+vMUX21X2
+R228
+!i10b 1
+!s100 4BZzEcbmBC14nBZ;@9F[41
+I`2:mUQ[=07i1_Rd];]5@E1
+R2
+R0
+R168
+Z238 8/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X2.v
+Z239 F/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R235
+Z240 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X2.v|
+Z241 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/MUX21X2.v|
+!i113 1
+R6
+R7
+n@m@u@x21@x2
+vMUX41X1
+R228
+!i10b 1
+!s100 zT5AjbH]ngfD4abTfGM=M3
+IJU@A@da@9`Y6OHaVN<k5E0
+R2
+R0
+R168
+Z242 8/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X1.v
+Z243 F/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R235
+Z244 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X1.v|
+Z245 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X1.v|
+!i113 1
+R6
+R7
+n@m@u@x41@x1
+vMUX41X2
+Z246 !s110 1613799116
+!i10b 1
+!s100 `=gGPn=mTVEl7zP6PFmX>1
+Ic?JnEiSHbYHAbZ=3D6jfe2
+R2
+R0
+R168
+Z247 8/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X2.v
+Z248 F/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z249 !s108 1613799116.000000
+Z250 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X2.v|
+Z251 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/MUX41X2.v|
+!i113 1
+R6
+R7
+n@m@u@x41@x2
+vNAND2X0
+R246
+!i10b 1
+!s100 c@5XB5nS=mV1E7KoblPY[1
+I@Qd2<O8c`E]@e6GJ8Y]h81
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R249
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X0.v|
+!i113 1
+R6
+R7
+n@n@a@n@d2@x0
+vNAND2X1
+R246
+!i10b 1
+!s100 AjCzR6QaOeX^>BCIAA6ZH3
+Idz:GQbNbmdMAI?3iGD5CO2
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R249
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X1.v|
+!i113 1
+R6
+R7
+n@n@a@n@d2@x1
+vNAND2X2
+Z252 !s110 1613799117
+!i10b 1
+!s100 zRhA??V89WSY7ea=MV8@a1
+I1iMQ1=iRT5GIfljcP]7Hc3
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z253 !s108 1613799117.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X2.v|
+!i113 1
+R6
+R7
+n@n@a@n@d2@x2
+vNAND2X4
+R252
+!i10b 1
+!s100 ^2Dk9LM007LHRG6k6jnNH1
+I2;FgiR7YIF9m2CNz5JPE22
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R253
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND2X4.v|
+!i113 1
+R6
+R7
+n@n@a@n@d2@x4
+vNAND3X0
+R252
+!i10b 1
+!s100 TYaMcFdO3X0TA4ZB;0hEM1
+IYTF_DXgSGG1o@;GI>[RoC3
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R253
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X0.v|
+!i113 1
+R6
+R7
+n@n@a@n@d3@x0
+vNAND3X1
+Z254 !s110 1613799118
+!i10b 1
+!s100 WV5QSlkM69YA`hcg2=D5R2
+I5;TgbG]G5IE::BHbCDVk:3
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R253
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X1.v|
+!i113 1
+R6
+R7
+n@n@a@n@d3@x1
+vNAND3X2
+R254
+!i10b 1
+!s100 SDhFceSfcaWbI<;dOS:c^3
+IO9T3LEK@>Ib3`5eo`k0cW2
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z255 !s108 1613799118.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X2.v|
+!i113 1
+R6
+R7
+n@n@a@n@d3@x2
+vNAND3X4
+R254
+!i10b 1
+!s100 AnV=fmA[<jgdS0n^l2Cbz0
+IDEfO02;KiV?;?PcGe>1Vg3
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R255
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND3X4.v|
+!i113 1
+R6
+R7
+n@n@a@n@d3@x4
+vNAND4X0
+R254
+!i10b 1
+!s100 ;4`@`[NCzGFVXb5ma0mJC1
+IGNni=]8Ee92J;Bfd[VPnR0
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R255
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X0.v|
+!i113 1
+R6
+R7
+n@n@a@n@d4@x0
+vNAND4X1
+Z256 !s110 1613799119
+!i10b 1
+!s100 OCL7:1:PRmLoU9QS3^@9U0
+IOoT@2:ziFPnQPISO9<G>R1
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R255
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NAND4X1.v|
+!i113 1
+R6
+R7
+n@n@a@n@d4@x1
+vNBUFFX16
+Z257 !s110 1613799120
+!i10b 1
+!s100 R_J^;QcoAH5W:JmITi2123
+INi5j_lPldhGV?dX54fPKX0
+R2
+R0
+R168
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z258 !s108 1613799119.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX16.v|
+!i113 1
+R6
+R7
+n@n@b@u@f@f@x16
+vNBUFFX2
+R256
+!i10b 1
+!s100 Ig24JLcWJU79@OklP`Cd:2
+I7b5OQ=lU7BJRkdQDTGFFB1
+R2
+R0
+Z259 w1393868482
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R258
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX2.v|
+!i113 1
+R6
+R7
+n@n@b@u@f@f@x2
+vNBUFFX32
+R257
+!i10b 1
+!s100 c=TGP78mIESYkihgBaRZe1
+IOJO9zGLgY`=FoYT0X7a510
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX32.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z260 !s108 1613799120.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX32.v|
+!i113 1
+R6
+R7
+n@n@b@u@f@f@x32
+vNBUFFX4
+R256
+!i10b 1
+!s100 <V32MlgAG7<Jm6<mj1PjO1
+ImX2WE?QEYPPbQHAKj;=7N1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R258
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX4.v|
+!i113 1
+R6
+R7
+n@n@b@u@f@f@x4
+vNBUFFX8
+R256
+!i10b 1
+!s100 8_UidI^C2`eBGFVSG53Q90
+I_Jj80cU5VZ@2SFn8[DFK_0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R258
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NBUFFX8.v|
+!i113 1
+R6
+R7
+n@n@b@u@f@f@x8
+vNMT1
+R257
+!i10b 1
+!s100 ]2?X9N7VQdSA1oXz?7nh[1
+I5``RmXA_^nCn;WNS[Z0zS0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NMT1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NMT1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R260
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NMT1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NMT1.v|
+!i113 1
+R6
+R7
+n@n@m@t1
+vNMT2
+R257
+!i10b 1
+!s100 jnE:?FXI3RAMf[LLTU?Sk1
+ILMCmO`67H=MNnMajN6`h>0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NMT2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NMT2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R260
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NMT2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NMT2.v|
+!i113 1
+R6
+R7
+n@n@m@t2
+vNMT3
+Z261 !s110 1613799121
+!i10b 1
+!s100 kA<UdLlSSSd_=V_UV@7]72
+I>EnBTdGNz>36E<:Xa9=f@3
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NMT3.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NMT3.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z262 !s108 1613799121.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NMT3.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NMT3.v|
+!i113 1
+R6
+R7
+n@n@m@t3
+vNOR2X0
+R261
+!i10b 1
+!s100 OUf]h8l9U0^CVA7dkPc7e1
+Ii86F`M<HNIJ5dV[[UVcSK0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R262
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X0.v|
+!i113 1
+R6
+R7
+n@n@o@r2@x0
+vNOR2X1
+R261
+!i10b 1
+!s100 V83Y1nX:HYb^FCXCzoad@3
+IREhQP`B:=hG:QNAV0mDb30
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R262
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X1.v|
+!i113 1
+R6
+R7
+n@n@o@r2@x1
+vNOR2X2
+R261
+!i10b 1
+!s100 dFJO[>^Z]inhMfO1?6;C13
+IAT:1LogoV<7hk:;zZWzkF1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R262
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X2.v|
+!i113 1
+R6
+R7
+n@n@o@r2@x2
+vNOR2X4
+Z263 !s110 1613799122
+!i10b 1
+!s100 SV0IKLoNg5c1aBUTbQ4d13
+IbnzZhmb_492d<joJ^FFgW1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z264 !s108 1613799122.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR2X4.v|
+!i113 1
+R6
+R7
+n@n@o@r2@x4
+vNOR3X0
+R263
+!i10b 1
+!s100 >k>GSC[nOM=fD?YAXm;TO1
+I`>FCI6JUnj@1c5T>E_PZ;3
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R264
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X0.v|
+!i113 1
+R6
+R7
+n@n@o@r3@x0
+vNOR3X1
+R263
+!i10b 1
+!s100 9mjz`AP39MDD9E4OhYg2>1
+IaOT1Lce0JMe?f1=gXdHS;2
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R264
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X1.v|
+!i113 1
+R6
+R7
+n@n@o@r3@x1
+vNOR3X2
+Z265 !s110 1613799123
+!i10b 1
+!s100 ^i1HgPcVHRfk3HgbVRibH0
+I1;WSbYmP9UMe=HRoY[Q`13
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R264
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X2.v|
+!i113 1
+R6
+R7
+n@n@o@r3@x2
+vNOR3X4
+R265
+!i10b 1
+!s100 LDTVZzfW:8JDzoYTLLnI60
+IVzSU[khl@E9fWQkcmO=OD0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z266 !s108 1613799123.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR3X4.v|
+!i113 1
+R6
+R7
+n@n@o@r3@x4
+vNOR4X0
+R265
+!i10b 1
+!s100 7Hd1X<8bRRQn5TN@Q9HAM1
+IkdUh]bQ;H0=3;:f9SNSdO1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X0.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X0.v
+L0 3
+R4
+r1
+!s85 0
+31
+R266
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X0.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X0.v|
+!i113 1
+R6
+R7
+n@n@o@r4@x0
+vNOR4X1
+R265
+!i10b 1
+!s100 4:Vfi3oChPSlT_a?6ZNII0
+IiglJ[CO?XUnLc@hhYScG:0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R266
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/NOR4X1.v|
+!i113 1
+R6
+R7
+n@n@o@r4@x1
+vOA21X1
+Z267 !s110 1613799124
+!i10b 1
+!s100 lTbafDF1g3N=^jl32hi6e0
+I05BcQSWZRa0oz>a9n]UC_1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R266
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA21X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X1.v|
+!i113 1
+R6
+R7
+n@o@a21@x1
+vOA21X2
+R267
+!i10b 1
+!s100 GYj`PHWoGB9H8bQ3;1kDg2
+I;DX`9oo;f4^BccV@2klbZ1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z268 !s108 1613799124.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA21X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA21X2.v|
+!i113 1
+R6
+R7
+n@o@a21@x2
+vOA221X1
+Z269 !s110 1613799125
+!i10b 1
+!s100 kAd<h@HEjT<zjK=[G:JHM0
+IiflZlnBLC:YaJ6AXKFJeV0
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z270 !s108 1613799125.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA221X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X1.v|
+!i113 1
+R6
+R7
+n@o@a221@x1
+vOA221X2
+R269
+!i10b 1
+!s100 =jkblXlO4JJ1YM5bNSz9=2
+I_9V];1=aBH?O_=chNbz6J3
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R270
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA221X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA221X2.v|
+!i113 1
+R6
+R7
+n@o@a221@x2
+vOA222X1
+Z271 !s110 1613799126
+!i10b 1
+!s100 kn:fo3<2KofW@7YfFN8C=1
+I7O>9U1hVcgf47FTUcOQL61
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R270
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA222X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X1.v|
+!i113 1
+R6
+R7
+n@o@a222@x1
+vOA222X2
+R271
+!i10b 1
+!s100 5IOeQ6Ka42d:2Z7gJOkI`3
+IlZP8Pi6keh2Q;9hiccjl`1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z272 !s108 1613799126.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA222X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA222X2.v|
+!i113 1
+R6
+R7
+n@o@a222@x2
+vOA22X1
+R267
+!i10b 1
+!s100 gP[zGC1IC?^5l_PXGN`<60
+IXo2DOYKXlPKoPLNK>fB4W2
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R268
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA22X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X1.v|
+!i113 1
+R6
+R7
+n@o@a22@x1
+vOA22X2
+R267
+!i10b 1
+!s100 FKc;mC8cUdHbcGV2MnTF;1
+I9nO6[Vd_i_Bz`EDOn9PnL1
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R268
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OA22X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OA22X2.v|
+!i113 1
+R6
+R7
+n@o@a22@x2
+vOAI21X1
+R271
+!i10b 1
+!s100 SJlHnDHAR5FBhOkZ0[RZZ2
+I=GWUMPn_HmYVU<A4VeSFC2
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R272
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X1.v|
+!i113 1
+R6
+R7
+n@o@a@i21@x1
+vOAI21X2
+R271
+!i10b 1
+!s100 `1UU[G00_QNmCW3OBT3QQ3
+ImAc3AVP`1_c3i^gm_IIid3
+R2
+R0
+R259
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R272
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI21X2.v|
+!i113 1
+R6
+R7
+n@o@a@i21@x2
+vOAI221X1
+Z273 !s110 1613799127
+!i10b 1
+!s100 :?LiTo:0Q9=A`J<K?3L5^1
+IH1O:oCIAQL@X?[jlZkRd:0
+R2
+R0
+Z274 w1393868484
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z275 !s108 1613799127.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X1.v|
+!i113 1
+R6
+R7
+n@o@a@i221@x1
+vOAI221X2
+Z276 !s110 1613799128
+!i10b 1
+!s100 0^HUQd6MFG0V5KNO<aTP`1
+I95<lJ;dQ9^N1gX?QSJa^>1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z277 !s108 1613799128.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI221X2.v|
+!i113 1
+R6
+R7
+n@o@a@i221@x2
+vOAI222X1
+R276
+!i10b 1
+!s100 E`TOTmIUNC4ChTi5<=eiN0
+IzMiQVTfP=CITWF9hDn[Hi0
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R277
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X1.v|
+!i113 1
+R6
+R7
+n@o@a@i222@x1
+vOAI222X2
+R276
+!i10b 1
+!s100 Ik1cZffn3MAcl:oi;MW3?3
+IUQGik3fjOzL53HFOCPeTI1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R277
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI222X2.v|
+!i113 1
+R6
+R7
+n@o@a@i222@x2
+vOAI22X1
+R273
+!i10b 1
+!s100 31OXT>Q]jnJl<GX:FnZoQ0
+I@l_HLjL=e7^D;TM7O[@W]1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R275
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X1.v|
+!i113 1
+R6
+R7
+n@o@a@i22@x1
+vOAI22X2
+R273
+!i10b 1
+!s100 AFB`Y7V<K9H8Rh16@:9cf2
+IhJdaiH`j;mJeTU5ezB^7Y2
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R275
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OAI22X2.v|
+!i113 1
+R6
+R7
+n@o@a@i22@x2
+vOR2X1
+R276
+!i10b 1
+!s100 Xc]^3MGYEWWmU<H`O:>BA1
+ImW;5^^WncQcP>Z6K`c^FU2
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R277
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X1.v|
+!i113 1
+R6
+R7
+n@o@r2@x1
+vOR2X2
+Z278 !s110 1613799129
+!i10b 1
+!s100 <EIKVbM756l?=P>gM155k1
+IE<QZjWz8aN4<mggV5S2VW2
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R277
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X2.v|
+!i113 1
+R6
+R7
+n@o@r2@x2
+vOR2X4
+R278
+!i10b 1
+!s100 0S_J5:mNj[z2`EeYQUn0g0
+ITHNgm^SNQ;0k:P0bBbz^B2
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z279 !s108 1613799129.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR2X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR2X4.v|
+!i113 1
+R6
+R7
+n@o@r2@x4
+vOR3X1
+R278
+!i10b 1
+!s100 GUU:7SPeOGIL<c3^]n:Xa0
+IcgJ1hLzBZ]=;Pn86GB2?H1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R279
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X1.v|
+!i113 1
+R6
+R7
+n@o@r3@x1
+vOR3X2
+R278
+!i10b 1
+!s100 _;6gXcH4=JkANRUN2mUKB3
+I_V`:_1<]CGEmb<bzkn3TJ0
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R279
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X2.v|
+!i113 1
+R6
+R7
+n@o@r3@x2
+vOR3X4
+Z280 !s110 1613799130
+!i10b 1
+!s100 ?Kg5VcFJfGm@_>]L^edlm3
+Ia=F^gB;9^?mkS:1T9NadU3
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R279
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR3X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR3X4.v|
+!i113 1
+R6
+R7
+n@o@r3@x4
+vOR4X1
+R280
+!i10b 1
+!s100 mY:dJKdXL:BkQBjCB01zL2
+I]GhXlDkNLJGNYDcAZI0010
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z281 !s108 1613799130.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR4X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X1.v|
+!i113 1
+R6
+R7
+n@o@r4@x1
+vOR4X2
+R280
+!i10b 1
+!s100 mYBJWIBCZC5?CIS2KbP4A1
+IGEB3TbOZQfH>fYIZST5?j0
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R281
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR4X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X2.v|
+!i113 1
+R6
+R7
+n@o@r4@x2
+vOR4X4
+R280
+!i10b 1
+!s100 5mURM=zb[C;;bkz81VUlT0
+IN8KZ_F_WldQ6H<j0zJdgQ1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R281
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/OR4X4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/OR4X4.v|
+!i113 1
+R6
+R7
+n@o@r4@x4
+vPGX1
+Z282 !s110 1613799131
+!i10b 1
+!s100 [^oOJ5_FZh:eiWgP6Ufc^1
+Ic;JNH`SG9z:l9`gC^=;4E2
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PGX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PGX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R281
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PGX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PGX1.v|
+!i113 1
+R6
+R7
+n@p@g@x1
+vPGX2
+R282
+!i10b 1
+!s100 m9kMg_fV`V0KSflK9>>hA3
+IbKVQUTPjLK<YD9k?:J6N11
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PGX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PGX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z283 !s108 1613799131.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PGX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PGX2.v|
+!i113 1
+R6
+R7
+n@p@g@x2
+vPGX4
+R282
+!i10b 1
+!s100 d;J[MemEWmg<BAd_jVLVZ1
+InagLf93NTSD3YJj=K;e:[1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PGX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PGX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R283
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PGX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PGX4.v|
+!i113 1
+R6
+R7
+n@p@g@x4
+vPMT1
+Z284 !s110 1613799132
+!i10b 1
+!s100 99hLINIC>dH6a7a2DacI:0
+Il>_hlRUJjVP6Va2EE13WV1
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PMT1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PMT1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R283
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PMT1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PMT1.v|
+!i113 1
+R6
+R7
+n@p@m@t1
+vPMT2
+R284
+!i10b 1
+!s100 T<7iTOeDgT;?1n=:V:[1M0
+IEQ]Z;R3oL?7aB98zG4diL3
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PMT2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PMT2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z285 !s108 1613799132.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PMT2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PMT2.v|
+!i113 1
+R6
+R7
+n@p@m@t2
+vPMT3
+R284
+!i10b 1
+!s100 SJNKkTiFYQZY`8MeoILXa1
+IW7z:l0GJ2zDHKhE;V2DLY0
+R2
+R0
+R274
+8/home/colden/test-power/saed90nm_typ_ht_verilog/PMT3.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/PMT3.v
+L0 3
+R4
+r1
+!s85 0
+31
+R285
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/PMT3.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/PMT3.v|
+!i113 1
+R6
+R7
+n@p@m@t3
+vSDFFARX1
+R284
+!i10b 1
+!s100 4:zz[66Z^iL=3`44Y[43e1
+IfJaL^DJA_ZXRR0@:k4DV90
+R2
+R0
+R274
+Z286 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX1.v
+Z287 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R285
+Z288 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX1.v|
+Z289 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@r@x1
+vSDFFARX2
+Z290 !s110 1613799133
+!i10b 1
+!s100 HGC8OlOoNTSZaO[3O1<5i0
+IFMJlF;3;]_0?J86kNZfG53
+R2
+R0
+R274
+Z291 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX2.v
+Z292 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z293 !s108 1613799133.000000
+Z294 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX2.v|
+Z295 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFARX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@r@x2
+vSDFFASRSX1
+R290
+!i10b 1
+!s100 V3lBI]a`h=:SK0ojMdEJ60
+IVZO^Am=A=[k:o_c=0AC3B3
+R2
+R0
+R274
+Z296 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX1.v
+Z297 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R293
+Z298 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX1.v|
+Z299 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@r@s@x1
+vSDFFASRSX2
+R290
+!i10b 1
+!s100 7Nna7fX2UlkBDVoWZY9nU3
+IjkP<4ZzbP164929P`zZkD3
+R2
+R0
+R274
+Z300 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX2.v
+Z301 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R293
+Z302 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX2.v|
+Z303 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRSX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@r@s@x2
+vSDFFASRX1
+Z304 !s110 1613799134
+!i10b 1
+!s100 fLAEbG8G]9Pi_G;VI8D:91
+I;2KIzdBM4Z`f5:=[?2`==1
+R2
+R0
+R274
+Z305 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX1.v
+Z306 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R293
+Z307 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX1.v|
+Z308 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@r@x1
+vSDFFASRX2
+R304
+!i10b 1
+!s100 1a_DRU`U>`82X87VQCSRO1
+INk7WW41J1HPIdEdLn4]GP3
+R2
+R0
+R274
+Z309 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX2.v
+Z310 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z311 !s108 1613799134.000000
+Z312 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX2.v|
+Z313 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASRX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@r@x2
+vSDFFASX1
+R304
+!i10b 1
+!s100 dj?_gkWVLhc=2nJNfU_383
+IGcnHMMkdzTB`4jj1fcK4R3
+R2
+R0
+R274
+Z314 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX1.v
+Z315 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R311
+Z316 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX1.v|
+Z317 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@x1
+vSDFFASX2
+R304
+!i10b 1
+!s100 TBnJIW]EhW6[ZTaj9Sh4f2
+IGK@[AaHAE68j;:9`C`Aed3
+R2
+R0
+R274
+Z318 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX2.v
+Z319 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R311
+Z320 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX2.v|
+Z321 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFASX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@a@s@x2
+vSDFFNARX1
+Z322 !s110 1613799135
+!i10b 1
+!s100 J5jhLgJYaP<kA8ZGPSYQU3
+IGPcTN<2T4OWH0S0SSHkVo2
+R2
+R0
+R274
+Z323 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX1.v
+Z324 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z325 !s108 1613799135.000000
+Z326 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX1.v|
+Z327 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@r@x1
+vSDFFNARX2
+R322
+!i10b 1
+!s100 VM`:RGBeTXHl>USJfXbDW2
+IWaQjlU^bNa@ULbMF]?V2L3
+R2
+R0
+Z328 w1393868486
+Z329 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX2.v
+Z330 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R325
+Z331 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX2.v|
+Z332 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNARX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@r@x2
+vSDFFNASRX1
+R322
+!i10b 1
+!s100 c@[2hj8ni;Z73`iDjbJ633
+I>6jgb19Oj3ngU<bfZOmz]1
+R2
+R0
+R328
+Z333 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX1.v
+Z334 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R325
+Z335 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX1.v|
+Z336 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@s@r@x1
+vSDFFNASRX2
+Z337 !s110 1613799136
+!i10b 1
+!s100 UXnhBdo`KbzYXad>TmU]k1
+IN]BCJ6a=W:SbXNFhBVMd33
+R2
+R0
+R328
+Z338 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX2.v
+Z339 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z340 !s108 1613799136.000000
+Z341 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX2.v|
+Z342 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASRX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@s@r@x2
+vSDFFNASX1
+R337
+!i10b 1
+!s100 TIj4QABGSh_dTGa<:9]<80
+I@F0lOf?RGC@@FAXlMmQim0
+R2
+R0
+R328
+Z343 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX1.v
+Z344 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R340
+Z345 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX1.v|
+Z346 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@s@x1
+vSDFFNASX2
+R337
+!i10b 1
+!s100 WF=>K7FgR=H?TcgNzKzEW0
+I?KLoGS3ioE`YTj8^=eXT<1
+R2
+R0
+R328
+Z347 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX2.v
+Z348 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R340
+Z349 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX2.v|
+Z350 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNASX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@a@s@x2
+vSDFFNX1
+Z351 !s110 1613799137
+!i10b 1
+!s100 UEKmL4ji36kPdC2JW4QCY2
+I59L>KnWF7COh1RZzXhX290
+R2
+R0
+R328
+Z352 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX1.v
+Z353 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z354 !s108 1613799137.000000
+Z355 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX1.v|
+Z356 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@x1
+vSDFFNX2
+R351
+!i10b 1
+!s100 P2_@LFBM7hVGZ^VV;1[l30
+IXmhJT2d6jG@T<TB^l1TGn1
+R2
+R0
+R328
+Z357 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX2.v
+Z358 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R354
+Z359 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX2.v|
+Z360 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFNX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@n@x2
+vSDFFSSRX1
+R351
+!i10b 1
+!s100 Le4kV?z9QRGUF5if4TkSI0
+IAi]do_z?;5U?3Taj5KS@a2
+R2
+R0
+R328
+Z361 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX1.v
+Z362 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R354
+Z363 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX1.v|
+Z364 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@s@s@r@x1
+vSDFFSSRX2
+Z365 !s110 1613799138
+!i10b 1
+!s100 SldSenjheJE3MgzQ853J43
+Icdg7<<ObZN>:8N@?:[EZo2
+R2
+R0
+R328
+Z366 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX2.v
+Z367 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z368 !s108 1613799138.000000
+Z369 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX2.v|
+Z370 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFSSRX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@s@s@r@x2
+vSDFFX1
+R365
+!i10b 1
+!s100 @;>kG>f[RfJH5N5SL475Y3
+Ic`8TEDho4nJLGbM[Wm1:83
+R2
+R0
+R328
+Z371 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX1.v
+Z372 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R368
+Z373 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX1.v|
+Z374 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX1.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@x1
+vSDFFX2
+R365
+!i10b 1
+!s100 D78iVicFFi=54LE]kED7k3
+I=:O7RzE3i79ghli5VCBk@0
+R2
+R0
+R328
+Z375 8/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX2.v
+Z376 F/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R368
+Z377 !s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX2.v|
+Z378 !s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SDFFX2.v|
+!i113 1
+R6
+R7
+n@s@d@f@f@x2
+vSHFILL1
+Z379 !s110 1613799139
+!i10b 1
+!s100 ?ZSoF2P0aPV^N8mPO[aUa1
+IoLjATj6MBHQGIfG]^5Mah1
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z380 !s108 1613799139.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL1.v|
+!i113 1
+R6
+R7
+n@s@h@f@i@l@l1
+vSHFILL128
+Z381 !s110 1613799140
+!i10b 1
+!s100 61KJ<b182FTP4EH^5S9]d3
+I3^hg^5F170eW3DI1ZLA3n2
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL128.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL128.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z382 !s108 1613799140.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL128.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL128.v|
+!i113 1
+R6
+R7
+n@s@h@f@i@l@l128
+vSHFILL2
+R379
+!i10b 1
+!s100 0l[<HloXg2E;?S23[NZZD0
+IlLWZ`Mh]?:elj<Kk;CmV60
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R380
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL2.v|
+!i113 1
+R6
+R7
+n@s@h@f@i@l@l2
+vSHFILL3
+R379
+!i10b 1
+!s100 V=i4Vc4l;:7H4a:RfTb0_0
+IZM_0D92?aMNAYDS=0DOI90
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL3.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL3.v
+L0 3
+R4
+r1
+!s85 0
+31
+R380
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL3.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL3.v|
+!i113 1
+R6
+R7
+n@s@h@f@i@l@l3
+vSHFILL64
+R381
+!i10b 1
+!s100 ?DhM6>]_iDe;gH587AoTB0
+ICCTXfV@CkHAMIAZ]?3gTe1
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL64.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL64.v
+L0 3
+R4
+r1
+!s85 0
+31
+R382
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL64.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/SHFILL64.v|
+!i113 1
+R6
+R7
+n@s@h@f@i@l@l64
+vsqrt_controller
+Z383 !s110 1613799507
+!i10b 1
+!s100 M69XPUaYF:SoeL`2XRMnL0
+IQL=l5]h;5]U7H[l7aoMaG3
+R2
+Z384 d/home/colden/test-power/lab1/SynthesizedDesign
+Z385 w1613772783
+Z386 8/home/colden/test-power/lab1/SynthesizedDesign/sqrt_vlsi_syn.v
+Z387 F/home/colden/test-power/lab1/SynthesizedDesign/sqrt_vlsi_syn.v
+L0 8
+R4
+r1
+!s85 0
+31
+Z388 !s108 1613799507.000000
+!s107 /home/colden/test-power/lab1/SynthesizedDesign/sqrt_vlsi_syn.v|
+Z389 !s90 -reportprogress|300|-work|work|/home/colden/test-power/lab1/SynthesizedDesign/sqrt_vlsi_syn.v|
+!i113 1
+Z390 o-work work
+R7
+vsqrt_data_path
+R383
+!i10b 1
+!s100 Nn8N:>1>?99ocFzM]8N=E3
+IY2Jn>c;cGT6;Q1Jbb6e>I3
+R2
+R384
+R385
+R386
+R387
+Z391 L0 58
+R4
+r1
+!s85 0
+31
+R388
+Z392 !s107 /home/colden/test-power/lab1/SynthesizedDesign/sqrt_vlsi_syn.v|
+R389
+!i113 1
+R390
+R7
+vsqrt_data_path_DW01_add_0
+R383
+!i10b 1
+!s100 O?D7IZIZY>JP0bQJaBmTX2
+IU6kkVa0;eA1[9H3Qlb_CU0
+R2
+R384
+R385
+R386
+R387
+L0 34
+R4
+r1
+!s85 0
+31
+R388
+R392
+R389
+!i113 1
+R390
+R7
+nsqrt_data_path_@d@w01_add_0
+vsqrt_Top
+R383
+!i10b 1
+!s100 _o?dm7B<<eGIFIbDE;FiY2
+IlBICIX5WH1nD4I^YH>gd^1
+R2
+R384
+R385
+R386
+R387
+L0 157
+R4
+r1
+!s85 0
+31
+R388
+R392
+R389
+!i113 1
+R390
+R7
+nsqrt_@top
+vTIEH
+R381
+!i10b 1
+!s100 U;^W=2B68K_XKkTRHaI]12
+I>^R?UaRg4Z3TTO0M46H[K2
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TIEH.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TIEH.v
+L0 3
+R4
+r1
+!s85 0
+31
+R382
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TIEH.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TIEH.v|
+!i113 1
+R6
+R7
+n@t@i@e@h
+vTIEL
+R381
+!i10b 1
+!s100 ;f7RAh@mJ7DNAl_U1M6DL1
+I[nndY_NV4IZb@oL?j`^af0
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TIEL.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TIEL.v
+L0 3
+R4
+r1
+!s85 0
+31
+R382
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TIEL.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TIEL.v|
+!i113 1
+R6
+R7
+n@t@i@e@l
+vTNBUFFX1
+Z393 !s110 1613799141
+!i10b 1
+!s100 H?icD_f18PUESjDh<Vnd_0
+I@fmnXQV[:_UF2Zz<0j_z>1
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z394 !s108 1613799141.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX1.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x1
+vTNBUFFX16
+Z395 !s110 1613799142
+!i10b 1
+!s100 lW_?:OTnb;gccZHQ4fLSF2
+I_iJZ>WP[:TL^;AaZS<P]I0
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX16.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX16.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z396 !s108 1613799142.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX16.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX16.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x16
+vTNBUFFX2
+R393
+!i10b 1
+!s100 Rce[S?QkjXhk:JS;IA<RA3
+IOFSFlaFR;aiE:Uj40RXY42
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R394
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX2.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x2
+vTNBUFFX32
+R395
+!i10b 1
+!s100 FYZBFT6eM8SNjMbZaD@bJ0
+I]?J?X`7_L_Ul=MnzhRi6@2
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX32.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX32.v
+L0 3
+R4
+r1
+!s85 0
+31
+R396
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX32.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX32.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x32
+vTNBUFFX4
+R393
+!i10b 1
+!s100 Ld[X`9J8zMd^IaPHdUXHN3
+Id?fn=g3Rc=LF]UUz_lOi20
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX4.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R394
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX4.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX4.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x4
+vTNBUFFX8
+R395
+!i10b 1
+!s100 E0ciX^UV_[dR]kzYlSBM:2
+IIfWLc<E;W;5KG2L?b45QU3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX8.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX8.v
+L0 3
+R4
+r1
+!s85 0
+31
+R394
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX8.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/TNBUFFX8.v|
+!i113 1
+R6
+R7
+n@t@n@b@u@f@f@x8
+UUDP_AODFFARX1_Q
+R17
+!i10b 1
+!s100 1nXa>53]zMh@kWWKCJI6P2
+I016Gjc^2`=TFVUnU4XzzS3
+R2
+R0
+R14
+R18
+R19
+Z397 L0 48
+R4
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R6
+R7
+n@u@d@p_@a@o@d@f@f@a@r@x1_@q
+UUDP_AODFFARX2_Q
+R17
+!i10b 1
+!s100 =MKVO:Q?<RKia4e@Z5MO@0
+IhGKdbJDOa`C6QU<TV2SU83
+R2
+R0
+R14
+R23
+R24
+R397
+R4
+r1
+!s85 0
+31
+R20
+R25
+R26
+!i113 1
+R6
+R7
+n@u@d@p_@a@o@d@f@f@a@r@x2_@q
+UUDP_AODFFNARX1_Q
+R17
+!i10b 1
+!s100 `6@b:GoYhB9YZ5FnOPz5H3
+I=0Q5j4lBGG`::EL?dm]=i1
+R2
+R0
+R14
+R27
+R28
+R397
+R4
+r1
+!s85 0
+31
+R20
+R29
+R30
+!i113 1
+R6
+R7
+n@u@d@p_@a@o@d@f@f@n@a@r@x1_@q
+UUDP_AODFFNARX2_Q
+R17
+!i10b 1
+!s100 EiKm>oJI8P[zl]daadDWC2
+Iz`5BQ1dl5j2SZG>^QEmbM1
+R2
+R0
+R14
+R31
+R32
+R397
+R4
+r1
+!s85 0
+31
+R20
+R33
+R34
+!i113 1
+R6
+R7
+n@u@d@p_@a@o@d@f@f@n@a@r@x2_@q
+UUDP_DFFARX1_Q
+R46
+!i10b 1
+!s100 eJ^=>;:D?K]0E_FKNo7oh2
+IDQce6gh9WHcN7AS`M?Yzj1
+R2
+R0
+R45
+R48
+R49
+R397
+R4
+r1
+!s85 0
+31
+R47
+R50
+R51
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@r@x1_@q
+UUDP_DFFARX2_Q
+R46
+!i10b 1
+!s100 U5HLi6B`E92KUA10bQ8d[1
+I9FBk`GTe:[HoB__Cf98Ch0
+R2
+R0
+R45
+R52
+R53
+R397
+R4
+r1
+!s85 0
+31
+R47
+R54
+R55
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@r@x2_@q
+UUDP_DFFASRX1_Q
+R46
+!i10b 1
+!s100 7QoQbiSbijGgPF_kiMc^C0
+I0Q_@LP4zkVK2Tz[fLSbIP1
+R2
+R0
+R45
+R56
+R57
+Z398 L0 61
+R4
+r1
+!s85 0
+31
+R47
+R58
+R59
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@r@x1_@q
+UUDP_DFFASRX1_QN
+R46
+!i10b 1
+!s100 a1aQAa0GHo[FM<JX7b^Qh2
+InH0Xz2WdX[[9RNd1oJ6NW1
+R2
+R0
+R45
+R56
+R57
+Z399 L0 90
+R4
+r1
+!s85 0
+31
+R47
+R58
+R59
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@r@x1_@q@n
+UUDP_DFFASRX2_Q
+R60
+!i10b 1
+!s100 G@LU2E]fmT0AG=LIj27ZO3
+IZIHaE]n3XaR47C6k5^gJY0
+R2
+R0
+R45
+R61
+R62
+R398
+R4
+r1
+!s85 0
+31
+R63
+R64
+R65
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@r@x2_@q
+UUDP_DFFASRX2_QN
+R60
+!i10b 1
+!s100 ZNa6nlfUA=ffmX_`V<M?h0
+IdMXkE0W3659ClMW`JJ`On0
+R2
+R0
+R45
+R61
+R62
+R399
+R4
+r1
+!s85 0
+31
+R63
+R64
+R65
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@r@x2_@q@n
+UUDP_DFFASX1_Q
+R60
+!i10b 1
+!s100 VQ6Wz:@Kl5OEZPj_U2A?T2
+IP=e5liA21;3X=h?03?8mT3
+R2
+R0
+R45
+R66
+R67
+R397
+R4
+r1
+!s85 0
+31
+R63
+R68
+R69
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@x1_@q
+UUDP_DFFASX2_Q
+R60
+!i10b 1
+!s100 oX4UQSMPA4iQj4TfEW8V92
+IbN1WneHG>`ZGf@3OfZhLH0
+R2
+R0
+R45
+R70
+R71
+R397
+R4
+r1
+!s85 0
+31
+R63
+R72
+R73
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@a@s@x2_@q
+UUDP_DFFNARX1_Q
+R74
+!i10b 1
+!s100 NGRHbo?=S<heEo^ogDTZ<3
+IF_7A?;0Y<SP0dC5L3BkDB1
+R2
+R0
+R45
+R75
+R76
+R397
+R4
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@r@x1_@q
+UUDP_DFFNARX2_Q
+R74
+!i10b 1
+!s100 hk=KlXC_WUEDOFX9j]CXg0
+IA9D`4L:AYJP=Zd0FA>PCN0
+R2
+R0
+R45
+R80
+R81
+R397
+R4
+r1
+!s85 0
+31
+R77
+R82
+R83
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@r@x2_@q
+UUDP_DFFNASRNX1_QN
+R74
+!i10b 1
+!s100 UCYMefW;]@DBUiK>A8XOd3
+I?=<;CFAY[K^zIn@GM5c7e0
+R2
+R0
+R45
+R84
+R85
+Z400 L0 51
+R4
+r1
+!s85 0
+31
+R77
+R86
+R87
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@n@x1_@q@n
+UUDP_DFFNASRNX2_QN
+R88
+!i10b 1
+!s100 793U8aEEgXFE8eKggfZN[3
+I1`bVMk>fiL>Z;0Ozi=1FF3
+R2
+R0
+R45
+R89
+R90
+R400
+R4
+r1
+!s85 0
+31
+R77
+R91
+R92
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@n@x2_@q@n
+UUDP_DFFNASRQX1_Q
+R88
+!i10b 1
+!s100 8X_H=b:gA=c]APcXAN2E<0
+IeU@IHBYZRf:>9?dnGHghl1
+R2
+R0
+R45
+R93
+R94
+R400
+R4
+r1
+!s85 0
+31
+R95
+R96
+R97
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@q@x1_@q
+UUDP_DFFNASRQX2_Q
+R88
+!i10b 1
+!s100 U[B13CD9WkAI0d=dAGK623
+I^::`EaL9QSGX;<`FccS3D0
+R2
+R0
+R45
+R98
+R99
+R400
+R4
+r1
+!s85 0
+31
+R95
+R100
+R101
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@q@x2_@q
+UUDP_DFFNASRX1_Q
+R88
+!i10b 1
+!s100 c3W>e0>NbS0L8CdDGJH4l3
+IJMXTM<0ME=`Kn`hO]_l3g3
+R2
+R0
+R45
+R102
+R103
+R398
+R4
+r1
+!s85 0
+31
+R95
+R104
+R105
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@x1_@q
+UUDP_DFFNASRX1_QN
+R88
+!i10b 1
+!s100 0T9m[G]GZ]eiCJ?l>QK@a1
+I=Z<A]<bI@@f3b52NZ<j5=0
+R2
+R0
+R45
+R102
+R103
+R399
+R4
+r1
+!s85 0
+31
+R95
+R104
+R105
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@x1_@q@n
+UUDP_DFFNASRX2_Q
+R106
+!i10b 1
+!s100 DXfLQW1zQQ5H0JTi>lXV^2
+I:aPQC>2^GgC;b0JnSPlRz0
+R2
+R0
+R45
+R107
+R108
+R398
+R4
+r1
+!s85 0
+31
+R109
+R110
+R111
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@x2_@q
+UUDP_DFFNASRX2_QN
+R106
+!i10b 1
+!s100 _HdRI`73F07EhC^Xm=_UJ0
+I9TTfHBEh1boIj@Ch4<7XT1
+R2
+R0
+R45
+R107
+R108
+R399
+R4
+r1
+!s85 0
+31
+R109
+R110
+R111
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@r@x2_@q@n
+UUDP_DFFNASX1_Q
+R106
+!i10b 1
+!s100 NEKCOFegWbKOXRI[SiS_43
+IcOgf=;HXl^Ac2zTc^REZN1
+R2
+R0
+R45
+R112
+R113
+R397
+R4
+r1
+!s85 0
+31
+R109
+R114
+R115
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@x1_@q
+UUDP_DFFNASX2_Q
+R106
+!i10b 1
+!s100 9AM0]MZ?X:>kkQLDc1b[43
+I[abITMiHORV4d8DZYWm^D1
+R2
+R0
+R45
+R116
+R117
+R397
+R4
+r1
+!s85 0
+31
+R109
+R118
+R119
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@a@s@x2_@q
+UUDP_DFFNX1_Q
+R106
+!i10b 1
+!s100 ^?F=Lj8H2bhfCd@mP^ZF@1
+INiF9b8P:JYMemSz5DZ3MT3
+R2
+R0
+R45
+R120
+R121
+Z401 L0 37
+R4
+r1
+!s85 0
+31
+R109
+R122
+R123
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@x1_@q
+UUDP_DFFNX2_Q
+R124
+!i10b 1
+!s100 dT]^WM`LXFYBkje?0j@782
+I9I0iRUh[I>J3NhLGX`hfE3
+R2
+R0
+R45
+R125
+R126
+R401
+R4
+r1
+!s85 0
+31
+R109
+R127
+R128
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@n@x2_@q
+UUDP_DFFSSRX1_Q
+R124
+!i10b 1
+!s100 eH3VBQ]NJNm:;4zld63n^0
+ISL25ndW1CSBA4?anU?]N_3
+R2
+R0
+R45
+R129
+R130
+Z402 L0 55
+R4
+r1
+!s85 0
+31
+R131
+R132
+R133
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@s@s@r@x1_@q
+UUDP_DFFSSRX2_Q
+R124
+!i10b 1
+!s100 b;TPj6l;Y9mBZm^@XR^oe3
+IOGd9JCO>5^la7NC<[G^kD1
+R2
+R0
+R45
+R134
+R135
+R402
+R4
+r1
+!s85 0
+31
+R131
+R136
+R137
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@s@s@r@x2_@q
+UUDP_DFFX1_Q
+R138
+!i10b 1
+!s100 ^A`XOcbNg4Vo`7U>P16>j0
+IKX>0R^`eKonldkVgC>]ON2
+R2
+R0
+R45
+R139
+R140
+R401
+R4
+r1
+!s85 0
+31
+R131
+R141
+R142
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@x1_@q
+UUDP_DFFX2_Q
+R138
+!i10b 1
+!s100 ^X>eIYB;FSP@0C]eZo2@43
+I[RbgYz06zQUQkMzLhXWMi3
+R2
+R0
+R45
+R143
+R144
+R401
+R4
+r1
+!s85 0
+31
+R145
+R146
+R147
+!i113 1
+R6
+R7
+n@u@d@p_@d@f@f@x2_@q
+UUDP_LARX1_Q
+R167
+!i10b 1
+!s100 az3MNQlGYdh:XXcEP4o>^2
+IinVLPX_446E<>=Bh@1<m=3
+R2
+R0
+R168
+R170
+R171
+Z403 L0 54
+R4
+r1
+!s85 0
+31
+R169
+R172
+R173
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@r@x1_@q
+UUDP_LARX2_Q
+R167
+!i10b 1
+!s100 5Baml_3aQoS=k]808o;7K0
+IQ771GXk3;Bb[j4KPcb6N70
+R2
+R0
+R168
+R174
+R175
+R403
+R4
+r1
+!s85 0
+31
+R169
+R176
+R177
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@r@x2_@q
+UUDP_LASRNX1_QN
+R178
+!i10b 1
+!s100 i`6=01J0:dSM2Geo0[MT10
+IUBR5;HGgcn]>EQVU7<S:h3
+R2
+R0
+R168
+R179
+R180
+Z404 L0 53
+R4
+r1
+!s85 0
+31
+R181
+R182
+R183
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@n@x1_@q@n
+UUDP_LASRNX2_QN
+R178
+!i10b 1
+!s100 Nc8cUGi8A]ScIHPE>=d=?1
+I<S>Y:CNhhL;aJEKjCn:HJ3
+R2
+R0
+R168
+R184
+R185
+R404
+R4
+r1
+!s85 0
+31
+R181
+R186
+R187
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@n@x2_@q@n
+UUDP_LASRQX1_Q
+R178
+!i10b 1
+!s100 Xgkb0ANgNU;Gm5IOE<Dk:2
+I2Rhn[T8HI8j2<cdD[_ioJ0
+R2
+R0
+R168
+R188
+R189
+R404
+R4
+r1
+!s85 0
+31
+R181
+R190
+R191
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@q@x1_@q
+UUDP_LASRQX2_Q
+R178
+!i10b 1
+!s100 ikXI@[c>G1NEaJAK9TGiD2
+I9TV>i;NAcQ3Jf3<[kKAI?3
+R2
+R0
+R168
+R192
+R193
+R404
+R4
+r1
+!s85 0
+31
+R181
+R194
+R195
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@q@x2_@q
+UUDP_LASRX1_Q
+R196
+!i10b 1
+!s100 9<[oRGAedKhcEfniC=?am3
+IzSI@6f=2gS3_NTFea1gXP2
+R2
+R0
+R168
+R197
+R198
+Z405 L0 67
+R4
+r1
+!s85 0
+31
+R199
+R200
+R201
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@x1_@q
+UUDP_LASRX1_QN
+R196
+!i10b 1
+!s100 0`:[g`k7g8ng@mo>]^<@V3
+Ic_EIQAb8k`K>JAK2U@GnR1
+R2
+R0
+R168
+R197
+R198
+Z406 L0 89
+R4
+r1
+!s85 0
+31
+R199
+R200
+R201
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@x1_@q@n
+UUDP_LASRX2_Q
+R196
+!i10b 1
+!s100 g?lPYmJN4<N=2=5>8DAZg0
+ID@;1CM1mS1]fdg6Gc@C<]3
+R2
+R0
+R168
+R202
+R203
+R405
+R4
+r1
+!s85 0
+31
+R199
+R204
+R205
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@x2_@q
+UUDP_LASRX2_QN
+R196
+!i10b 1
+!s100 1XZJNg>8^06_dN=g0aE1d2
+IYmZ<g2PVfK3GSiZDnE[DK2
+R2
+R0
+R168
+R202
+R203
+R406
+R4
+r1
+!s85 0
+31
+R199
+R204
+R205
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@r@x2_@q@n
+UUDP_LASX1_Q
+R196
+!i10b 1
+!s100 f35E0kl=k`mVBlXHoJm7:2
+IR[AAJD:=hZd@NQ:95ldcl2
+R2
+R0
+R168
+R206
+R207
+R403
+R4
+r1
+!s85 0
+31
+R199
+R208
+R209
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@x1_@q
+UUDP_LASX2_Q
+R210
+!i10b 1
+!s100 b1eeVI6]3NX?5WgkK_hB^2
+I@YAiBaE?0^]?0iWNP8X[c2
+R2
+R0
+R168
+R211
+R212
+R403
+R4
+r1
+!s85 0
+31
+R199
+R213
+R214
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@s@x2_@q
+UUDP_LATCHX1_Q
+R210
+!i10b 1
+!s100 RBUm3J57U?mn8TV4UPPHh0
+I`zS?ANP_z>4jBT`HiO2R52
+R2
+R0
+R168
+R215
+R216
+Z407 L0 41
+R4
+r1
+!s85 0
+31
+R217
+R218
+R219
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@t@c@h@x1_@q
+UUDP_LATCHX2_Q
+R210
+!i10b 1
+!s100 9^]_Ja:kQjF@IIc>][PN70
+I;OX61T`=GT4UXHaF2?`YC3
+R2
+R0
+R168
+R220
+R221
+R407
+R4
+r1
+!s85 0
+31
+R217
+R222
+R223
+!i113 1
+R6
+R7
+n@u@d@p_@l@a@t@c@h@x2_@q
+UUDP_LNANDX1_Q
+R210
+!i10b 1
+!s100 ZA82?fdM?=dnV3[iMhC[`0
+Ic3B<flFN8:23z11^P_nQ53
+R2
+R0
+R168
+R224
+R225
+Z408 L0 43
+R4
+r1
+!s85 0
+31
+R217
+R226
+R227
+!i113 1
+R6
+R7
+n@u@d@p_@l@n@a@n@d@x1_@q
+UUDP_LNANDX1_QN
+R210
+!i10b 1
+!s100 i9cgk>z8<Fn^g[@5Ek[X31
+I5>6XI5HgViW85U^63:Xh>0
+R2
+R0
+R168
+R224
+R225
+R391
+R4
+r1
+!s85 0
+31
+R217
+R226
+R227
+!i113 1
+R6
+R7
+n@u@d@p_@l@n@a@n@d@x1_@q@n
+UUDP_LNANDX2_Q
+R228
+!i10b 1
+!s100 l7GA59XGdE?QLVRK7S16^0
+IdmTDCz6fDX7k[;JK6l8M31
+R2
+R0
+R168
+R229
+R230
+R408
+R4
+r1
+!s85 0
+31
+R217
+R231
+R232
+!i113 1
+R6
+R7
+n@u@d@p_@l@n@a@n@d@x2_@q
+UUDP_LNANDX2_QN
+R228
+!i10b 1
+!s100 VYWb0Z2HcY>dESKi2P>>N3
+IOz]G64if>e^l5=`BzEMF]3
+R2
+R0
+R168
+R229
+R230
+R391
+R4
+r1
+!s85 0
+31
+R217
+R231
+R232
+!i113 1
+R6
+R7
+n@u@d@p_@l@n@a@n@d@x2_@q@n
+UUDP_MUX21X1_Q
+R228
+!i10b 1
+!s100 @BZf89lXJH6JJ=5fh=KPo2
+IT5PW6@W1^L5]8Z;bFQlYI3
+R2
+R0
+R168
+R233
+R234
+Z409 L0 26
+R4
+r1
+!s85 0
+31
+R235
+R236
+R237
+!i113 1
+R6
+R7
+n@u@d@p_@m@u@x21@x1_@q
+UUDP_MUX21X2_Q
+R228
+!i10b 1
+!s100 UceJ0:O_UmY9]C0W^:eYi2
+IQ24:MWRzWJ]X>AFzA6]CT2
+R2
+R0
+R168
+R238
+R239
+R409
+R4
+r1
+!s85 0
+31
+R235
+R240
+R241
+!i113 1
+R6
+R7
+n@u@d@p_@m@u@x21@x2_@q
+UUDP_MUX41X1_Q
+R228
+!i10b 1
+!s100 M30]f2hWU4N1ECDDV:afa1
+IW0eKkejIgM?dR:eSOTYRQ1
+R2
+R0
+R168
+R242
+R243
+Z410 L0 38
+R4
+r1
+!s85 0
+31
+R235
+R244
+R245
+!i113 1
+R6
+R7
+n@u@d@p_@m@u@x41@x1_@q
+UUDP_MUX41X2_Q
+R246
+!i10b 1
+!s100 PIKng?TZCAP9CH9[OQ`FO0
+Ib1Pd54DhjJTZ9h^:k5cj92
+R2
+R0
+R168
+R247
+R248
+R410
+R4
+r1
+!s85 0
+31
+R249
+R250
+R251
+!i113 1
+R6
+R7
+n@u@d@p_@m@u@x41@x2_@q
+UUDP_SDFFARX1_Q
+R284
+!i10b 1
+!s100 k[Xjilb`8HAQz=VMmchXP0
+IO44d?8aGEYjh=W:_Y;8Rf0
+R2
+R0
+R274
+R286
+R287
+Z411 L0 66
+R4
+r1
+!s85 0
+31
+R285
+R288
+R289
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@r@x1_@q
+UUDP_SDFFARX2_Q
+R290
+!i10b 1
+!s100 if0>GI@1o7KH5^jDL]AIK2
+I@Q;@WiSRI<bVm[JF8A0<J0
+R2
+R0
+R274
+R291
+R292
+R411
+R4
+r1
+!s85 0
+31
+R293
+R294
+R295
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@r@x2_@q
+UUDP_SDFFASRSX1_Q
+R290
+!i10b 1
+!s100 HXRC4USAT]Y4Kc^IAS:8e2
+I4<KA33h;6M[z46?T=H6oZ3
+R2
+R0
+R274
+R296
+R297
+R406
+R4
+r1
+!s85 0
+31
+R293
+R298
+R299
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@s@x1_@q
+UUDP_SDFFASRSX1_QN
+R290
+!i10b 1
+!s100 g_zTAF_eM^NP4n4CKjizJ3
+I6lXGLLDdR8>HY_`N2cCzQ2
+R2
+R0
+R274
+R296
+R297
+Z412 L0 142
+R4
+r1
+!s85 0
+31
+R293
+R298
+R299
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@s@x1_@q@n
+UUDP_SDFFASRSX2_Q
+R290
+!i10b 1
+!s100 aVjFU]z:?:^4g[?@M4fjb1
+ImnA@zz1P0od76dcZ20Ooa0
+R2
+R0
+R274
+R300
+R301
+R406
+R4
+r1
+!s85 0
+31
+R293
+R302
+R303
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@s@x2_@q
+UUDP_SDFFASRSX2_QN
+R290
+!i10b 1
+!s100 >IkE9=KZnbFo]HFI8TVOI2
+IfWlSo03UZ:a[zAlEKVD>93
+R2
+R0
+R274
+R300
+R301
+R412
+R4
+r1
+!s85 0
+31
+R293
+R302
+R303
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@s@x2_@q@n
+UUDP_SDFFASRX1_Q
+R304
+!i10b 1
+!s100 ZczS9?G0[MJb;M`OUWfkI1
+I6cK08>D2<=c2b<E0i^@QH1
+R2
+R0
+R274
+R305
+R306
+Z413 L0 79
+R4
+r1
+!s85 0
+31
+R293
+R307
+R308
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@x1_@q
+UUDP_SDFFASRX1_QN
+R304
+!i10b 1
+!s100 UVj:f<9Nkeka;caQeJU]D1
+IYY>2hmX^jSK[Ye>`RRj=a3
+R2
+R0
+R274
+R305
+R306
+Z414 L0 132
+R4
+r1
+!s85 0
+31
+R293
+R307
+R308
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@x1_@q@n
+UUDP_SDFFASRX2_Q
+R304
+!i10b 1
+!s100 TUGlS6:9]<ZP=AUgh[lO:1
+I?ZLTa5GQl<MGlCIdJJ3Pg2
+R2
+R0
+R274
+R309
+R310
+R413
+R4
+r1
+!s85 0
+31
+R311
+R312
+R313
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@x2_@q
+UUDP_SDFFASRX2_QN
+R304
+!i10b 1
+!s100 MEMf12=ToaXLQl21zSjEg0
+ImecV`jM<_oA[jUbbAnk=M2
+R2
+R0
+R274
+R309
+R310
+R414
+R4
+r1
+!s85 0
+31
+R311
+R312
+R313
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@r@x2_@q@n
+UUDP_SDFFASX1_Q
+R304
+!i10b 1
+!s100 E?]dCY0E4:@2hI]FT20=?0
+I88lB?WbhklMi@C?HJcke^1
+R2
+R0
+R274
+R314
+R315
+R411
+R4
+r1
+!s85 0
+31
+R311
+R316
+R317
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@x1_@q
+UUDP_SDFFASX2_Q
+R304
+!i10b 1
+!s100 l1kl>Ia[UEdE9fJQ78IeQ0
+II5Yia9Y>GBC>BSf=ETS_G0
+R2
+R0
+R274
+R318
+R319
+R411
+R4
+r1
+!s85 0
+31
+R311
+R320
+R321
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@a@s@x2_@q
+UUDP_SDFFNARX1_Q
+R322
+!i10b 1
+!s100 BmJ^K7<^oMd5A3TEQ0@0`0
+IB4G40@:1I6A]:BINbb^bT1
+R2
+R0
+R274
+R323
+R324
+R411
+R4
+r1
+!s85 0
+31
+R325
+R326
+R327
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@r@x1_@q
+UUDP_SDFFNARX2_Q
+R322
+!i10b 1
+!s100 oMCTXOfOm8kG2=n2gUQF91
+I[XY0Re>WOCN03732AlIAN1
+R2
+R0
+R328
+R329
+R330
+R411
+R4
+r1
+!s85 0
+31
+R325
+R331
+R332
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@r@x2_@q
+UUDP_SDFFNASRX1_Q
+R322
+!i10b 1
+!s100 e?jS?cYkiRo`@d5UV]E3m3
+Ik>RA;NSO?B]k]XKCX^h262
+R2
+R0
+R328
+R333
+R334
+R413
+R4
+r1
+!s85 0
+31
+R325
+R335
+R336
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@r@x1_@q
+UUDP_SDFFNASRX1_QN
+R322
+!i10b 1
+!s100 @eoE_E6@A[RfAUlaXOgAI0
+IZ0]8:J2:n4WI@jYEaJNUS3
+R2
+R0
+R328
+R333
+R334
+R414
+R4
+r1
+!s85 0
+31
+R325
+R335
+R336
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@r@x1_@q@n
+UUDP_SDFFNASRX2_Q
+R337
+!i10b 1
+!s100 86gnPZRX[L>63V<M51_ff3
+I=3KKS@4mD<MQQm`_E]nA12
+R2
+R0
+R328
+R338
+R339
+R413
+R4
+r1
+!s85 0
+31
+R340
+R341
+R342
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@r@x2_@q
+UUDP_SDFFNASRX2_QN
+R337
+!i10b 1
+!s100 e4>AZlbW5[0YEVTjX4fho0
+IZDMK99^5]@jKX;kWg11`Z1
+R2
+R0
+R328
+R338
+R339
+R414
+R4
+r1
+!s85 0
+31
+R340
+R341
+R342
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@r@x2_@q@n
+UUDP_SDFFNASX1_Q
+R337
+!i10b 1
+!s100 KnfQaOhC9KzJ<G4:h:P9P3
+I;_XWT__ck>JN3Z14eC8>[1
+R2
+R0
+R328
+R343
+R344
+R411
+R4
+r1
+!s85 0
+31
+R340
+R345
+R346
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@x1_@q
+UUDP_SDFFNASX2_Q
+R337
+!i10b 1
+!s100 HDZWC:Rm2^N`<T500Z9m62
+IL^K7O<@=TF91FmSIBK`:R2
+R2
+R0
+R328
+R347
+R348
+R411
+R4
+r1
+!s85 0
+31
+R340
+R349
+R350
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@a@s@x2_@q
+UUDP_SDFFNX1_Q
+R351
+!i10b 1
+!s100 `J@8lQEE]?<eckzYmB:Pj2
+IVZeY@>Q@DmmfnV5Wm0[bX2
+R2
+R0
+R328
+R352
+R353
+R402
+R4
+r1
+!s85 0
+31
+R354
+R355
+R356
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@x1_@q
+UUDP_SDFFNX2_Q
+R351
+!i10b 1
+!s100 9Gn7>l<77>0Z[=Y1:_@`11
+IBkPjdS3jEn]KUQXai2zGT3
+R2
+R0
+R328
+R357
+R358
+R402
+R4
+r1
+!s85 0
+31
+R354
+R359
+R360
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@n@x2_@q
+UUDP_SDFFSSRX1_Q
+R351
+!i10b 1
+!s100 ?IDEa;;dY>P8cIoP747282
+ID2KKZz@O`h3A_2[T0U[7G1
+R2
+R0
+R328
+R361
+R362
+Z415 L0 73
+R4
+r1
+!s85 0
+31
+R354
+R363
+R364
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@s@s@r@x1_@q
+UUDP_SDFFSSRX2_Q
+R365
+!i10b 1
+!s100 d_RVBzOHmLVa706gjBl`12
+Ii6m_^>2V[X><5KFkPVcj>2
+R2
+R0
+R328
+R366
+R367
+R415
+R4
+r1
+!s85 0
+31
+R368
+R369
+R370
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@s@s@r@x2_@q
+UUDP_SDFFX1_Q
+R365
+!i10b 1
+!s100 45Q;`B`gEz`m>oaPiNLL:1
+I7_42f_9e8kAnD8N?R;DPS3
+R2
+R0
+R328
+R371
+R372
+R402
+R4
+r1
+!s85 0
+31
+R368
+R373
+R374
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@x1_@q
+UUDP_SDFFX2_Q
+R365
+!i10b 1
+!s100 Rl>N2ZGzAbE0mBkG0i`KH1
+I`ai5j>V[8?Y__SmORfI_X1
+R2
+R0
+R328
+R375
+R376
+R402
+R4
+r1
+!s85 0
+31
+R368
+R377
+R378
+!i113 1
+R6
+R7
+n@u@d@p_@s@d@f@f@x2_@q
+vXNOR2X1
+R395
+!i10b 1
+!s100 efURXcBA4jDBcGJYNSJn33
+IC>fV^@;LbJXNH`oIIdME<3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R396
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X1.v|
+!i113 1
+R6
+R7
+n@x@n@o@r2@x1
+vXNOR2X2
+Z416 !s110 1613799143
+!i10b 1
+!s100 A]8X9`9NIEWCF4lJlcnlJ3
+Ie;:VPg^09_9hCO@PDP0:z1
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z417 !s108 1613799143.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR2X2.v|
+!i113 1
+R6
+R7
+n@x@n@o@r2@x2
+vXNOR3X1
+R416
+!i10b 1
+!s100 ?51;2oceNLeclD4mO7n713
+IgYCkKzR3>R8nf=04<aZ_C3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R417
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X1.v|
+!i113 1
+R6
+R7
+n@x@n@o@r3@x1
+vXNOR3X2
+R416
+!i10b 1
+!s100 jYdY<HbeNcdiDA]o=A]2B2
+IlLI0b4m9Tj_ONa0:^7UGI3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R417
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XNOR3X2.v|
+!i113 1
+R6
+R7
+n@x@n@o@r3@x2
+vXOR2X1
+Z418 !s110 1613799144
+!i10b 1
+!s100 15L>Md16klJPcCK[n8D1^3
+Ii0l=M4T3=N9<Ck@B<AL;`3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z419 !s108 1613799144.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X1.v|
+!i113 1
+R6
+R7
+n@x@o@r2@x1
+vXOR2X2
+R418
+!i10b 1
+!s100 AN?6n:Ikb1LCg=9?f:kNk2
+I;S3=6^LKdB15P7@ioLcE02
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+R419
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XOR2X2.v|
+!i113 1
+R6
+R7
+n@x@o@r2@x2
+vXOR3X1
+R418
+!i10b 1
+!s100 b5X:<1Q<dQHk6bc^lNaEA2
+IMRbhRJc4;ilFI>JGWQ>GO3
+R2
+R0
+R328
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X1.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R419
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X1.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X1.v|
+!i113 1
+R6
+R7
+n@x@o@r3@x1
+vXOR3X2
+!s110 1613799145
+!i10b 1
+!s100 VjW`l>hDI9Gh:]ZHgbgjP2
+IC4PoNaz8Se@?=6b=6GYbn0
+R2
+R0
+w1393868488
+8/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X2.v
+F/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X2.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1613799145.000000
+!s107 /home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X2.v|
+!s90 -reportprogress|300|-work|saed90nm_typ_ht_verilog_lib|/home/colden/test-power/saed90nm_typ_ht_verilog/XOR3X2.v|
+!i113 1
+R6
+R7
+n@x@o@r3@x2
