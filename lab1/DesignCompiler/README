@@ -1,0 +1,8 @@
+1. Open Design Compiler in this directory with
+design_viewer
+
+2. Add source file
+Click File>Analyze, and add "src/SQRT for VLSI.v"
+
+3. Synthesis design
+Click File>Elaborate
