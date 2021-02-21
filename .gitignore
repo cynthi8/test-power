@@ -16,3 +16,9 @@ work
 
 # ignore waveform files
 *transcript
+
+#script temp files
+change_names
+*.log
+*.pdf
+default.svf
