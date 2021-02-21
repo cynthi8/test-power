@@ -1,3 +1,13 @@
+# Setup GUI and work folder
+gui_start
+sh mkdir WORK
+define_design_lib WORK -path ./WORK
+
+# Bring in source verilog files
+analyze -library WORK -format verilog {../Modelsim/sqrt_data_path.v ../Modelsim/sqrt_controller.v ../Modelsim/sqrt_Top.v}
+elaborate sqrt_Top -architecture verilog -library DEFAULT
+
+# Run the steps detailed in 01-lab2_synopsis_dc.pdf
 link
 create_clock clk -period 40 -waveform {0 20}
 set_clock_latency 0.3 clk
@@ -9,8 +19,11 @@ set_fanout_load 8 [all_outputs]
 set_max_area 0
 report_port
 uplevel #0 check_design
-
+compile -exact_map
 uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
 uplevel #0 { report_cell }
 uplevel #0 { report_area }
 uplevel #0 { report_power -analysis_effort low }
+
+# Save the synthesized file
+write -hierarchy -format verilog -output /home/colden/test-power/lab1/DesignCompiler/src/sqrt_vlsi_syn.v
