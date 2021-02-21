@@ -1,0 +1,161 @@
+ 
+****************************************
+Report : area
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 20:34:18 2021
+****************************************
+
+Information: Changed wire load model for 'sqrt_data_path_DW01_add_0' from '(none)' to '8000'. (OPT-170)
+Information: Changed wire load model for 'sqrt_data_path_test_1' from '(none)' to '8000'. (OPT-170)
+Information: Changed wire load model for 'sqrt_controller_test_1' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'sqrt_Top' from 'ForQA' to '8000'. (OPT-170)
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm_typ_ht.db)
+
+Number of ports:                           72
+Number of nets:                           182
+Number of cells:                          102
+Number of combinational cells:             76
+Number of sequential cells:                23
+Number of macros/black boxes:               0
+Number of buf/inv:                         15
+Number of references:                       4
+
+Combinational area:                797.184001
+Buf/Inv area:                       93.081602
+Noncombinational area:             791.654373
+Macro/Black Box area:                0.000000
+Net Interconnect area:              69.363235
+
+Total cell area:                  1588.838374
+Total area:                       1658.201609
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 20:34:23 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sqrt_Top               8000              saed90nm_typ_ht
+sqrt_controller_test_1 ForQA             saed90nm_typ_ht
+sqrt_data_path_test_1  8000              saed90nm_typ_ht
+sqrt_data_path_DW01_add_0
+                       8000              saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =  37.8191 uW   (67%)
+  Net Switching Power  =  18.6948 uW   (33%)
+                         ---------
+Total Dynamic Power    =  56.5139 uW  (100%)
+
+Cell Leakage Power     =  22.4999 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential     -2.8385e-01            1.9598        1.0583e+07           12.2592 (  15.52%)
+combinational     38.1029           16.7350        1.1917e+07           66.7546  (  84.48%)
+--------------------------------------------------------------------------------------------------
+Total             37.8191 uW        18.6948 uW     2.2500e+07 pW        79.0138 uW
+ 
+****************************************
+Report : cell
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 20:34:28 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INVX0           saed90nm_typ_ht 5.529600  
+U2                        INVX0           saed90nm_typ_ht 5.529600  
+U3                        DELLN2X2        saed90nm_typ_ht 15.667200 
+m1                        sqrt_controller_test_1          154.828798
+                                                                    h, n
+m2                        sqrt_data_path_test_1           1407.283175
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 5 cells                                             1588.838374
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 20:34:37 2021
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: m1/state_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: ready (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sqrt_Top           8000                  saed90nm_typ_ht
+  sqrt_controller_test_1
+                     ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  m1/state_reg_0_/CLK (SDFFARX1)           0.00       0.00 r
+  m1/state_reg_0_/Q (SDFFARX1)             0.34       0.34 f
+  m1/U12/Q (XOR2X1)                        0.21       0.56 f
+  m1/U5/QN (NOR2X0)                        0.10       0.65 r
+  m1/ready (sqrt_controller_test_1)        0.00       0.65 r
+  ready (out)                              0.00       0.65 r
+  data arrival time                                   0.65
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

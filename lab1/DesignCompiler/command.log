@@ -43112,3 +43112,15 @@ uplevel #0 { report_power -analysis_effort low }
 uplevel #0 { report_area }
 uplevel #0 { report_cell }
 uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }
+remove_design -designs
+analyze -format verilog {/home/hernannr/test-power/lab1/DesignCompiler/src/sqrt_Top_scan.v}
+elaborate sqrt_Top -architecture verilog -library DEFAULT
+change_selection [get_s sqrt_Top]
+change_selection 
+change_selection [get_s sqrt_Top]
+change_selection [get_s m2]
+change_selection 
+uplevel #0 { report_area }
+uplevel #0 { report_power -analysis_effort low }
+uplevel #0 { report_cell }
+uplevel #0 { report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group }

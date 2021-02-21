@@ -271,3 +271,4 @@
 /home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm.sdb
 /opt/eda/synopsys/current/syn/libraries/syn/generic.sdb
 /home/hernannr/test-power/lab1/DesignCompiler/src/sqrt_Top_syn.v
+/home/hernannr/test-power/lab1/DesignCompiler/src/sqrt_Top_scan.v
