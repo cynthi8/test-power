@@ -19,7 +19,7 @@ set myFiles [list ./src/sqrt_vlsi_syn.v] ;
 set basename sqrt_Top;          # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
-set myPeriod_ns 50;             # desired clock period (in ns) (sets speed goal)
+set myPeriod_ns 100;             # desired clock period (in ns) (sets speed goal)
 
 ####################################
 # Some runtime options, change only if needed

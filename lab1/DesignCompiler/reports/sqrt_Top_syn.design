@@ -1,0 +1,142 @@
+ 
+****************************************
+Report : design
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 19:01:58 2021
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm_typ_ht.db)
+
+Local Link Library:
+
+    {saed90nm_typ_ht.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : TYPICAL
+    Library : saed90nm_typ_ht
+    Process :   1.00
+    Temperature : 125.00
+    Voltage :   1.20
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    Selected automatically from the total cell area.
+
+Name           :   8000
+Location       :   saed90nm_typ_ht
+Resistance     :   0.0015727
+Capacitance    :   0.000312
+Area           :   0.01
+Slope          :   90.6464
+Fanout   Length   Points Average Cap Std Deviation
+--------------------------------------------------------------
+     1    13.94
+     2    31.80
+     3    51.61
+     4    73.61
+     5    98.05
+     6   125.17
+     7   155.23
+     8   188.46
+     9   225.12
+    10   265.45
+    11   309.71
+    12   358.13
+    13   410.96
+    14   468.46
+    15   530.86
+    16   598.42
+    17   671.38
+    18   749.98
+    19   834.49
+    20   925.13
+
+
+
+Wire Loading Model Mode: enclosed.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1
+ 
+****************************************
+Report : hierarchy
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 19:01:58 2021
+****************************************
+
+sqrt_Top
+    sqrt_controller
+        AND2X1                            saed90nm_typ_ht
+        AO21X1                            saed90nm_typ_ht
+        DFFARX1                           saed90nm_typ_ht
+        INVX0                             saed90nm_typ_ht
+        NAND2X1                           saed90nm_typ_ht
+        NAND3X0                           saed90nm_typ_ht
+        NOR2X0                            saed90nm_typ_ht
+        XOR2X1                            saed90nm_typ_ht
+    sqrt_data_path
+        AO21X1                            saed90nm_typ_ht
+        AO22X1                            saed90nm_typ_ht
+        AO221X1                           saed90nm_typ_ht
+        AOI222X1                          saed90nm_typ_ht
+        DFFARX1                           saed90nm_typ_ht
+        DFFASX1                           saed90nm_typ_ht
+        DFFX1                             saed90nm_typ_ht
+        INVX0                             saed90nm_typ_ht
+        NAND2X1                           saed90nm_typ_ht
+        NOR2X0                            saed90nm_typ_ht
+        OA21X1                            saed90nm_typ_ht
+        OA22X1                            saed90nm_typ_ht
+        OA221X1                           saed90nm_typ_ht
+        OAI22X1                           saed90nm_typ_ht
+        XNOR2X1                           saed90nm_typ_ht
+        XOR2X1                            saed90nm_typ_ht
+        sqrt_data_path_DW01_add_0
+            AND2X1                        saed90nm_typ_ht
+            AO22X1                        saed90nm_typ_ht
+            AOI22X1                       saed90nm_typ_ht
+            INVX0                         saed90nm_typ_ht
+            NOR2X0                        saed90nm_typ_ht
+            OR2X1                         saed90nm_typ_ht
+            XOR2X1                        saed90nm_typ_ht
+            XOR3X1                        saed90nm_typ_ht
+1

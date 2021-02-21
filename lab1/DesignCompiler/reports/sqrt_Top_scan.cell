@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : cell
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 19:02:05 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INVX0           saed90nm_typ_ht 5.529600  
+U2                        INVX0           saed90nm_typ_ht 5.529600  
+U3                        DELLN2X2        saed90nm_typ_ht 15.667200 
+m1                        sqrt_controller_test_1          154.828798
+                                                                    h, n
+m2                        sqrt_data_path_test_1           1407.283175
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 5 cells                                             1588.838374
+1

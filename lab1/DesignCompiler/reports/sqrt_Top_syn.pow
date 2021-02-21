@@ -1,0 +1,61 @@
+Loading db file '/home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm_typ_ht.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : sqrt_Top
+Version: O-2018.06-SP1
+Date   : Sat Feb 20 19:01:58 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab1/DesignCompiler/db/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sqrt_Top               8000              saed90nm_typ_ht
+sqrt_controller        ForQA             saed90nm_typ_ht
+sqrt_data_path         8000              saed90nm_typ_ht
+sqrt_data_path_DW01_add_0
+                       8000              saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   1.3033 uW   (78%)
+  Net Switching Power  = 376.9724 nW   (22%)
+                         ---------
+Total Dynamic Power    =   1.6803 uW  (100%)
+
+Cell Leakage Power     =  20.2154 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.5580        8.6372e-02        8.3895e+06            9.0339  (  41.26%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.7453            0.2906        1.1826e+07           12.8618  (  58.74%)
+--------------------------------------------------------------------------------------------------
+Total              1.3033 uW         0.3770 uW     2.0215e+07 pW        21.8957 uW
+1

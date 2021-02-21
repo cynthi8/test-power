@@ -1,0 +1,107 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+  ...saving simulation value info...
+
+-----------------------------------------------------------------
+Begin Clock violations...
+
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_6_). (C26-1)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_5_). (C26-2)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_4_). (C26-3)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_3_). (C26-4)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_2_). (C26-5)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_1_). (C26-6)
+ Warning: Clock clear used as data is different than capture clock clk for inputs CLK/D of stable DFF (m2/Rdata_reg_0_). (C26-7)
+
+Clock violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 7
+
+-----------------------------------------------------------------
+
+7 CLOCK VIOLATIONS
+     7 Clock as data different from capture clock for stable cell violations (C26)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 21 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *  21 cells are valid scan cells
+         m2/Rdata_reg_6_
+         m2/Rdata_reg_5_
+         m2/Rdata_reg_4_
+         m2/Rdata_reg_3_
+         m2/Rdata_reg_2_
+         m2/Rdata_reg_1_
+         m2/Rdata_reg_0_
+         m2/Rdelta_reg_1_
+         m2/Rn_reg_0_
+         m2/Rdelta_reg_2_
+         m2/Rdelta_reg_3_
+         m2/Rdelta_reg_4_
+         m2/Rn_reg_1_
+         m2/Rn_reg_2_
+         m2/Rn_reg_3_
+         m2/Rn_reg_4_
+         m2/Rn_reg_5_
+         m2/Rn_reg_6_
+         m2/finish_reg
+         m1/state_reg_1_
+         m1/state_reg_0_
+
+....Inferring feed-through connections....
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 922 faults were added to fault list.
+ 0             589    124         0/0/0    86.31%      0.00
+ 0              92     32         0/0/0    96.47%      0.00
+ 0              31      1         0/0/1    99.89%      0.00
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT        905
+ Possibly detected                PT          0
+ Undetectable                     UD         16
+ ATPG untestable                  AU          0
+ Not detected                     ND          1
+ -----------------------------------------------
+ total faults                               922
+ test coverage                            99.89%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1
