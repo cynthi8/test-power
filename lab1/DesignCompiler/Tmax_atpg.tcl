@@ -1,8 +1,8 @@
 ##################################################################
-#### TetraMax Script for ECE 128
+#### TetraMax Script for 6082
 #### Performs ATPG Pattern Generation for Synopsys Generic files
 #### author: tjf
-#### update: wgibb, spring 2010
+#### update: hernannr 2021
 #### note: this script will only run in TMAX TCL mode
 #### start tmax like this: tmax -tcl
 ##################################################################
@@ -11,11 +11,11 @@
 #### local variables, designer must change these values ####
 ############################################################
 
-set top_module ripplecarry4_clk
-set synthesized_files [list ./src/ripplecarry4_clk_scan.v]
-set cell_lib ./src/osu05_stdcells.v
-set scan_lib ./src/osu_scan.v
-set stil_file [list ./src/ripplecarry4_clk_scan.spf]
+set top_module sqrt_Top_syn.v
+set synthesized_files [list ./src/sqrt_Top_scan.v]
+set cell_lib ./src/stdcells.v
+set scan_lib ./src/sqrt_Top_scan.v
+set stil_file [list ./src/sqrt_Top_scan.spf]
 
 #################################################
 #### read in standard cells and user's design ###
