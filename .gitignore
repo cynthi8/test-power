@@ -20,5 +20,4 @@ work
 #script temp files
 change_names
 *.log
-*.pdf
 default.svf
