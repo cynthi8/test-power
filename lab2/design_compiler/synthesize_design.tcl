@@ -27,4 +27,4 @@ uplevel #0 { report_area }
 uplevel #0 { report_power -analysis_effort low }
 
 # Save the synthesized file
-write -hierarchy -format verilog -output ~/test-power/lab2/DesignCompiler/src/GCD_syn.v
+write -hierarchy -format verilog -output ~/test-power/lab2/design_compiler/src/GCD_syn.v
