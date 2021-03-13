@@ -15,8 +15,8 @@
 # 5) myPeriod - SETS THE CLOCK SPEED, THUS DEFINING THE SYNTHESIS SPEED GOAL
 ####################################
 # list of all HDL files in the design
-set myFiles [list ./src/sqrt_vlsi_syn.v] ;
-set basename sqrt_Top;          # Top-level module name
+set myFiles [list ./src/09-GCD.vhdl] ;
+set basename gcd_bsd;          # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 100;             # desired clock period (in ns) (sets speed goal)
@@ -87,7 +87,7 @@ set test_default_scan_style multiplexed_flip_flop;
 #nathan edit below
 #set link_library [concat [concat "*" $target_library] $synthetic_library]
 ####################################
-set fileFormat verilog;         # verilog or VHDL
+set fileFormat VHDL;         # verilog or VHDL
 
 ##############################################################
 ##############################################################
@@ -108,8 +108,9 @@ echo IMPORTING DESIGN
 ####################################
 # analyzer & elaborate verilog source files
 ####################################
-analyze -format $fileFormat -lib WORK $myFiles
-elaborate $basename -lib WORK -update
+analyze -format $fileFormat -library DEFAULT $myFiles
+elaborate $basename -library DEFAULT
+#elaborate GCD_BSD -architecture GCD_BSD_ARC -library DEFAULT
 
 ####################################
 # set design to 'highest' module level

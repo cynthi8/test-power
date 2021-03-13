@@ -1,21 +1,18 @@
-set link_library *
-set target_library [list class.db ]
-set synthetic_library \
-[list dw_foundation.sldb ]
-set link_library [concat $link_library \
-$synthetic_library $target_library]
+#set link_library *
+#set target_library [list class.db ]
+#set synthetic_library \
+#[list dw_foundation.sldb ]
+#set link_library [concat $link_library \
+#$synthetic_library $target_library]
 
 #Read in top-level design
-read_verilog ./src/ripplecarry4_clk_scan.v
-read_verilog ./src/TOP.v
+read_verilog ./src/gcd_bsd_scan.v
+read_verilog ./src/02-TOP.v
 set current_design TOP
 link
 
 #dont_touch CORE and pads
-set_dont_touch [list ripplecarry4_clk BIDI IBUF3 IBUF4 IBUF5 OBUF1 OBUF2]
-
-#read pin map for BSR cell order
-read_pin_map ./src/pin.txt
+set_dont_touch [list gcd_bsd GTECH_INBUF GTECH_OUTBUF]
 
 #define Tap signals
 set_dft_signal -view spec -type TCK -port TCK
@@ -24,10 +21,13 @@ set_dft_signal -view spec -type TDO -port TDO
 set_dft_signal -view spec -type TMS -port TMS
 set_dft_signal -view spec -type TRST -port TRSTN
 
+#read pin map for BSR cell order
+read_pin_map ./src/03-pin.txt
+
 #define functional clocks
 create_clock CLK -period 100 -waveform {0 50}
 
-#Configure tapECE 128 – Synopsys Tutorial: Using BSD Compiler - 10 / 10
+#Configure tap
 set_bsd_configuration -ir_width 4
 
 #Define standard instructions
@@ -36,7 +36,6 @@ set_bsd_instruction -view spec [list EXTEST] -code [list 0001] -reg BOUNDARY
 set_bsd_instruction -view spec [list SAMPLE] -code [list 0100] -reg BOUNDARY
 set_bsd_instruction -view spec [list PRELOAD] -code [list 0100] -reg BOUNDARY
 set_bsd_instruction -view spec [list BYPASS] -code [list 1111] -reg BYPASS
-
 
 #Define instructions for CLAMP [opcode=0010]
 set_bsd_instruction -view spec [list CLAMP] -code [list 0010] -reg BYPASS
@@ -52,6 +51,7 @@ preview_dft -bsd all
 
 #insert jtag..includes compile
 insert_dft
+
 #OPTIONAL: Generate bsd patterns & bsdl before compliance checking
 #create_bsd_patterns -type all
 #write_test -format stil_testbench -output bsd_patterns
@@ -66,7 +66,7 @@ write_bsdl -out ./src/TOP_bsd.bsdl
 
 #Generate bsd patterns
 create_bsd_patterns -type all
-write_test -format stil_testbench -output ./src/bsd_patterns
+write_test -format stil -output ./src/bsd_patterns
 
 # generate verilog TAP testbench
 write_test -format verilog -output ./src/BSD_tb.v

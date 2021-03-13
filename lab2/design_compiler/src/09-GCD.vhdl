@@ -156,13 +156,6 @@ begin
     process( proceed, comparison, cState )
     begin
 
-    nState <= init;
-    enable <= '0';
-	xsel <= '0';
-	ysel <= '0';
-	xld <= '0';
-	yld <= '0';
-
 	case cState is 
 		
 	when init =>	
@@ -171,36 +164,30 @@ begin
 			else 
 			    nState <= s0;
 			end if;
-            --enable <= '0';
-			--xsel <= '0';
-			--ysel <= '0';
-			--xld <= '0';
-			--yld <= '0';
+            enable <= '0';
+            xsel <= '0';
+            ysel <= '0';
+            xld <= '0';
+            yld <= '0';
 
 	when s0 =>	
+			nState <= s1;
             enable <= '0';
 			xsel <= '0';
 			ysel <= '0';
 			xld <= '0';
 			yld <= '0';
-			nState <= s1;
 	
 	when s1 =>	
+			nState <= s2;
             enable <= '0';
 			xsel <= '0';
 			ysel <= '0';
 			xld <= '1';
 			yld <= '1';
-			nState <= s2;
 		
 	when s2 =>	
-            --enable <= '0';
-            xld <= '0';
-			yld <= '0';
-			--xsel <= '0';
-			--ysel <= '0';
-
-			if( comparison = "10" ) then 
+            if( comparison = "10" ) then 
 			    nState <= s3;
 			elsif( comparison = "01" ) then 
 			    nState <= s4; 	
@@ -209,33 +196,43 @@ begin
             else 
                 nState <= s2;	
 			end if;
+            enable <= '0';
+            xsel <= '0';
+            ysel <= '0';
+            xld <= '0';
+            yld <= '0';
 		
 	when s3 =>	
+            nState <= s2;
             enable <= '0';
 			xsel <= '1';
 			ysel <= '0';
 			xld <= '1';
 			yld <= '0';
-			nState <= s2;
 	
 	when s4 =>	
+			nState <= s2;
             enable <= '0';
 			xsel <= '0';
 			ysel <= '1';
 			xld <= '0';
 			yld <= '1';
-			nState <= s2;
 
 	when s5 =>	
+            nState <= s0;
             enable <= '1';
 			xsel <= '1';
 			ysel <= '1';
 			xld <= '1';
 			yld <= '1';
-			nState <= s0;
 			
 	when others =>	
             nState <= s0;
+            enable <= '0';
+            xsel <= '0';
+            ysel <= '0';
+            xld <= '0';
+            yld <= '0';
 			
     end case;
 	
