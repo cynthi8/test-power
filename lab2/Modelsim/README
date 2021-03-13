@@ -1,5 +1,0 @@
-1. Open modelsim in this directory with
-modelsim
-
-2. Setup and run the simulation with
-do run_simulation.tcl
