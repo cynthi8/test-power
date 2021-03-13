@@ -9,7 +9,8 @@
 *.cr.mti
 
 # ignore work folder
-work
+work/
+WORK/
 
 # ignore waveform files
 *.wlf
