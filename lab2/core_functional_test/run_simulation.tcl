@@ -6,6 +6,6 @@ vcom -reportprogress 300 -work work *.vhdl
 # Run Simulation
 vsim work.gcd_tb
 add wave -position end sim:/gcd_tb/*
-add wave -position end sim:/gcd_tb/uut/*
+#add wave -position end sim:/gcd_tb/uut/TOFSM/*
 run -all
 wave zoom full
