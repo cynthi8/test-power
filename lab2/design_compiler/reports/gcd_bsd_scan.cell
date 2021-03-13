@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : cell
+Design : gcd_bsd
+Version: O-2018.06-SP1
+Date   : Fri Mar 12 21:19:44 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+M_GCD                     gcd_test_1                      1577.779186
+                                                                    h, n
+U1                        INVX0           saed90nm_typ_ht 5.529600  
+U2                        INVX0           saed90nm_typ_ht 5.529600  
+U3                        INVX0           saed90nm_typ_ht 5.529600  
+U4                        INVX0           saed90nm_typ_ht 5.529600  
+U5                        DELLN2X2        saed90nm_typ_ht 15.667200 
+--------------------------------------------------------------------------------
+Total 6 cells                                             1615.564787
+1
