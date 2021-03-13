@@ -1,2 +1,10 @@
-1. In this directory synthesize the design with
-design_viewer -f synthesize_design.tcl
+1. In this directory run a script with 
+design_vision -f SCRIPT_NAME
+
+synthesized files are placed in build/
+
+There are 3 scripts for this folder
+1. synthesize_design.tcl is the most basic and will only synthesize the design.
+2. dc_test.tcl
+3. bsd_comp.tcl 
+
