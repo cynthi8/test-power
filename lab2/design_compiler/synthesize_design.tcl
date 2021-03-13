@@ -1,5 +1,6 @@
-# Setup GUI and work folder
+# Setup GUI, work and build folder
 gui_start
+sh rm -rf WORK build
 sh mkdir WORK
 sh mkdir build
 define_design_lib WORK -path ./WORK
