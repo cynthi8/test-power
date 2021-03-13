@@ -12,6 +12,9 @@
 work/
 WORK/
 
+# ignore build folder
+build/
+
 # ignore waveform files
 *.wlf
 

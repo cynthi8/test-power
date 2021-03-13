@@ -1,6 +1,7 @@
 # Setup GUI and work folder
 gui_start
 sh mkdir WORK
+sh mkdir build
 define_design_lib WORK -path ./WORK
 
 # Bring in source verilog files
@@ -27,4 +28,4 @@ uplevel #0 { report_area }
 uplevel #0 { report_power -analysis_effort low }
 
 # Save the synthesized file
-write -hierarchy -format verilog -output ~/test-power/lab2/design_compiler/src/GCD_syn.v
+write -hierarchy -format verilog -output ~/test-power/lab2/design_compiler/build/GCD_syn.v
