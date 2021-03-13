@@ -1,0 +1,2 @@
+1. In this directory run
+modelsim -do run_simulation.tcl
