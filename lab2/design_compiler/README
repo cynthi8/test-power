@@ -5,6 +5,6 @@ synthesized files are placed in build/
 
 There are 3 scripts for this folder
 1. synthesize_design.tcl is the most basic and will only synthesize the design.
-2. dc_test.tcl
-3. bsd_comp.tcl 
+2. dc_test.tcl will synthesize the design and insert an internal scan chain.
+3. bsd_comp.tcl will take the design from dc_test and insert a TAP controller and boundary scan chain. It is equivalent to Phase 1.
 
