@@ -1,0 +1,157 @@
+-- *****************************************************************************
+
+--   BSDL file for design TOP
+
+--   Created by Synopsys Version O-2018.06-SP1 (Jul 19, 2018)
+
+--   Designer: 
+--   Company:  
+
+--   Date: Fri Mar 19 18:07:01 2021
+
+-- *****************************************************************************
+
+
+ entity TOP is
+   
+-- This section identifies the default device package selected.
+   
+   generic (PHYSICAL_PIN_MAP: string:= "my_package");
+   
+-- This section declares all the ports in the design.
+   
+   port ( 
+          CLK     : in       bit;
+          GO_I    : in       bit;
+          RST     : in       bit;
+          TCK     : in       bit;
+          TDI     : in       bit;
+          TEST_SE : in       bit;
+          TEST_SI : in       bit;
+          TMS     : in       bit;
+          TRSTN   : in       bit;
+          X_I     : in       bit_vector (3 downto 0);
+          Y_I     : in       bit_vector (3 downto 0);
+          TDO     : out      bit;
+          TEST_SO : buffer   bit;
+          D_O     : buffer   bit_vector (3 downto 0)
+   );
+   
+   use STD_1149_1_2001.all;
+   
+   attribute COMPONENT_CONFORMANCE of TOP: entity is "STD_1149_1_2001";
+   
+   attribute PIN_MAP of TOP: entity is PHYSICAL_PIN_MAP;
+   
+-- This section specifies the pin map for each port. This information is 
+-- extracted from the port-to-pin map file that was read in using the 
+-- "read_pin_map" command.
+   
+     constant my_package: PIN_MAP_STRING := 
+        "CLK     : P1," &
+        "GO_I    : P3," &
+        "RST     : P2," &
+        "TCK     : P23," &
+        "TDI     : P21," &
+        "TEST_SE : P18," &
+        "TEST_SI : P16," &
+        "TMS     : P22," &
+        "TRSTN   : P19," &
+        "X_I     : (P4, P5, P6, P7)," &
+        "Y_I     : (P8, P9, P10, P11)," &
+        "TDO     : P20," &
+        "TEST_SO : P17," &
+        "D_O     : (P12, P13, P14, P15)";
+   
+-- This section specifies the TAP ports. For the TAP TCK port, the parameters in 
+-- the brackets are:
+--        First Field : Maximum  TCK frequency.
+--        Second Field: Allowable states TCK may be stopped in.
+   
+   attribute TAP_SCAN_CLOCK of TCK  : signal is (10.0e6, BOTH);
+   attribute TAP_SCAN_IN    of TDI  : signal is true;
+   attribute TAP_SCAN_MODE  of TMS  : signal is true;
+   attribute TAP_SCAN_OUT   of TDO  : signal is true;
+   attribute TAP_SCAN_RESET of TRSTN: signal is true;
+   
+-- Specifies the compliance enable patterns for the design. It lists a set of 
+-- design ports and the values that they should be set to, in order to enable 
+-- compliance to IEEE Std 1149.1
+   
+   attribute COMPLIANCE_PATTERNS of TOP: entity is 
+        "(RST, TEST_SE) (01)";
+   
+-- Specifies the number of bits in the instruction register.
+   
+   attribute INSTRUCTION_LENGTH of TOP: entity is 4;
+   
+-- Specifies the boundary-scan instructions implemented in the design and their 
+-- opcodes.
+   
+   attribute INSTRUCTION_OPCODE of TOP: entity is 
+     "BYPASS  (1111)," &
+     "EXTEST  (0001)," &
+     "SAMPLE  (0100)," &
+     "PRELOAD (0100)," &
+     "CLAMP   (0010)," &
+     "SCANCH  (1101)";
+   
+-- Specifies the bit pattern that is loaded into the instruction register when 
+-- the TAP controller passes through the Capture-IR state. The standard mandates 
+-- that the two LSBs must be "01". The remaining bits are design specific.
+   
+   attribute INSTRUCTION_CAPTURE of TOP: entity is "0001";
+   
+-- This section specifies the test data register placed between TDI and TDO for 
+-- each implemented instruction.
+   
+   attribute REGISTER_ACCESS of TOP: entity is 
+        "BYPASS  (BYPASS, CLAMP)," &
+        "BOUNDARY (EXTEST, SAMPLE, PRELOAD)," &
+        "STT_REG[31] (SCANCH)";
+   
+-- Specifies the length of the boundary scan register.
+   
+   attribute BOUNDARY_LENGTH of TOP: entity is 16;
+   
+-- The following list specifies the characteristics of each cell in the boundary 
+-- scan register from TDI to TDO. The following is a description of the label 
+-- fields:
+--      num     : Is the cell number.
+--      cell    : Is the cell type as defined by the standard.
+--      port    : Is the design port name. Control cells do not have a port 
+--                name.
+--      function: Is the function of the cell as defined by the standard. Is one 
+--                of input, output2, output3, bidir, control or controlr.
+--      safe    : Specifies the value that the BSR cell should be loaded with 
+--                for safe operation when the software might otherwise choose a 
+--                random value.
+--      ccell   : The control cell number. Specifies the control cell that 
+--                drives the output enable for this port.
+--      disval  : Specifies the value that is loaded into the control cell to 
+--                disable the output enable for the corresponding port.
+--      rslt    : Resulting state. Shows the state of the driver when it is 
+--                disabled.
+   
+   attribute BOUNDARY_REGISTER of TOP: entity is 
+--     
+--    num   cell   port     function      safe  [ccell  disval  rslt]
+--     
+     "15   (BC_4,  CLK,     clock,        X),                        " &
+     "14   (BC_2,  GO_I,    input,        X),                        " &
+     "13   (BC_2,  X_I(0),  input,        X),                        " &
+     "12   (BC_2,  X_I(1),  input,        X),                        " &
+     "11   (BC_2,  X_I(2),  input,        X),                        " &
+     "10   (BC_2,  X_I(3),  input,        X),                        " &
+     "9    (BC_2,  Y_I(0),  input,        X),                        " &
+     "8    (BC_2,  Y_I(1),  input,        X),                        " &
+     "7    (BC_2,  Y_I(2),  input,        X),                        " &
+     "6    (BC_2,  Y_I(3),  input,        X),                        " &
+     "5    (BC_1,  D_O(0),  output2,      X),                        " &
+     "4    (BC_1,  D_O(1),  output2,      X),                        " &
+     "3    (BC_1,  D_O(2),  output2,      X),                        " &
+     "2    (BC_1,  D_O(3),  output2,      X),                        " &
+     "1    (BC_2,  TEST_SI, input,        X),                        " &
+     "0    (BC_1,  TEST_SO, output2,      X)                         ";
+ 
+ end TOP;

@@ -1,0 +1,421 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : TOP
+Version: O-2018.06-SP1
+Date   : Fri Mar 19 18:07:02 2021
+****************************************
+
+Operating Conditions: nom_pvt   Library: dw_foundation.sldb
+Wire Load Model Mode: top
+
+  Startpoint: core/M_GCD/X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/X_REG/output_reg_3_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_1_/Q (SDFFARX1)             0.34       0.34 r
+  core/M_GCD/X_REG/output0[1] (regis_test_0)              0.00       0.34 r
+  core/M_GCD/U_COMP/x[1] (comparator)                     0.00       0.34 r
+  core/M_GCD/U_COMP/U6/ZN (INVX0)                         0.07       0.41 f
+  core/M_GCD/U_COMP/U7/QN (NAND2X1)                       0.07       0.48 r
+  core/M_GCD/U_COMP/U8/QN (NAND2X1)                       0.04       0.52 f
+  core/M_GCD/U_COMP/U20/Q (OA221X1)                       0.14       0.67 f
+  core/M_GCD/U_COMP/U19/Q (AO21X1)                        0.10       0.76 f
+  core/M_GCD/U_COMP/U18/Q (OR2X1)                         0.09       0.86 f
+  core/M_GCD/U_COMP/U17/QN (AOI22X1)                      0.18       1.04 r
+  core/M_GCD/U_COMP/U5/QN (NOR2X0)                        0.09       1.13 f
+  core/M_GCD/U_COMP/output0[0] (comparator)               0.00       1.13 f
+  core/M_GCD/X_SUB/cmd[0] (subtractor)                    0.00       1.13 f
+  core/M_GCD/X_SUB/U3/ZN (INVX0)                          0.10       1.23 r
+  core/M_GCD/X_SUB/U51/Q (AO21X1)                         0.20       1.43 r
+  core/M_GCD/X_SUB/U12/QN (NOR2X0)                        0.08       1.50 f
+  core/M_GCD/X_SUB/xout[3] (subtractor)                   0.00       1.50 f
+  core/M_GCD/X_MUX/result[3] (mux_1)                      0.00       1.50 f
+  core/M_GCD/X_MUX/U5/Q (AO22X1)                          0.14       1.65 f
+  core/M_GCD/X_MUX/output0[3] (mux_1)                     0.00       1.65 f
+  core/M_GCD/X_REG/input0[3] (regis_test_0)               0.00       1.65 f
+  core/M_GCD/X_REG/U4/Q (AO22X1)                          0.12       1.77 f
+  core/M_GCD/X_REG/output_reg_3_/D (SDFFARX1)             0.00       1.77 f
+  data arrival time                                                  1.77
+
+  clock CLK (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  core/M_GCD/X_REG/output_reg_3_/CLK (SDFFARX1)           0.00     100.00 r
+  library setup time                                     -0.26      99.74
+  data required time                                                99.74
+  --------------------------------------------------------------------------
+  data required time                                                99.74
+  data arrival time                                                 -1.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       97.97
+
+
+  Startpoint: core/M_GCD/X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/X_REG/output_reg_2_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_1_/Q (SDFFARX1)             0.34       0.34 r
+  core/M_GCD/X_REG/output0[1] (regis_test_0)              0.00       0.34 r
+  core/M_GCD/U_COMP/x[1] (comparator)                     0.00       0.34 r
+  core/M_GCD/U_COMP/U6/ZN (INVX0)                         0.07       0.41 f
+  core/M_GCD/U_COMP/U7/QN (NAND2X1)                       0.07       0.48 r
+  core/M_GCD/U_COMP/U8/QN (NAND2X1)                       0.04       0.52 f
+  core/M_GCD/U_COMP/U20/Q (OA221X1)                       0.14       0.67 f
+  core/M_GCD/U_COMP/U19/Q (AO21X1)                        0.10       0.76 f
+  core/M_GCD/U_COMP/U18/Q (OR2X1)                         0.09       0.86 f
+  core/M_GCD/U_COMP/U17/QN (AOI22X1)                      0.18       1.04 r
+  core/M_GCD/U_COMP/U5/QN (NOR2X0)                        0.09       1.13 f
+  core/M_GCD/U_COMP/output0[0] (comparator)               0.00       1.13 f
+  core/M_GCD/X_SUB/cmd[0] (subtractor)                    0.00       1.13 f
+  core/M_GCD/X_SUB/U3/ZN (INVX0)                          0.10       1.23 r
+  core/M_GCD/X_SUB/U51/Q (AO21X1)                         0.20       1.43 r
+  core/M_GCD/X_SUB/U8/QN (NOR2X0)                         0.08       1.51 f
+  core/M_GCD/X_SUB/xout[2] (subtractor)                   0.00       1.51 f
+  core/M_GCD/X_MUX/result[2] (mux_1)                      0.00       1.51 f
+  core/M_GCD/X_MUX/U6/Q (AO22X1)                          0.14       1.65 f
+  core/M_GCD/X_MUX/output0[2] (mux_1)                     0.00       1.65 f
+  core/M_GCD/X_REG/input0[2] (regis_test_0)               0.00       1.65 f
+  core/M_GCD/X_REG/U5/Q (AO22X1)                          0.11       1.76 f
+  core/M_GCD/X_REG/output_reg_2_/D (SDFFARX1)             0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock CLK (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  core/M_GCD/X_REG/output_reg_2_/CLK (SDFFARX1)           0.00     100.00 r
+  library setup time                                     -0.26      99.74
+  data required time                                                99.74
+  --------------------------------------------------------------------------
+  data required time                                                99.74
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                       97.98
+
+
+  Startpoint: core/M_GCD/X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/X_REG/output_reg_1_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_1_/Q (SDFFARX1)             0.34       0.34 r
+  core/M_GCD/X_REG/output0[1] (regis_test_0)              0.00       0.34 r
+  core/M_GCD/U_COMP/x[1] (comparator)                     0.00       0.34 r
+  core/M_GCD/U_COMP/U6/ZN (INVX0)                         0.07       0.41 f
+  core/M_GCD/U_COMP/U7/QN (NAND2X1)                       0.07       0.48 r
+  core/M_GCD/U_COMP/U8/QN (NAND2X1)                       0.04       0.52 f
+  core/M_GCD/U_COMP/U20/Q (OA221X1)                       0.14       0.67 f
+  core/M_GCD/U_COMP/U19/Q (AO21X1)                        0.10       0.76 f
+  core/M_GCD/U_COMP/U18/Q (OR2X1)                         0.09       0.86 f
+  core/M_GCD/U_COMP/U17/QN (AOI22X1)                      0.18       1.04 r
+  core/M_GCD/U_COMP/U5/QN (NOR2X0)                        0.09       1.13 f
+  core/M_GCD/U_COMP/output0[0] (comparator)               0.00       1.13 f
+  core/M_GCD/X_SUB/cmd[0] (subtractor)                    0.00       1.13 f
+  core/M_GCD/X_SUB/U3/ZN (INVX0)                          0.10       1.23 r
+  core/M_GCD/X_SUB/U51/Q (AO21X1)                         0.20       1.43 r
+  core/M_GCD/X_SUB/U10/QN (NOR2X0)                        0.08       1.50 f
+  core/M_GCD/X_SUB/xout[1] (subtractor)                   0.00       1.50 f
+  core/M_GCD/X_MUX/result[1] (mux_1)                      0.00       1.50 f
+  core/M_GCD/X_MUX/U7/Q (AO22X1)                          0.14       1.65 f
+  core/M_GCD/X_MUX/output0[1] (mux_1)                     0.00       1.65 f
+  core/M_GCD/X_REG/input0[1] (regis_test_0)               0.00       1.65 f
+  core/M_GCD/X_REG/U6/Q (AO22X1)                          0.11       1.76 f
+  core/M_GCD/X_REG/output_reg_1_/D (SDFFARX1)             0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock CLK (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00     100.00 r
+  library setup time                                     -0.26      99.74
+  data required time                                                99.74
+  --------------------------------------------------------------------------
+  data required time                                                99.74
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                       97.98
+
+
+  Startpoint: core/M_GCD/X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/X_REG/output_reg_0_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_1_/Q (SDFFARX1)             0.34       0.34 r
+  core/M_GCD/X_REG/output0[1] (regis_test_0)              0.00       0.34 r
+  core/M_GCD/U_COMP/x[1] (comparator)                     0.00       0.34 r
+  core/M_GCD/U_COMP/U6/ZN (INVX0)                         0.07       0.41 f
+  core/M_GCD/U_COMP/U7/QN (NAND2X1)                       0.07       0.48 r
+  core/M_GCD/U_COMP/U8/QN (NAND2X1)                       0.04       0.52 f
+  core/M_GCD/U_COMP/U20/Q (OA221X1)                       0.14       0.67 f
+  core/M_GCD/U_COMP/U19/Q (AO21X1)                        0.10       0.76 f
+  core/M_GCD/U_COMP/U18/Q (OR2X1)                         0.09       0.86 f
+  core/M_GCD/U_COMP/U17/QN (AOI22X1)                      0.18       1.04 r
+  core/M_GCD/U_COMP/U5/QN (NOR2X0)                        0.09       1.13 f
+  core/M_GCD/U_COMP/output0[0] (comparator)               0.00       1.13 f
+  core/M_GCD/X_SUB/cmd[0] (subtractor)                    0.00       1.13 f
+  core/M_GCD/X_SUB/U3/ZN (INVX0)                          0.10       1.23 r
+  core/M_GCD/X_SUB/U51/Q (AO21X1)                         0.20       1.43 r
+  core/M_GCD/X_SUB/U4/QN (NOR2X0)                         0.08       1.50 f
+  core/M_GCD/X_SUB/xout[0] (subtractor)                   0.00       1.50 f
+  core/M_GCD/X_MUX/result[0] (mux_1)                      0.00       1.50 f
+  core/M_GCD/X_MUX/U8/Q (AO22X1)                          0.14       1.65 f
+  core/M_GCD/X_MUX/output0[0] (mux_1)                     0.00       1.65 f
+  core/M_GCD/X_REG/input0[0] (regis_test_0)               0.00       1.65 f
+  core/M_GCD/X_REG/U7/Q (AO22X1)                          0.11       1.76 f
+  core/M_GCD/X_REG/output_reg_0_/D (SDFFARX1)             0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock CLK (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  core/M_GCD/X_REG/output_reg_0_/CLK (SDFFARX1)           0.00     100.00 r
+  library setup time                                     -0.26      99.74
+  data required time                                                99.74
+  --------------------------------------------------------------------------
+  data required time                                                99.74
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                       97.98
+
+
+  Startpoint: core/M_GCD/X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/Y_REG/output_reg_2_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_1_/Q (SDFFARX1)             0.34       0.34 r
+  core/M_GCD/X_REG/output0[1] (regis_test_0)              0.00       0.34 r
+  core/M_GCD/U_COMP/x[1] (comparator)                     0.00       0.34 r
+  core/M_GCD/U_COMP/U6/ZN (INVX0)                         0.07       0.41 f
+  core/M_GCD/U_COMP/U7/QN (NAND2X1)                       0.07       0.48 r
+  core/M_GCD/U_COMP/U8/QN (NAND2X1)                       0.04       0.52 f
+  core/M_GCD/U_COMP/U20/Q (OA221X1)                       0.14       0.67 f
+  core/M_GCD/U_COMP/U19/Q (AO21X1)                        0.10       0.76 f
+  core/M_GCD/U_COMP/U18/Q (OR2X1)                         0.09       0.86 f
+  core/M_GCD/U_COMP/U17/QN (AOI22X1)                      0.18       1.04 r
+  core/M_GCD/U_COMP/U5/QN (NOR2X0)                        0.09       1.13 f
+  core/M_GCD/U_COMP/output0[0] (comparator)               0.00       1.13 f
+  core/M_GCD/X_SUB/cmd[0] (subtractor)                    0.00       1.13 f
+  core/M_GCD/X_SUB/U3/ZN (INVX0)                          0.10       1.23 r
+  core/M_GCD/X_SUB/U51/Q (AO21X1)                         0.20       1.43 r
+  core/M_GCD/X_SUB/U19/QN (NOR2X0)                        0.07       1.49 f
+  core/M_GCD/X_SUB/yout[2] (subtractor)                   0.00       1.49 f
+  core/M_GCD/Y_MUX/result[2] (mux_0)                      0.00       1.49 f
+  core/M_GCD/Y_MUX/U6/Q (AO22X1)                          0.14       1.64 f
+  core/M_GCD/Y_MUX/output0[2] (mux_0)                     0.00       1.64 f
+  core/M_GCD/Y_REG/input0[2] (regis_test_1)               0.00       1.64 f
+  core/M_GCD/Y_REG/U4/Q (AO22X1)                          0.12       1.76 f
+  core/M_GCD/Y_REG/output_reg_2_/D (SDFFARX1)             0.00       1.76 f
+  data arrival time                                                  1.76
+
+  clock CLK (rise edge)                                 100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  core/M_GCD/Y_REG/output_reg_2_/CLK (SDFFARX1)           0.00     100.00 r
+  library setup time                                     -0.26      99.74
+  data required time                                                99.74
+  --------------------------------------------------------------------------
+  data required time                                                99.74
+  data arrival time                                                 -1.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                       97.98
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : TOP
+Version: O-2018.06-SP1
+Date   : Fri Mar 19 18:07:02 2021
+****************************************
+
+Operating Conditions: nom_pvt   Library: dw_foundation.sldb
+Wire Load Model Mode: top
+
+  Startpoint: core/M_GCD/OUT_REG/output_reg_3_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/TOFSM/cState_reg_0_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_3_/CLK (SDFFARX1)         0.00       0.00 r
+  core/M_GCD/OUT_REG/output_reg_3_/QN (SDFFARX1)          0.20       0.20 f
+  core/M_GCD/OUT_REG/test_so (regis_test_2)               0.00       0.20 f
+  core/M_GCD/TOFSM/test_si (fsm_test_1)                   0.00       0.20 f
+  core/M_GCD/TOFSM/cState_reg_0_/SI (SDFFARX1)            0.00       0.20 f
+  data arrival time                                                  0.20
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/TOFSM/cState_reg_0_/CLK (SDFFARX1)           0.00       0.00 r
+  library hold time                                      -0.14      -0.14
+  data required time                                                -0.14
+  --------------------------------------------------------------------------
+  data required time                                                -0.14
+  data arrival time                                                 -0.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+  Startpoint: core/M_GCD/X_REG/output_reg_0_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/X_REG/output_reg_1_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_0_/CLK (SDFFARX1)           0.00       0.00 r
+  core/M_GCD/X_REG/output_reg_0_/QN (SDFFARX1)            0.20       0.20 f
+  core/M_GCD/X_REG/output_reg_1_/SI (SDFFARX1)            0.00       0.20 f
+  data arrival time                                                  0.20
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/X_REG/output_reg_1_/CLK (SDFFARX1)           0.00       0.00 r
+  library hold time                                      -0.14      -0.14
+  data required time                                                -0.14
+  --------------------------------------------------------------------------
+  data required time                                                -0.14
+  data arrival time                                                 -0.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+  Startpoint: core/M_GCD/OUT_REG/output_reg_2_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/OUT_REG/output_reg_3_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_2_/CLK (SDFFARX1)         0.00       0.00 r
+  core/M_GCD/OUT_REG/output_reg_2_/QN (SDFFARX1)          0.20       0.20 f
+  core/M_GCD/OUT_REG/output_reg_3_/SI (SDFFARX1)          0.00       0.20 f
+  data arrival time                                                  0.20
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_3_/CLK (SDFFARX1)         0.00       0.00 r
+  library hold time                                      -0.14      -0.14
+  data required time                                                -0.14
+  --------------------------------------------------------------------------
+  data required time                                                -0.14
+  data arrival time                                                 -0.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+  Startpoint: core/M_GCD/OUT_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/OUT_REG/output_reg_2_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_1_/CLK (SDFFARX1)         0.00       0.00 r
+  core/M_GCD/OUT_REG/output_reg_1_/QN (SDFFARX1)          0.20       0.20 f
+  core/M_GCD/OUT_REG/output_reg_2_/SI (SDFFARX1)          0.00       0.20 f
+  data arrival time                                                  0.20
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_2_/CLK (SDFFARX1)         0.00       0.00 r
+  library hold time                                      -0.14      -0.14
+  data required time                                                -0.14
+  --------------------------------------------------------------------------
+  data required time                                                -0.14
+  data arrival time                                                 -0.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+  Startpoint: core/M_GCD/OUT_REG/output_reg_0_
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: core/M_GCD/OUT_REG/output_reg_1_
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_0_/CLK (SDFFARX1)         0.00       0.00 r
+  core/M_GCD/OUT_REG/output_reg_0_/QN (SDFFARX1)          0.20       0.20 f
+  core/M_GCD/OUT_REG/output_reg_1_/SI (SDFFARX1)          0.00       0.20 f
+  data arrival time                                                  0.20
+
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  core/M_GCD/OUT_REG/output_reg_1_/CLK (SDFFARX1)         0.00       0.00 r
+  library hold time                                      -0.14      -0.14
+  data required time                                                -0.14
+  --------------------------------------------------------------------------
+  data required time                                                -0.14
+  data arrival time                                                 -0.20
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.34
+
+
+1
