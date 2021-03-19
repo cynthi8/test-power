@@ -3,7 +3,7 @@ STIL 1.0 {
 }
 Header {
     Title "Minimal STIL for design `gcd_bsd'";
-    Date "Fri Mar 12 21:19:38 2021";
+    Date "Fri Mar 19 18:45:48 2021";
     Source "DFT Compiler O-2018.06-SP1";
 }
 Signals {
