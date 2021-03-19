@@ -1,3 +1,6 @@
+set basename p2_gcd;          # Top-level module name
+set runname scanch;           # Name appended to output files
+
 set link_library *
 #set target_library [list class.db ]
 set synthetic_library \
@@ -52,7 +55,6 @@ set_bsd_instruction SCANCH -register [list STT_REG] -code [list 1101]
 #switched these two from 11
 set_bsd_compliance -name P1 -pattern {TEST_SE 1 RST 0} 
 
-
 #sets unique identification code for the chip
 set_bsd_instruction IDCODE -register DEVICE_ID -code 0111 -capture_value {32'b00000000000000000000000000000111'}
 
@@ -72,21 +74,22 @@ insert_dft
 #write_bsdl -out TOP_bsd.bsdl
 
 #Compliance checking
-#set_bsd_instruction -view spec [list EXTEST] -code [list 0001] -reg BOUNDARY
-#set_bsd_instruction
 check_bsd -verbose
 
 #Generate bsdl file
-write_bsdl -out ./src/TOP_bsd.bsdl
+write_bsdl -out ./src/p2_TOP_bsd.bsdl
 
 #Generate bsd patterns
 create_bsd_patterns -type all
-write_test -format stil -output ./src/bsd_patterns
+write_test -format stil -output ./src/p2_bsd_patterns
 
 # generate verilog TAP testbench
-write_test -format verilog -output ./src/BSD_tb
+write_test -format verilog -output ./src/p2_BSD_tb.v
 
 #write out jtag-inserted netlist
-write -format ddc -hierarchy -output ./src/TOP_bsd.ddc
+write -format ddc -hierarchy -output ./src/p2_TOP_bsd.ddc
 change_names -rules verilog -hier
-write -format verilog -hierarchy -output ./src/TOP_bsd.v
+write -format verilog -hierarchy -output ./src/p2_TOP_bsd.v
+
+#create some reports
+uplevel #0 source reports.tcl

@@ -1,3 +1,6 @@
+set basename p1_gcd;          # Top-level module name
+set runname bsd;              # Name appended to output files
+
 set link_library *
 #set target_library [list class.db ]
 set synthetic_library \
@@ -25,11 +28,11 @@ set_dft_signal -view spec -type TMS -port TMS
 set_dft_signal -view spec -type TRST -port TRSTN
 
 #the hook up pin connects the TDI chain to the test_si
-set_dft_signal -view spec -type tdi -hookup_pin core/test_si
-set_dft_signal -view spec -type tdo -hookup_pin core/test_so
-set_dft_signal -view spec -type bsd_shift_en -hookup_pin core/test_se
-set_dft_signal -view spec -type capture_clk -hookup_pin core/clk
-set_scan_path STT_REG -class bsd -view spec -hookup {BSR_SI BSR_SO core/test_si core/test_so core/test_se core/clk} -exact_length 34
+#set_dft_signal -view spec -type tdi -hookup_pin core/test_si
+#set_dft_signal -view spec -type tdo -hookup_pin core/test_so
+#set_dft_signal -view spec -type bsd_shift_en -hookup_pin core/test_se
+#set_dft_signal -view spec -type capture_clk -hookup_pin core/clk
+#set_scan_path STT_REG -class bsd -view spec -hookup {BSR_SI BSR_SO core/test_si core/test_so core/test_se core/clk} -exact_length 34
 
 #define functional clocks
 create_clock CLK -period 100 -waveform {0 50}
@@ -46,12 +49,11 @@ set_bsd_instruction -view spec [list BYPASS] -code [list 1111] -reg BYPASS
 
 #Define instructions for CLAMP [opcode=0010]
 set_bsd_instruction -view spec [list CLAMP] -code [list 0010] -reg BYPASS
-set_bsd_instruction SCANCH -register [list STT_REG] -code [list 1101]
+#set_bsd_instruction SCANCH -register [list STT_REG] -code [list 1101]
 
 #Define compliance enable signals for TEST_MODE=1; RESETN=1
 #switched these two from 11
 set_bsd_compliance -name P1 -pattern {TEST_SE 1 RST 0} 
-
 
 #sets unique identification code for the chip
 set_bsd_instruction IDCODE -register DEVICE_ID -code 0111 -capture_value {32'b00000000000000000000000000000111'}
@@ -72,21 +74,22 @@ insert_dft
 #write_bsdl -out TOP_bsd.bsdl
 
 #Compliance checking
-#set_bsd_instruction -view spec [list EXTEST] -code [list 0001] -reg BOUNDARY
-#set_bsd_instruction
 check_bsd -verbose
 
 #Generate bsdl file
-write_bsdl -out ./src/TOP_bsd.bsdl
+write_bsdl -out ./src/p1_TOP_bsd.bsdl
 
 #Generate bsd patterns
 create_bsd_patterns -type all
-write_test -format stil -output ./src/bsd_patterns
+write_test -format stil -output ./src/p1_bsd_patterns
 
 # generate verilog TAP testbench
-write_test -format verilog -output ./src/BSD_tb
+write_test -format verilog -output ./src/p1_BSD_tb
 
 #write out jtag-inserted netlist
-write -format ddc -hierarchy -output ./src/TOP_bsd.ddc
+write -format ddc -hierarchy -output ./src/p1_TOP_bsd.ddc
 change_names -rules verilog -hier
-write -format verilog -hierarchy -output ./src/TOP_bsd.v
+write -format verilog -hierarchy -output ./src/p1_TOP_bsd.v
+
+#create some reports
+uplevel #0 source reports.tcl
