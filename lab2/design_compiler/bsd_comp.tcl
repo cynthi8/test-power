@@ -84,7 +84,7 @@ create_bsd_patterns -type all
 write_test -format stil -output ./src/bsd_patterns
 
 # generate verilog TAP testbench
-write_test -format verilog -output ./src/BSD_tb.v
+write_test -format verilog -output ./src/BSD_tb
 
 #write out jtag-inserted netlist
 write -format ddc -hierarchy -output ./src/TOP_bsd.ddc
