@@ -1,5 +1,6 @@
 # Compile needed files into work
 vlib work
+vcom -reportprogress 300 -work work *.vhdl
 vlog -reportprogress 300 -work work *.v 
 vlog -reportprogress 300 -work work ../../saed90nm_typ_ht_verilog/*
 
