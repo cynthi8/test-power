@@ -3,7 +3,7 @@
 // Version   : O-2018.06-SP1
 // Date      : Fri Mar 19 20:56:55 2021
 /////////////////////////////////////////////////////////////
-
+`timescale 1 ns / 10 ps
 
 module fsm_test_1 ( rst, clk, proceed, comparison, enable, xsel, ysel, xld, 
         yld, test_si, test_so, test_se );

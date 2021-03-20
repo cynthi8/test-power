@@ -1,4 +1,5 @@
-`timescale 1ns/1ps
+`timescale 1 ns / 10 ps
+
 module top_tb();
     reg  RST, CLK, GO_I, TEST_SI, TEST_SE, TCK, TRSTN, TDI, TMS;
     reg[3:0] X_I, Y_I;
