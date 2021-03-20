@@ -32,10 +32,10 @@ module top_tb();
         TMS = 0;
         
         // Deactivate resets
-        #(10*p)
+        #(5*p)
         RST = 0;
         TRSTN = 1;
-        #(10*p)
+        #(5*p)
 
         // Drive to Shift IR 
         TMS = 1; #p  // Select DR
@@ -64,13 +64,10 @@ module top_tb();
         TDI = 1; #(p)
         
         // Wait for Flush to Clear
-        TDI = 0; #(100*p)
+        TDI = 0; #(35*p)
         
         $display("Simulation Complete");
         $stop;
     end
     
-    
-
-
 endmodule
