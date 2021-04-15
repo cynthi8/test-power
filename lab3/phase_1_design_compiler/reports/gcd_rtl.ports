@@ -2,9 +2,9 @@
 ****************************************
 Report : port
         -verbose
-Design : gcd_bsd
+Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 17:49:12 2021
+Date   : Thu Apr 15 19:42:36 2021
 ****************************************
 
 

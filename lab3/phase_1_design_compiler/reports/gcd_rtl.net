@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : net
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 19:42:36 2021
+****************************************
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+gcd                    ForQA             saed90nm_typ_ht
+fsm                    ForQA             saed90nm_typ_ht
+mux_1                  ForQA             saed90nm_typ_ht
+regis_2                ForQA             saed90nm_typ_ht
+comparator             ForQA             saed90nm_typ_ht
+subtractor             ForQA             saed90nm_typ_ht
+mux_0                  ForQA             saed90nm_typ_ht
+regis_0                ForQA             saed90nm_typ_ht
+regis_1                ForQA             saed90nm_typ_ht
+*LT_UNS_OP_4_4_1       ForQA             saed90nm_typ_ht
+DW01_cmp2_width4       ForQA             saed90nm_typ_ht
+DW01_cmp2_width4       ForQA             saed90nm_typ_ht
+*SUB_UNS_OP_4_4_4      ForQA             saed90nm_typ_ht
+DW01_sub_width4        ForQA             saed90nm_typ_ht
+DW01_sub_width4        ForQA             saed90nm_typ_ht
+
+
+Attributes:
+   dr - drc disabled
+
+Net                 Fanout     Fanin      Load   Resistance    Pins   Attributes
+--------------------------------------------------------------------------------
+clk                     15         1      6.15         0.48      16   dr
+comparison[0]            6         1      1.77         0.14       7   
+comparison[1]            6         1      1.77         0.14       7   
+d_o[0]                   1         1      0.32         0.02       2   
+d_o[1]                   1         1      0.32         0.02       2   
+d_o[2]                   1         1      0.32         0.02       2   
+d_o[3]                   1         1      0.32         0.02       2   
+enable                   4         1      1.09         0.08       5   
+go_i                     1         1      0.22         0.02       2   
+rst                     22         1     11.41         0.88      23   
+x_i[0]                   1         1      0.22         0.02       2   
+x_i[1]                   1         1      0.22         0.02       2   
+x_i[2]                   1         1      0.22         0.02       2   
+x_i[3]                   1         1      0.22         0.02       2   
+xld                      4         1      1.09         0.08       5   
+xmux[0]                  1         1      0.22         0.02       2   
+xmux[1]                  1         1      0.22         0.02       2   
+xmux[2]                  1         1      0.22         0.02       2   
+xmux[3]                  1         1      0.22         0.02       2   
+xreg[0]                  7         1      2.15         0.17       8   
+xreg[1]                  7         1      2.15         0.17       8   
+xreg[2]                  7         1      2.15         0.17       8   
+xreg[3]                  7         1      2.15         0.17       8   
+xsel                     2         1      0.49         0.04       3   
+xsub[0]                  2         1      0.49         0.04       3   
+xsub[1]                  2         1      0.49         0.04       3   
+xsub[2]                  2         1      0.49         0.04       3   
+xsub[3]                  2         1      0.49         0.04       3   
+y_i[0]                   1         1      0.22         0.02       2   
+y_i[1]                   1         1      0.22         0.02       2   
+y_i[2]                   1         1      0.22         0.02       2   
+y_i[3]                   1         1      0.22         0.02       2   
+yld                      4         1      1.09         0.08       5   
+ymux[0]                  1         1      0.22         0.02       2   
+ymux[1]                  1         1      0.22         0.02       2   
+ymux[2]                  1         1      0.22         0.02       2   
+ymux[3]                  1         1      0.22         0.02       2   
+yreg[0]                  8         1      2.55         0.20       9   
+yreg[1]                  8         1      2.55         0.20       9   
+yreg[2]                  8         1      2.55         0.20       9   
+yreg[3]                  8         1      2.55         0.20       9   
+ysel                     2         1      0.49         0.04       3   
+ysub[0]                  1         1      0.22         0.02       2   
+ysub[1]                  1         1      0.22         0.02       2   
+ysub[2]                  1         1      0.22         0.02       2   
+ysub[3]                  1         1      0.22         0.02       2   
+--------------------------------------------------------------------------------
+Total 46 nets          158        46     52.05         4.00     204
+Maximum                 22         1     11.41         0.88      23
+Average               3.43      1.00      1.13         0.09    4.43
+1

@@ -1,6 +1,5 @@
-Loading db file '/home/hernannr/test-power/lab3/design_compiler/db/saed90nm_typ_ht.db'
 Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
-Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: The derived toggle rate value (0.080000) for the clock net 'clk' conflicts with the annotated value (0.050000). Using the annotated value. (PWR-12)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
  
 ****************************************
@@ -8,13 +7,13 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 18:21:06 2021
+Date   : Thu Apr 15 19:42:36 2021
 ****************************************
 
 
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/hernannr/test-power/lab3/design_compiler/db/saed90nm_typ_ht.db)
+    gtech (File: /opt/eda/synopsys/current/syn/libraries/syn/gtech.db)
 
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
@@ -22,15 +21,21 @@ Wire Load Model Mode: enclosed
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-gcd                    8000              saed90nm_typ_ht
-fsm                    8000              saed90nm_typ_ht
+gcd                    ForQA             saed90nm_typ_ht
+fsm                    ForQA             saed90nm_typ_ht
 mux_1                  ForQA             saed90nm_typ_ht
 regis_2                ForQA             saed90nm_typ_ht
 comparator             ForQA             saed90nm_typ_ht
-subtractor             8000              saed90nm_typ_ht
+subtractor             ForQA             saed90nm_typ_ht
 mux_0                  ForQA             saed90nm_typ_ht
 regis_0                ForQA             saed90nm_typ_ht
 regis_1                ForQA             saed90nm_typ_ht
+*LT_UNS_OP_4_4_1       ForQA             saed90nm_typ_ht
+DW01_cmp2_width4       ForQA             saed90nm_typ_ht
+DW01_cmp2_width4       ForQA             saed90nm_typ_ht
+*SUB_UNS_OP_4_4_4      ForQA             saed90nm_typ_ht
+DW01_sub_width4        ForQA             saed90nm_typ_ht
+DW01_sub_width4        ForQA             saed90nm_typ_ht
 
 
 Global Operating Voltage = 1.2  
@@ -42,12 +47,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   4.0796 uW   (65%)
-  Net Switching Power  =   2.2188 uW   (35%)
+  Cell Internal Power  =   0.0000 uW    (0%)
+  Net Switching Power  = 316.5283 nW  (100%)
                          ---------
-Total Dynamic Power    =   6.2984 uW  (100%)
+Total Dynamic Power    = 316.5283 nW  (100%)
 
-Cell Leakage Power     =  20.4818 uW
+Cell Leakage Power     =   0.0000 pW
 
 
                  Internal         Switching           Leakage            Total
@@ -57,9 +62,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           0.5778            0.5733        5.7259e+06            6.8771  (  25.68%)
+register           0.0000        7.7778e-02            0.0000        7.7778e-02  (  24.57%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      3.5018            1.6455        1.4756e+07           19.9032  (  74.32%)
+combinational      0.0000            0.2388            0.0000            0.2388  (  75.43%)
 --------------------------------------------------------------------------------------------------
-Total              4.0796 uW         2.2188 uW     2.0482e+07 pW        26.7803 uW
+Total              0.0000 uW         0.3165 uW         0.0000 pW         0.3165 uW
 1

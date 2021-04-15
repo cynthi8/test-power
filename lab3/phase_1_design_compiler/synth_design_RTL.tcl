@@ -20,16 +20,17 @@ set basename gcd;               # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
-set saifName gcd_rtl.saif
+set saifName [list ./src/gcd_rtl.saif];
+set saifInstance gcd_tb;
 
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname RTL;                # Name appended to output files
+set runname rtl;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
 
-set UseSynthesis 0;
+set DoSynthesis 0;
 set pwr_driven_clk_gate 0;
 
 ####################################
@@ -199,7 +200,7 @@ if { $DoSynthesis == 1} {
 check_design
 echo VIOLATIONS
 report_constraint -all_violators
-read_saif -auto_map_names -input $saifName -instance test_gcd/uut
+read_saif -auto_map_names -input $saifName -instance $saifInstance
 
 #####################################################
 #### generate verilog code for synthesized module ###
@@ -299,7 +300,7 @@ redirect $filename { report_power -analysis_effort high }
 ####################################
 # report saif
 ####################################
-set filename [format "%s%s%s" ./reports/ $filebase ".saif"]
+set filename [format "%s%s%s" ./reports/ $filebase ".saifr"]
 redirect $filename { report_saif -rtl_saif }
 
 

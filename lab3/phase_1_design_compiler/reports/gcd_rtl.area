@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : area
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 19:42:35 2021
+****************************************
+
+Library(s) Used:
+
+    gtech (File: /opt/eda/synopsys/current/syn/libraries/syn/gtech.db)
+
+Number of ports:                          210
+Number of nets:                           431
+Number of cells:                          207
+Number of combinational cells:            143
+Number of sequential cells:                48
+Number of macros/black boxes:               0
+Number of buf/inv:                         72
+Number of references:                       8
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              79.361508
+
+Total cell area:                     0.000000
+Total area:                         79.361508
+
+Information: This design contains unmapped logic. (RPT-7)
+1
+ 
+****************************************
+Report : cell
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 19:42:35 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+OUT_REG                   regis_0                         0.000000  h, n, u
+TOFSM                     fsm                             0.000000  h, n, u
+U_COMP                    comparator                      0.000000  h, u
+X_MUX                     mux_1                           0.000000  h, u
+X_REG                     regis_2                         0.000000  h, n, u
+X_SUB                     subtractor                      0.000000  h, u
+Y_MUX                     mux_0                           0.000000  h, u
+Y_REG                     regis_1                         0.000000  h, n, u
+--------------------------------------------------------------------------------
+Total 8 cells                                             0.000000
+1
