@@ -52,7 +52,6 @@ module gcd_tb();
         TestGCD(8, 7, 1);
         TestGCD(15, 2, 1);
 
-
         $display("Simulation Complete");
         $stop;
         
