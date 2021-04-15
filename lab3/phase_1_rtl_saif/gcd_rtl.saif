@@ -1,0 +1,332 @@
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Thu Apr 15 19:42:20 2021")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "vcd2saif")
+(VERSION "O-2018.06-SP1")
+(DIVIDER / )
+(TIMESCALE 1 ps)
+(DURATION 9980000)
+(INSTANCE gcd_tb
+  (NET
+    (clk
+      (T0 5000000) (T1 4980000) (TX 0)
+      (TC 499) (IG 0)
+    )
+    (cycles_per_test\[0\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[10\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[11\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[12\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[13\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[14\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[15\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[16\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[17\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[18\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[19\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[1\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[20\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[21\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[22\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[23\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[24\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[25\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[26\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[27\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[28\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[29\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[2\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[30\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[31\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[3\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[4\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[5\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[6\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[7\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[8\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (cycles_per_test\[9\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (d_o\[0\]
+      (T0 3460000) (T1 6520000) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (d_o\[1\]
+      (T0 6380000) (T1 3600000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (d_o\[2\]
+      (T0 4380000) (T1 5600000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (d_o\[3\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (go_i
+      (T0 9660000) (T1 320000) (TX 0)
+      (TC 16) (IG 0)
+    )
+    (period\[0\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[10\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[11\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[12\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[13\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[14\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[15\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[16\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[17\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[18\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[19\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[1\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[20\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[21\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[22\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[23\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[24\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[25\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[26\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[27\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[28\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[29\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[2\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[30\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[31\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[3\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[4\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[5\]
+      (T0 0) (T1 9980000) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[6\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[7\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[8\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (period\[9\]
+      (T0 9980000) (T1 0) (TX 0)
+      (TC 0) (IG 0)
+    )
+    (rst
+      (T0 9940000) (T1 40000) (TX 0)
+      (TC 1) (IG 0)
+    )
+    (x_i\[0\]
+      (T0 5040000) (T1 4940000) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (x_i\[1\]
+      (T0 3800000) (T1 6180000) (TX 0)
+      (TC 5) (IG 0)
+    )
+    (x_i\[2\]
+      (T0 2560000) (T1 7420000) (TX 0)
+      (TC 5) (IG 0)
+    )
+    (x_i\[3\]
+      (T0 2560000) (T1 7420000) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (y_i\[0\]
+      (T0 3780000) (T1 6200000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (y_i\[1\]
+      (T0 2560000) (T1 7420000) (TX 0)
+      (TC 3) (IG 0)
+    )
+    (y_i\[2\]
+      (T0 3780000) (T1 6200000) (TX 0)
+      (TC 4) (IG 0)
+    )
+    (y_i\[3\]
+      (T0 6260000) (T1 3720000) (TX 0)
+      (TC 6) (IG 0)
+    )
+  )
+)
+)
