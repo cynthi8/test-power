@@ -11,7 +11,7 @@ Design allows ideal nets on clock nets.
 
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/hernannr/test-power/lab2/design_compiler/db/saed90nm_typ_ht.db)
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab2/design_compiler/db/.db)
     gtech (File: /opt/eda/synopsys/current/syn/libraries/syn/gtech.db)
 
 Flip-Flop Types:
@@ -77,148 +77,148 @@ Attributes:
     r - licensed design
 
 TOP
-    GTECH_INBUF                                                                                  gtech
-    GTECH_OUTBUF                                                                                 gtech
+    GTECH_INBUFgtech
+    GTECH_OUTBUF		gtech
     TOP_BSR_top_inst_design
         TOP_BSR_mode_inst_design
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-            NAND2X2                                                                              saed90nm_typ_ht
-            NAND3X0                                                                              saed90nm_typ_ht
-            NBUFFX2                                                                              saed90nm_typ_ht
-            NOR2X2                                                                               saed90nm_typ_ht
-            TOP_Decoder_inst_design
-                DELLN1X2                                                                         saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                INVX1                                                                            saed90nm_typ_ht
-                NAND2X2                                                                          saed90nm_typ_ht
-                NAND3X0                                                                          saed90nm_typ_ht
-                NOR2X2                                                                           saed90nm_typ_ht
-        TOP_DW_bc_1                                                                                        r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_1_test_0                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_1_test_1                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_1_test_2                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_1_test_3                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2                                                                                        r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_0                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_1                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_2                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_3                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_4                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_5                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_6                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_7                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_2_test_8                                                                                 r
-            DFFX1                                                                                saed90nm_typ_ht
-            INVX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-        TOP_DW_bc_4                                                                                        r
-            DFFX1                                                                                saed90nm_typ_ht
-            MUX21X1                                                                              saed90nm_typ_ht
-            NBUFFX32                                                                             saed90nm_typ_ht
-    TOP_DW_tap_uc_width4_id0_idcode_opcode1_version0_part0_man_num0_sync_mode1_tst_mode1                   r
-        DFFARX1                                                                                  saed90nm_typ_ht
-        DFFASX1                                                                                  saed90nm_typ_ht
-        DFFX1                                                                                    saed90nm_typ_ht
-        INVX1                                                                                    saed90nm_typ_ht
-        MUX21X1                                                                                  saed90nm_typ_ht
-        NAND2X2                                                                                  saed90nm_typ_ht
-        NAND3X0                                                                                  saed90nm_typ_ht
-        NBUFFX32                                                                                 saed90nm_typ_ht
-        NOR2X2                                                                                   saed90nm_typ_ht
-        NOR3X0                                                                                   saed90nm_typ_ht
-        XOR2X1                                                                                   saed90nm_typ_ht
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+	  NAND2X2   
+	  NAND3X0   
+	  NBUFFX2   
+	  NOR2X2    
+	  TOP_Decoder_inst_design
+	      DELLN1X2	  
+	      INVX0 
+	      INVX1 
+	      NAND2X2	   
+	      NAND3X0	   
+	      NOR2X2
+        TOP_DW_bc_1	   r
+	  DFFX1								
+	  MUX21X1   
+        TOP_DW_bc_1_test_0		r
+	  DFFX1								
+	  MUX21X1   
+        TOP_DW_bc_1_test_1		r
+	  DFFX1								
+	  MUX21X1   
+        TOP_DW_bc_1_test_2		r
+	  DFFX1								
+	  MUX21X1   
+        TOP_DW_bc_1_test_3		r
+	  DFFX1								
+	  MUX21X1   
+        TOP_DW_bc_2	   r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_0		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_1		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_2		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_3		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_4		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_5		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_6		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_7		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_2_test_8		r
+	  DFFX1								
+	  INVX1								
+	  MUX21X1   
+        TOP_DW_bc_4	   r
+	  DFFX1								
+	  MUX21X1   
+	  NBUFFX32  
+    TOP_DW_tap_uc_width4_id0_idcode_opcode1_version0_part0_man_num0_sync_mode1_tst_mode1	         r
+        DFFARX1
+        DFFASX1
+        DFFX1  
+        INVX1  
+        MUX21X1
+        NAND2X2
+        NAND3X0
+        NBUFFX32		
+        NOR2X2 
+        NOR3X0 
+        XOR2X1 
     gcd_bsd
-        DELLN2X2                                                                                 saed90nm_typ_ht
-        INVX0                                                                                    saed90nm_typ_ht
+        DELLN2X2		
+        INVX0  
         gcd_test_1
-            comparator
-                AO21X1                                                                           saed90nm_typ_ht
-                AO222X1                                                                          saed90nm_typ_ht
-                AOI22X1                                                                          saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                NAND2X1                                                                          saed90nm_typ_ht
-                NAND3X0                                                                          saed90nm_typ_ht
-                NOR2X0                                                                           saed90nm_typ_ht
-                OA21X1                                                                           saed90nm_typ_ht
-                OA221X1                                                                          saed90nm_typ_ht
-                OR2X1                                                                            saed90nm_typ_ht
-            fsm_test_1
-                AND2X1                                                                           saed90nm_typ_ht
-                AO21X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                NAND2X1                                                                          saed90nm_typ_ht
-                NAND3X0                                                                          saed90nm_typ_ht
-                NOR2X0                                                                           saed90nm_typ_ht
-                NOR4X0                                                                           saed90nm_typ_ht
-                OAI21X1                                                                          saed90nm_typ_ht
-                OR4X1                                                                            saed90nm_typ_ht
-                SDFFARX1                                                                         saed90nm_typ_ht
-            mux_0
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                NOR2X0                                                                           saed90nm_typ_ht
-            mux_1
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                NOR2X0                                                                           saed90nm_typ_ht
-            regis_test_0
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                SDFFARX1                                                                         saed90nm_typ_ht
-            regis_test_1
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                SDFFARX1                                                                         saed90nm_typ_ht
-            regis_test_2
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                SDFFARX1                                                                         saed90nm_typ_ht
-            subtractor
-                AO21X1                                                                           saed90nm_typ_ht
-                AO22X1                                                                           saed90nm_typ_ht
-                INVX0                                                                            saed90nm_typ_ht
-                NAND2X1                                                                          saed90nm_typ_ht
-                NOR2X0                                                                           saed90nm_typ_ht
-                OA22X1                                                                           saed90nm_typ_ht
-                OA221X1                                                                          saed90nm_typ_ht
-                XOR2X1                                                                           saed90nm_typ_ht
+	  comparator
+	      AO21X1
+	      AO222X1	   
+	      AOI22X1	   
+	      INVX0 
+	      NAND2X1	   
+	      NAND3X0	   
+	      NOR2X0
+	      OA21X1
+	      OA221X1	   
+	      OR2X1 
+	  fsm_test_1
+	      AND2X1
+	      AO21X1
+	      INVX0 
+	      NAND2X1	   
+	      NAND3X0	   
+	      NOR2X0
+	      NOR4X0
+	      OAI21X1	   
+	      OR4X1 
+	      SDFFARX1	  
+	  mux_0
+	      AO22X1
+	      INVX0 
+	      NOR2X0
+	  mux_1
+	      AO22X1
+	      INVX0 
+	      NOR2X0
+	  regis_test_0
+	      AO22X1
+	      INVX0 
+	      SDFFARX1	  
+	  regis_test_1
+	      AO22X1
+	      INVX0 
+	      SDFFARX1	  
+	  regis_test_2
+	      AO22X1
+	      INVX0 
+	      SDFFARX1	  
+	  subtractor
+	      AO21X1
+	      AO22X1
+	      INVX0 
+	      NAND2X1	   
+	      NOR2X0
+	      OA22X1
+	      OA221X1	   
+	      XOR2X1
 1

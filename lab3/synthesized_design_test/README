@@ -1,0 +1,4 @@
+This directory tests the synthesized design again to ensure no regression occured.
+
+1. In this directory run
+modelsim -do run_simulation.tcl

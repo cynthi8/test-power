@@ -1,0 +1,4 @@
+This directory tests the original GCD VHDL code to ensure we are starting with a valid baseline.
+
+1. In this directory run
+modelsim -do run_simulation.tcl

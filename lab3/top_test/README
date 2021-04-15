@@ -1,0 +1,4 @@
+This directory tests the TOP module that includes the boundary scan chain with the SCANCH instruction
+
+1. In this directory run
+modelsim -do run_simulation.tcl

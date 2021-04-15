@@ -1,0 +1,21 @@
+Warning: Ignoring compile_fix_multiple_port_nets = TRUE. (UIO-60)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : gcd_bsd
+Version: O-2018.06-SP1
+Date   : Fri Mar 12 21:19:43 2021
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   gcd_bsd                      0.00        1680.89       -1680.89  (VIOLATED)
+
+
+1
