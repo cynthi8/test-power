@@ -8,7 +8,7 @@ create_clock clk -p 40
 set_fix_hold clk
 set_clock_transition 0 clk
 
-saif_map –start
+saif_map -start
 
 set_clock_gating_style -sequential latch
 set power_driven_clock_gating true
