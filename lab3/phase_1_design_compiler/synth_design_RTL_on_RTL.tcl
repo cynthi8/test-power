@@ -19,7 +19,7 @@ set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
 set saifName [list ./src/gcd_rtl.saif];
-set saifInstance gcd_tb;
+set saifInstance gcd_tb/uut;
 
 ####################################
 # Some runtime options, change only if needed

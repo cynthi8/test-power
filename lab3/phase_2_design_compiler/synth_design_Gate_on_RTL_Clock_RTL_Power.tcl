@@ -19,7 +19,7 @@ set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
 set saifName [list ./src/gcd_rtl.saif];
-set saifInstance gcd_tb;
+set saifInstance gcd_tb/uut;
 
 ####################################
 # Some runtime options, change only if needed
@@ -78,6 +78,10 @@ set fileFormat VHDL;         # verilog or VHDL
 ####################################
 remove_design -all
 
+####################################
+# set clock gating style before analyzing for some reason
+####################################
+set_clock_gating_style -sequential latch
 
 echo IMPORTING DESIGN
 ####################################
@@ -187,7 +191,7 @@ saif_map -start
 set power_driven_clock_gating true;
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
-        compile_ultra -gate_clock -no_autoungroup
+        compile_ultra -gate_clock
     } else {
         if { $useUngroup == 1 } {
             compile -ungroup_all -map_effort medium

@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:31:42 2021
+Date   : Thu Apr 15 22:50:52 2021
 ****************************************
 
 
@@ -22,19 +22,9 @@ Wire Load Model Mode: enclosed
 Design        Wire Load Model            Library
 ------------------------------------------------
 gcd                    8000              saed90nm_typ_ht
-mux_1                  ForQA             saed90nm_typ_ht
-mux_0                  ForQA             saed90nm_typ_ht
-comparator             ForQA             saed90nm_typ_ht
-subtractor             8000              saed90nm_typ_ht
-fsm                    8000              saed90nm_typ_ht
-regis_2                ForQA             saed90nm_typ_ht
-regis_1                ForQA             saed90nm_typ_ht
-regis_0                ForQA             saed90nm_typ_ht
-SNPS_CLOCK_GATE_HIGH_regis_2_0
+SNPS_CLOCK_GATE_HIGH_gcd_0
                        ForQA             saed90nm_typ_ht
-SNPS_CLOCK_GATE_HIGH_regis_1_0
-                       ForQA             saed90nm_typ_ht
-SNPS_CLOCK_GATE_HIGH_regis_0_0
+SNPS_CLOCK_GATE_HIGH_gcd_1
                        ForQA             saed90nm_typ_ht
 
 
@@ -47,12 +37,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   3.8952 uW   (65%)
-  Net Switching Power  =   2.0823 uW   (35%)
+  Cell Internal Power  =   5.0354 uW   (65%)
+  Net Switching Power  =   2.6734 uW   (35%)
                          ---------
-Total Dynamic Power    =   5.9776 uW  (100%)
+Total Dynamic Power    =   7.7087 uW  (100%)
 
-Cell Leakage Power     =  18.9568 uW
+Cell Leakage Power     =  18.0584 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -61,10 +51,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.5387            0.3393        1.7377e+06            2.6157  (  10.49%)
-register           0.5096            0.6048        6.7783e+06            7.8927  (  31.65%)
+clock_network      0.4088            0.3144        1.1658e+06            1.8889  (   7.33%)
+register           0.6842            0.6919        6.5144e+06            7.8906  (  30.62%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      2.8469            1.1382        1.0441e+07           14.4260  (  57.86%)
+combinational      3.9424            1.6671        1.0378e+07           15.9875  (  62.05%)
 --------------------------------------------------------------------------------------------------
-Total              3.8952 uW         2.0823 uW     1.8957e+07 pW        24.9344 uW
+Total              5.0354 uW         2.6734 uW     1.8058e+07 pW        25.7671 uW
 1
