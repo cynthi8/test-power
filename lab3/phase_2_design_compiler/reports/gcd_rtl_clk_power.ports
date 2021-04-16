@@ -1,0 +1,147 @@
+ 
+****************************************
+Report : port
+        -verbose
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 22:30:45 2021
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+clk            in      0.0000   0.0000    1.49  208.00   --         
+go_i           in      0.0000   0.0000    1.49  208.00   --         
+rst            in      0.0000   0.0000    1.49  208.00   --         
+x_i[0]         in      0.0000   0.0000    1.49  208.00   --         
+x_i[1]         in      0.0000   0.0000    1.49  208.00   --         
+x_i[2]         in      0.0000   0.0000    1.49  208.00   --         
+x_i[3]         in      0.0000   0.0000    1.49  208.00   --         
+y_i[0]         in      0.0000   0.0000    1.49  208.00   --         
+y_i[1]         in      0.0000   0.0000    1.49  208.00   --         
+y_i[2]         in      0.0000   0.0000    1.49  208.00   --         
+y_i[3]         in      0.0000   0.0000    1.49  208.00   --         
+d_o[0]         out     0.1000   0.0000   --      --      --         
+d_o[1]         out     0.1000   0.0000   --      --      --         
+d_o[2]         out     0.1000   0.0000   --      --      --         
+d_o[3]         out     0.1000   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+clk                1      --              --              --        -- 
+go_i               1      --              --              --        -- 
+rst                1      --              --              --        -- 
+x_i[0]             1      --              --              --        -- 
+x_i[1]             1      --              --              --        -- 
+x_i[2]             1      --              --              --        -- 
+x_i[3]             1      --              --              --        -- 
+y_i[0]             1      --              --              --        -- 
+y_i[1]             1      --              --              --        -- 
+y_i[2]             1      --              --              --        -- 
+y_i[3]             1      --              --              --        -- 
+d_o[0]             1      --              --              --        -- 
+d_o[1]             1      --              --              --        -- 
+d_o[2]             1      --              --              --        -- 
+d_o[3]             1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+clk           2.00    2.00    2.00    2.00  clk       1.00  
+go_i          2.00    2.00    2.00    2.00  clk       1.00  
+rst           2.00    2.00    2.00    2.00  clk       1.00  
+x_i[0]        2.00    2.00    2.00    2.00  clk       1.00  
+x_i[1]        2.00    2.00    2.00    2.00  clk       1.00  
+x_i[2]        2.00    2.00    2.00    2.00  clk       1.00  
+x_i[3]        2.00    2.00    2.00    2.00  clk       1.00  
+y_i[0]        2.00    2.00    2.00    2.00  clk       1.00  
+y_i[1]        2.00    2.00    2.00    2.00  clk       1.00  
+y_i[2]        2.00    2.00    2.00    2.00  clk       1.00  
+y_i[3]        2.00    2.00    2.00    2.00  clk       1.00  
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+clk          saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+go_i         saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+rst          saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+x_i[0]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+x_i[1]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+x_i[2]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+x_i[3]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+y_i[0]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+y_i[1]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+y_i[2]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+y_i[3]       saed90nm_typ_ht/INVX1
+                                saed90nm_typ_ht/INVX1
+                                                     -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+clk           --      --     --      --     --      --     --     --        -- 
+go_i          --      --     --      --     --      --     --     --        -- 
+rst           --      --     --      --     --      --     --     --        -- 
+x_i[0]        --      --     --      --     --      --     --     --        -- 
+x_i[1]        --      --     --      --     --      --     --     --        -- 
+x_i[2]        --      --     --      --     --      --     --     --        -- 
+x_i[3]        --      --     --      --     --      --     --     --        -- 
+y_i[0]        --      --     --      --     --      --     --     --        -- 
+y_i[1]        --      --     --      --     --      --     --     --        -- 
+y_i[2]        --      --     --      --     --      --     --     --        -- 
+y_i[3]        --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+clk           --      --      --      -- 
+go_i          --      --      --      -- 
+rst           --      --      --      -- 
+x_i[0]        --      --      --      -- 
+x_i[1]        --      --      --      -- 
+x_i[2]        --      --      --      -- 
+x_i[3]        --      --      --      -- 
+y_i[0]        --      --      --      -- 
+y_i[1]        --      --      --      -- 
+y_i[2]        --      --      --      -- 
+y_i[3]        --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+d_o[0]        1.65    1.65    1.65    1.65  clk       8.00  
+d_o[1]        1.65    1.65    1.65    1.65  clk       8.00  
+d_o[2]        1.65    1.65    1.65    1.65  clk       8.00  
+d_o[3]        1.65    1.65    1.65    1.65  clk       8.00  
+
+1

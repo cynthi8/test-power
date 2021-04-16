@@ -187,7 +187,7 @@ if { $optimizeArea == 1} {
 ####################################
 
 if { $useUltra == 1 } {
-    compile_ultra
+    compile_ultra  -no_autoungroup
 } else {
     if { $useUngroup == 1 } {
         compile -ungroup_all -map_effort medium

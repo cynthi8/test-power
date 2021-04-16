@@ -1,0 +1,70 @@
+Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
+Warning: The derived toggle rate value (0.080000) for the clock net 'clk' conflicts with the annotated value (0.050000). Using the annotated value. (PWR-12)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 22:31:42 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab3/phase_2_design_compiler/db/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+gcd                    8000              saed90nm_typ_ht
+mux_1                  ForQA             saed90nm_typ_ht
+mux_0                  ForQA             saed90nm_typ_ht
+comparator             ForQA             saed90nm_typ_ht
+subtractor             8000              saed90nm_typ_ht
+fsm                    8000              saed90nm_typ_ht
+regis_2                ForQA             saed90nm_typ_ht
+regis_1                ForQA             saed90nm_typ_ht
+regis_0                ForQA             saed90nm_typ_ht
+SNPS_CLOCK_GATE_HIGH_regis_2_0
+                       ForQA             saed90nm_typ_ht
+SNPS_CLOCK_GATE_HIGH_regis_1_0
+                       ForQA             saed90nm_typ_ht
+SNPS_CLOCK_GATE_HIGH_regis_0_0
+                       ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   3.8952 uW   (65%)
+  Net Switching Power  =   2.0823 uW   (35%)
+                         ---------
+Total Dynamic Power    =   5.9776 uW  (100%)
+
+Cell Leakage Power     =  18.9568 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.5387            0.3393        1.7377e+06            2.6157  (  10.49%)
+register           0.5096            0.6048        6.7783e+06            7.8927  (  31.65%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      2.8469            1.1382        1.0441e+07           14.4260  (  57.86%)
+--------------------------------------------------------------------------------------------------
+Total              3.8952 uW         2.0823 uW     1.8957e+07 pW        24.9344 uW
+1

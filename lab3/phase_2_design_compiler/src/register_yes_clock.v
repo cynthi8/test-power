@@ -1,17 +1,17 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys DC Ultra(TM) in wire load mode
 // Version   : O-2018.06-SP1
-// Date      : Thu Apr 15 21:04:45 2021
+// Date      : Thu Apr 15 22:01:19 2021
 /////////////////////////////////////////////////////////////
 
 
 module SNPS_CLOCK_GATE_HIGH_register ( CLK, EN, ENCLK );
   input CLK, EN;
   output ENCLK;
-  wire   net1893, n1;
+  wire   net303, n1;
 
-  AND2X1 main_gate ( .IN1(net1893), .IN2(CLK), .Q(ENCLK) );
-  LATCHX1 latch ( .CLK(n1), .D(EN), .Q(net1893) );
+  AND2X1 main_gate ( .IN1(net303), .IN2(CLK), .Q(ENCLK) );
+  LATCHX1 latch ( .CLK(n1), .D(EN), .Q(net303) );
   INVX0 U2 ( .INP(CLK), .ZN(n1) );
 endmodule
 
@@ -20,14 +20,14 @@ module register ( rst, clk, load, d, q );
   input [3:0] d;
   output [3:0] q;
   input rst, clk, load;
-  wire   N1, net1899, n3, n4, n5, n6, n7;
+  wire   N1, net309, n3, n4, n5, n6, n7;
 
   SNPS_CLOCK_GATE_HIGH_register clk_gate_q_reg ( .CLK(clk), .EN(N1), .ENCLK(
-        net1899) );
-  DFFX1 q_reg_3_ ( .D(n7), .CLK(net1899), .Q(q[3]) );
-  DFFX1 q_reg_2_ ( .D(n6), .CLK(net1899), .Q(q[2]) );
-  DFFX1 q_reg_1_ ( .D(n5), .CLK(net1899), .Q(q[1]) );
-  DFFX1 q_reg_0_ ( .D(n4), .CLK(net1899), .Q(q[0]) );
+        net309) );
+  DFFX1 q_reg_3_ ( .D(n7), .CLK(net309), .Q(q[3]) );
+  DFFX1 q_reg_2_ ( .D(n6), .CLK(net309), .Q(q[2]) );
+  DFFX1 q_reg_1_ ( .D(n5), .CLK(net309), .Q(q[1]) );
+  DFFX1 q_reg_0_ ( .D(n4), .CLK(net309), .Q(q[0]) );
   INVX0 U9 ( .INP(rst), .ZN(n3) );
   AND2X1 U10 ( .IN1(d[3]), .IN2(n3), .Q(n7) );
   AND2X1 U11 ( .IN1(d[2]), .IN2(n3), .Q(n6) );

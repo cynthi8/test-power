@@ -1,34 +1,35 @@
 ##################################################################
-#### Design Compiler Script for ECE 128
-#### Performs Synthesis only to AMI .5 technology
-#### author: wgibb
+#### Design Compiler Script for EECS 6082C
+#### author: hernannr
 #### note: this is a TCL script
-#### modified from work done by tjf and eb
 ##################################################################
 
 ####################################
 # ITEMS YOU WILL NEED TO SET FOR EACH DESIGN
-# 1) myFiles - LIST OF YOUR FILES TO SYNTHESIZE
-# 2) basename - TOP LEVEL MODULE IN YOUR DESIGN
-# 3) myClk - NAME OF YOUR CLOCK SIGNAL
-# 4) virtual - USE A REAL CLOCK (SEQUENTIAL DESIGNS) OR A VIRTUAL
-# CLOCK (COMBINATORIAL DESIGNS)
-# 5) myPeriod - SETS THE CLOCK SPEED, THUS DEFINING THE SYNTHESIS SPEED GOAL
+# 1) myFiles    - LIST OF YOUR FILES TO SYNTHESIZE
+# 2) basename   - TOP LEVEL MODULE IN YOUR DESIGN
+# 3) myClk      - NAME OF YOUR CLOCK SIGNAL
+# 4) virtual    - USE A REAL CLOCK (SEQUENTIAL DESIGNS) OR A VIRTUAL CLOCK (COMBINATORIAL DESIGNS)
+# 5) myPeriod   - SETS THE CLOCK SPEED, THUS DEFINING THE SYNTHESIS SPEED GOAL
 ####################################
 # list of all HDL files in the design
-set myFiles [list ./src/register.v];
-set basename register;          # Top-level module name
+set myFiles [list ./src/GCD.vhdl] ;
+set basename gcd;               # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
-
+set saifName [list ./src/gcd_rtl.saif];
+set saifInstance gcd_tb;
 
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname yes_clock;                # Name appended to output files
+set runname gate_clk;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
+
+set DoSynthesis 1;
+set pwr_driven_clk_gate 0;
 
 ####################################
 # Timing and loading information
@@ -59,7 +60,7 @@ set useUngroup 0;       # 0 if no flatten, 1 if flatten
 #nathan edit below
 #set link_library [concat [concat "*" $target_library] $synthetic_library]
 ####################################
-set fileFormat verilog;         # verilog or VHDL
+set fileFormat VHDL;         # verilog or VHDL
 
 
 ##############################################################
@@ -77,10 +78,6 @@ set fileFormat verilog;         # verilog or VHDL
 ####################################
 remove_design -all
 
-####################################
-# set clock gating style before analyzing for some reason
-####################################
-set_clock_gating_style -sequential latch -minimum_bitwidth 4 -max_fanout 16
 
 echo IMPORTING DESIGN
 ####################################
@@ -88,6 +85,7 @@ echo IMPORTING DESIGN
 ####################################
 analyze -format $fileFormat -library DEFAULT $myFiles
 elaborate $basename -library DEFAULT
+#elaborate GCD_BSD -architecture GCD_BSD_ARC -library DEFAULT
 
 
 ####################################
@@ -185,20 +183,23 @@ if { $optimizeArea == 1} {
 # and do a second compile with incremental mapping
 # or use the compile_ultra meta-command
 ####################################
-
-if { $useUltra == 1 } {
-    #compile_ultra
-    compile_ultra -gate_clock  -no_autoungroup
-} else {
-    if { $useUngroup == 1 } {
-        compile -ungroup_all -map_effort medium
+saif_map -start
+if { $DoSynthesis == 1} {
+    if { $useUltra == 1 } {
+        compile_ultra -no_autoungroup
+        compile_ultra -gate_clock -no_autoungroup
     } else {
-        compile -map_effort medium -exact_map
+        if { $useUngroup == 1 } {
+            compile -ungroup_all -map_effort medium
+        } else {
+            compile -map_effort medium -exact_map
+        }
     }
 }
 check_design
 echo VIOLATIONS
 report_constraint -all_violators
+read_saif -auto_map_names -input $saifName -instance $saifInstance
 
 #####################################################
 #### generate verilog code for synthesized module ###
@@ -216,6 +217,95 @@ set filebase [format "%s%s" [format "%s%s" $basename "_"] $runname]
 set filename [format "%s%s%s" ./src/ $filebase ".v"]
 redirect change_names { change_names -rules verilog -hierarchy -verbose }
 write -format verilog -hierarchy -output $filename
+
+
+####################################
+# write out the sdf file for back-annotated verilog sim
+# This file can be large!
+####################################
+set filename [format "%s%s%s" ./src/ $filebase ".sdf"]
+write_sdf -version 1.0 $filename
+
+
+####################################
+# this is the timing constraints file generated from the
+# conditions above - used in the place and route program
+####################################
+set filename [format "%s%s%s" ./src/ $filebase ".sdc"]
+write_sdc $filename
+
+
+####################################
+# generate reports for user to view
+####################################
+if { $verbose == 1 } {
+    report_design
+    report_hierarchy
+    report_timing -path full -delay max -nworst 3 -significant_digits 2 -sort_by group
+    report_timing -path full -delay min -nworst 3 -significant_digits 2 -sort_by group
+    report_area
+    report_cell
+    report_net
+    report_port -v
+    report_power -analysis_effort low
+}
+
+####################################
+# Design and Hierarchy reports
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".design"]
+redirect $filename { report_design }
+
+set filename [format "%s%s%s" ./reports/ $filebase ".design"]
+redirect -append $filename { report_hierarchy }
+
+####################################
+# Timing reports
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".timing"]
+redirect $filename { report_timing -path full -delay max -nworst 5 -significant_digits 2 -sort_by group }
+
+set filename [format "%s%s%s" ./reports/ $filebase ".timing"]
+redirect -append $filename { report_timing -path full -delay min -nworst 5 -significant_digits 2 -sort_by group }
+
+####################################
+# Report_cell and report_area
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".area"]
+redirect $filename { report_area }
+
+set filename [format "%s%s%s" ./reports/ $filebase ".area"]
+redirect -append $filename { report_cell }
+
+####################################
+# Report port
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".ports"]
+redirect $filename { report_port -v}
+
+####################################
+#report net
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".net"]
+redirect $filename { report_net }
+
+####################################
+# report power
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".pow"]
+redirect $filename { report_power -analysis_effort high }
+
+####################################
+# report saif
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".saifr"]
+redirect $filename { report_saif -rtl_saif }
+
+####################################
+# report clock gating
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".clkg"]
+redirect $filename { report_clock_gating }
 
 ####################################
 # quit dc

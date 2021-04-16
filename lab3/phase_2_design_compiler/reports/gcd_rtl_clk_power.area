@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : area
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 22:30:45 2021
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab3/phase_2_design_compiler/db/saed90nm_typ_ht.db)
+
+Number of ports:                          125
+Number of nets:                           253
+Number of cells:                          140
+Number of combinational cells:            110
+Number of sequential cells:                19
+Number of macros/black boxes:               0
+Number of buf/inv:                         32
+Number of references:                       9
+
+Combinational area:                829.440009
+Buf/Inv area:                      176.947205
+Noncombinational area:             550.195210
+Macro/Black Box area:                0.000000
+Net Interconnect area:              49.526646
+
+Total cell area:                  1379.635219
+Total area:                       1429.161865
+1
+ 
+****************************************
+Report : cell
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 22:30:45 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+OUT_REG                   regis_0                         169.574403
+                                                                    h, n
+TOFSM                     fsm                             223.027204
+                                                                    h, n
+U1                        INVX0           saed90nm_typ_ht 5.529600  
+U2                        INVX0           saed90nm_typ_ht 5.529600  
+U_COMP                    comparator                      136.396801
+                                                                    h
+X_MUX                     mux_1                           64.511999 h
+X_REG                     regis_2                         169.574403
+                                                                    h, n
+X_SUB                     subtractor                      371.404807
+                                                                    h
+Y_MUX                     mux_0                           64.511999 h
+Y_REG                     regis_1                         169.574403
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 10 cells                                            1379.635219
+1
