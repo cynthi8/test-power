@@ -24,7 +24,7 @@ set saifInstance gcd_tb/uut;
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname gate_on_rtl;                # Name appended to output files
+set runname gate_clk;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
 
@@ -78,6 +78,11 @@ set fileFormat VHDL;         # verilog or VHDL
 ####################################
 remove_design -all
 
+
+####################################
+# set clock gating style before analyzing for some reason
+####################################
+set_clock_gating_style -sequential latch -minimum_bitwidth 4 -max_fanout 16
 
 echo IMPORTING DESIGN
 ####################################
@@ -187,6 +192,7 @@ saif_map -start
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
         compile_ultra -no_autoungroup
+        compile_ultra -gate_clock
     } else {
         if { $useUngroup == 1 } {
             compile -ungroup_all -map_effort medium
@@ -300,6 +306,11 @@ redirect $filename { report_power -analysis_effort high }
 set filename [format "%s%s%s" ./reports/ $filebase ".saifr"]
 redirect $filename { report_saif -rtl_saif }
 
+####################################
+# report clock gating
+####################################
+set filename [format "%s%s%s" ./reports/ $filebase ".clkg"]
+redirect $filename { report_clock_gating }
 
 ####################################
 # quit dc

@@ -19,17 +19,17 @@ set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
 set saifName [list ./src/gcd_rtl.saif];
-set saifInstance gcd_tb;
+set saifInstance gcd_tb/uut;
 
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname rtl_clk_power;                # Name appended to output files
+set runname rtl_clk;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
 
 set DoSynthesis 1;
-set pwr_driven_clk_gate 1;
+set pwr_driven_clk_gate 0;
 
 ####################################
 # Timing and loading information
@@ -78,6 +78,11 @@ set fileFormat VHDL;         # verilog or VHDL
 ####################################
 remove_design -all
 
+
+####################################
+# set clock gating style before analyzing for some reason
+####################################
+set_clock_gating_style -sequential latch -minimum_bitwidth 4 -max_fanout 16
 
 echo IMPORTING DESIGN
 ####################################
@@ -184,10 +189,10 @@ if { $optimizeArea == 1} {
 # or use the compile_ultra meta-command
 ####################################
 saif_map -start
-set power_driven_clock_gating true;
+set power_driven_clock_gating false;
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
-        compile_ultra -gate_clock -no_autoungroup
+        compile_ultra -gate_clock
     } else {
         if { $useUngroup == 1 } {
             compile -ungroup_all -map_effort medium

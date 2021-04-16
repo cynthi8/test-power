@@ -3,41 +3,42 @@
 Report : area
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:31:42 2021
+Date   : Thu Apr 15 23:39:53 2021
 ****************************************
 
 Library(s) Used:
 
     saed90nm_typ_ht (File: /home/hernannr/test-power/lab3/phase_2_design_compiler/db/saed90nm_typ_ht.db)
 
-Number of ports:                          125
-Number of nets:                           251
-Number of cells:                          140
-Number of combinational cells:            110
-Number of sequential cells:                19
+Number of ports:                           21
+Number of nets:                           139
+Number of cells:                          115
+Number of combinational cells:             95
+Number of sequential cells:                18
 Number of macros/black boxes:               0
-Number of buf/inv:                         32
-Number of references:                       9
+Number of buf/inv:                         15
+Number of references:                      22
 
-Combinational area:                835.891209
-Buf/Inv area:                      176.947205
-Noncombinational area:             550.195210
+Combinational area:                815.616003
+Buf/Inv area:                       82.944002
+Noncombinational area:             528.076809
 Macro/Black Box area:                0.000000
-Net Interconnect area:              49.714050
+Net Interconnect area:              64.374908
 
-Total cell area:                  1386.086418
-Total area:                       1435.800468
+Total cell area:                  1343.692812
+Total area:                       1408.067720
 1
  
 ****************************************
 Report : cell
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:31:42 2021
+Date   : Thu Apr 15 23:39:53 2021
 ****************************************
 
 Attributes:
     b - black box (unknown)
+   cg - clock gating logic
     h - hierarchical
     n - noncombinational
     r - removable
@@ -45,22 +46,115 @@ Attributes:
 
 Cell                      Reference       Library             Area  Attributes
 --------------------------------------------------------------------------------
-OUT_REG                   regis_0                         169.574403
-                                                                    h, n
-TOFSM                     fsm                             229.478403
-                                                                    h, n
-U1                        INVX0           saed90nm_typ_ht 5.529600  
-U2                        INVX0           saed90nm_typ_ht 5.529600  
-U_COMP                    comparator                      136.396801
-                                                                    h
-X_MUX                     mux_1                           64.511999 h
-X_REG                     regis_2                         169.574403
-                                                                    h, n
-X_SUB                     subtractor                      371.404807
-                                                                    h
-Y_MUX                     mux_0                           64.511999 h
-Y_REG                     regis_1                         169.574403
-                                                                    h, n
+OUT_REG_output_reg_0_     DFFARX1         saed90nm_typ_ht 32.256001 n
+OUT_REG_output_reg_1_     DFFARX1         saed90nm_typ_ht 32.256001 n
+OUT_REG_output_reg_2_     DFFARX1         saed90nm_typ_ht 32.256001 n
+OUT_REG_output_reg_3_     DFFARX1         saed90nm_typ_ht 32.256001 n
+TOFSM_cState_reg_0_       DFFARX1         saed90nm_typ_ht 32.256001 n
+TOFSM_cState_reg_1_       DFFARX1         saed90nm_typ_ht 32.256001 n
+TOFSM_cState_reg_2_       DFFARX1         saed90nm_typ_ht 32.256001 n
+U94                       NAND2X0         saed90nm_typ_ht 5.529600  
+U95                       NAND2X0         saed90nm_typ_ht 5.529600  
+U96                       NAND2X0         saed90nm_typ_ht 5.529600  
+U97                       NAND2X0         saed90nm_typ_ht 5.529600  
+U98                       NAND2X0         saed90nm_typ_ht 5.529600  
+U99                       INVX0           saed90nm_typ_ht 5.529600  
+U100                      NAND2X0         saed90nm_typ_ht 5.529600  
+U101                      NOR2X0          saed90nm_typ_ht 5.529600  
+U102                      NOR2X0          saed90nm_typ_ht 5.529600  
+U103                      AND2X1          saed90nm_typ_ht 7.372800  
+U104                      OA21X1          saed90nm_typ_ht 9.216000  
+U106                      NAND2X0         saed90nm_typ_ht 5.529600  
+U107                      INVX0           saed90nm_typ_ht 5.529600  
+U108                      OR2X1           saed90nm_typ_ht 7.372800  
+U109                      INVX0           saed90nm_typ_ht 5.529600  
+U110                      NOR2X0          saed90nm_typ_ht 5.529600  
+U111                      INVX0           saed90nm_typ_ht 5.529600  
+U112                      OA222X1         saed90nm_typ_ht 14.745600 
+U113                      INVX0           saed90nm_typ_ht 5.529600  
+U114                      NAND2X0         saed90nm_typ_ht 5.529600  
+U115                      OA21X1          saed90nm_typ_ht 9.216000  
+U116                      AO221X1         saed90nm_typ_ht 12.902400 
+U117                      INVX0           saed90nm_typ_ht 5.529600  
+U118                      INVX0           saed90nm_typ_ht 5.529600  
+U119                      OA222X1         saed90nm_typ_ht 14.745600 
+U120                      INVX0           saed90nm_typ_ht 5.529600  
+U121                      NOR2X0          saed90nm_typ_ht 5.529600  
+U122                      NAND2X0         saed90nm_typ_ht 5.529600  
+U123                      NOR2X0          saed90nm_typ_ht 5.529600  
+U124                      INVX0           saed90nm_typ_ht 5.529600  
+U125                      NOR2X0          saed90nm_typ_ht 5.529600  
+U126                      AO221X1         saed90nm_typ_ht 12.902400 
+U127                      NOR2X0          saed90nm_typ_ht 5.529600  
+U128                      AND2X1          saed90nm_typ_ht 7.372800  
+U129                      AO22X1          saed90nm_typ_ht 11.980800 
+U130                      NOR2X0          saed90nm_typ_ht 5.529600  
+U131                      NOR3X0          saed90nm_typ_ht 8.294400  
+U132                      INVX0           saed90nm_typ_ht 5.529600  
+U133                      NOR2X0          saed90nm_typ_ht 5.529600  
+U134                      NOR2X0          saed90nm_typ_ht 5.529600  
+U135                      INVX0           saed90nm_typ_ht 5.529600  
+U136                      AO22X1          saed90nm_typ_ht 11.980800 
+U137                      NOR2X0          saed90nm_typ_ht 5.529600  
+U138                      INVX0           saed90nm_typ_ht 5.529600  
+U139                      NAND2X0         saed90nm_typ_ht 5.529600  
+U140                      MUX21X1         saed90nm_typ_ht 11.059200 
+U141                      NAND3X0         saed90nm_typ_ht 7.372800  
+U142                      AO22X1          saed90nm_typ_ht 11.980800 
+U143                      NOR2X0          saed90nm_typ_ht 5.529600  
+U144                      AO222X1         saed90nm_typ_ht 14.745600 
+U145                      AO221X1         saed90nm_typ_ht 12.902400 
+U146                      OA22X1          saed90nm_typ_ht 11.059200 
+U147                      OA22X1          saed90nm_typ_ht 11.059200 
+U148                      OA22X1          saed90nm_typ_ht 11.059200 
+U149                      NAND3X0         saed90nm_typ_ht 7.372800  
+U150                      NAND2X0         saed90nm_typ_ht 5.529600  
+U151                      NAND3X0         saed90nm_typ_ht 7.372800  
+U152                      NAND3X0         saed90nm_typ_ht 7.372800  
+U153                      AO21X1          saed90nm_typ_ht 10.137600 
+U154                      INVX0           saed90nm_typ_ht 5.529600  
+U155                      NAND2X0         saed90nm_typ_ht 5.529600  
+U156                      AOI221X1        saed90nm_typ_ht 14.745600 
+U157                      AO221X1         saed90nm_typ_ht 12.902400 
+U158                      NAND2X0         saed90nm_typ_ht 5.529600  
+U159                      NAND2X0         saed90nm_typ_ht 5.529600  
+U160                      NAND4X0         saed90nm_typ_ht 8.294400  
+U161                      NOR2X0          saed90nm_typ_ht 5.529600  
+U162                      MUX21X1         saed90nm_typ_ht 11.059200 
+U163                      OA21X1          saed90nm_typ_ht 9.216000  
+U164                      AO222X1         saed90nm_typ_ht 14.745600 
+U165                      OA221X1         saed90nm_typ_ht 12.902400 
+U166                      MUX21X1         saed90nm_typ_ht 11.059200 
+U167                      NOR2X0          saed90nm_typ_ht 5.529600  
+U168                      AO222X1         saed90nm_typ_ht 14.745600 
+U169                      OA221X1         saed90nm_typ_ht 12.902400 
+U170                      MUX21X1         saed90nm_typ_ht 11.059200 
+U171                      NOR2X0          saed90nm_typ_ht 5.529600  
+U172                      AO222X1         saed90nm_typ_ht 14.745600 
+U173                      OA21X1          saed90nm_typ_ht 9.216000  
+U174                      NOR3X0          saed90nm_typ_ht 8.294400  
+U175                      AO222X1         saed90nm_typ_ht 14.745600 
+U176                      AO221X1         saed90nm_typ_ht 12.902400 
+U177                      AO222X1         saed90nm_typ_ht 14.745600 
+U178                      OA221X1         saed90nm_typ_ht 12.902400 
+U179                      XNOR2X1         saed90nm_typ_ht 13.824000 
+U180                      AO22X1          saed90nm_typ_ht 11.980800 
+U181                      AO21X1          saed90nm_typ_ht 10.137600 
+U182                      OA221X1         saed90nm_typ_ht 12.902400 
+U183                      XNOR2X1         saed90nm_typ_ht 13.824000 
+U184                      AO22X1          saed90nm_typ_ht 11.980800 
+U185                      AO21X1          saed90nm_typ_ht 10.137600 
+X_REG_output_reg_0_       DFFARX1         saed90nm_typ_ht 32.256001 n
+X_REG_output_reg_1_       DFFARX1         saed90nm_typ_ht 32.256001 n
+X_REG_output_reg_2_       DFFARX1         saed90nm_typ_ht 32.256001 n
+X_REG_output_reg_3_       DFFARX1         saed90nm_typ_ht 32.256001 n
+Y_REG_output_reg_0_       DFFARX1         saed90nm_typ_ht 32.256001 n
+Y_REG_output_reg_1_       DFFARX1         saed90nm_typ_ht 32.256001 n
+Y_REG_output_reg_2_       DFFARX1         saed90nm_typ_ht 32.256001 n
+Y_REG_output_reg_3_       DFFARX1         saed90nm_typ_ht 32.256001 n
+clk_gate_OUT_REG_output_reg
+                          SNPS_CLOCK_GATE_HIGH_gcd_0      35.020801 cg, h, n
+clk_gate_Y_REG_output_reg SNPS_CLOCK_GATE_HIGH_gcd_1      35.020801 cg, h, n
 --------------------------------------------------------------------------------
-Total 10 cells                                            1386.086418
+Total 108 cells                                           1343.692812
 1

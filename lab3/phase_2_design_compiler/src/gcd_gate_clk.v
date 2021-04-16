@@ -1,185 +1,11 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys DC Ultra(TM) in wire load mode
 // Version   : O-2018.06-SP1
-// Date      : Thu Apr 15 22:31:42 2021
+// Date      : Thu Apr 15 23:39:52 2021
 /////////////////////////////////////////////////////////////
 
 
-module mux_1 ( rst, load, result, output0, sLine_BAR );
-  input [3:0] load;
-  input [3:0] result;
-  output [3:0] output0;
-  input rst, sLine_BAR;
-  wire   n4, n5, n6;
-
-  NOR2X0 U2 ( .IN1(sLine_BAR), .IN2(rst), .QN(n6) );
-  INVX0 U3 ( .INP(sLine_BAR), .ZN(n4) );
-  NOR2X0 U4 ( .IN1(rst), .IN2(n4), .QN(n5) );
-  AO22X1 U5 ( .IN1(n6), .IN2(result[0]), .IN3(n5), .IN4(load[0]), .Q(
-        output0[0]) );
-  AO22X1 U6 ( .IN1(n6), .IN2(result[1]), .IN3(n5), .IN4(load[1]), .Q(
-        output0[1]) );
-  AO22X1 U7 ( .IN1(n6), .IN2(result[2]), .IN3(n5), .IN4(load[2]), .Q(
-        output0[2]) );
-  AO22X1 U8 ( .IN1(n6), .IN2(result[3]), .IN3(n5), .IN4(load[3]), .Q(
-        output0[3]) );
-endmodule
-
-
-module mux_0 ( rst, sLine, load, result, output0 );
-  input [3:0] load;
-  input [3:0] result;
-  output [3:0] output0;
-  input rst, sLine;
-  wire   n4, n5, n6;
-
-  NOR2X0 U2 ( .IN1(sLine), .IN2(rst), .QN(n6) );
-  INVX0 U3 ( .INP(sLine), .ZN(n4) );
-  NOR2X0 U4 ( .IN1(rst), .IN2(n4), .QN(n5) );
-  AO22X1 U5 ( .IN1(n6), .IN2(load[0]), .IN3(n5), .IN4(result[0]), .Q(
-        output0[0]) );
-  AO22X1 U6 ( .IN1(n6), .IN2(load[1]), .IN3(n5), .IN4(result[1]), .Q(
-        output0[1]) );
-  AO22X1 U7 ( .IN1(n6), .IN2(load[2]), .IN3(n5), .IN4(result[2]), .Q(
-        output0[2]) );
-  AO22X1 U8 ( .IN1(n6), .IN2(load[3]), .IN3(n5), .IN4(result[3]), .Q(
-        output0[3]) );
-endmodule
-
-
-module comparator ( rst, x, y, output0 );
-  input [3:0] x;
-  input [3:0] y;
-  output [1:0] output0;
-  input rst;
-  wire   n22, n23, n24, n25, n26, n27, n28, n29, n31, n32, n33, n34, n35, n36,
-         n37, n38, n39, n40, n41;
-
-  INVX0 U4 ( .INP(y[3]), .ZN(n22) );
-  NAND2X0 U5 ( .IN1(x[3]), .IN2(n22), .QN(n40) );
-  NOR2X0 U6 ( .IN1(x[3]), .IN2(n22), .QN(n29) );
-  INVX0 U7 ( .INP(y[2]), .ZN(n24) );
-  NAND2X0 U8 ( .IN1(x[2]), .IN2(n24), .QN(n35) );
-  INVX0 U9 ( .INP(n29), .ZN(n23) );
-  OA21X1 U10 ( .IN1(x[2]), .IN2(n24), .IN3(n23), .Q(n38) );
-  INVX0 U11 ( .INP(x[1]), .ZN(n25) );
-  NAND2X0 U12 ( .IN1(y[1]), .IN2(n25), .QN(n33) );
-  INVX0 U13 ( .INP(x[0]), .ZN(n26) );
-  OR2X1 U14 ( .IN1(n25), .IN2(y[1]), .Q(n36) );
-  NAND3X0 U15 ( .IN1(y[0]), .IN2(n26), .IN3(n36), .QN(n27) );
-  NAND3X0 U16 ( .IN1(n38), .IN2(n33), .IN3(n27), .QN(n28) );
-  OA221X1 U17 ( .IN1(1'b0), .IN2(n40), .IN3(n29), .IN4(n35), .IN5(n28), .Q(n31) );
-  NOR2X0 U18 ( .IN1(rst), .IN2(n31), .QN(output0[1]) );
-  INVX0 U19 ( .INP(y[0]), .ZN(n32) );
-  NAND3X0 U20 ( .IN1(x[0]), .IN2(n33), .IN3(n32), .QN(n34) );
-  NAND3X0 U21 ( .IN1(n36), .IN2(n35), .IN3(n34), .QN(n37) );
-  NAND2X0 U22 ( .IN1(n38), .IN2(n37), .QN(n39) );
-  NAND2X0 U23 ( .IN1(n40), .IN2(n39), .QN(n41) );
-  NOR2X0 U24 ( .IN1(rst), .IN2(n41), .QN(output0[0]) );
-endmodule
-
-
-module subtractor ( rst, cmd, x, y, xout, yout );
-  input [1:0] cmd;
-  input [3:0] x;
-  input [3:0] y;
-  output [3:0] xout;
-  output [3:0] yout;
-  input rst;
-  wire   n39, n40, n41, n42, n43, n44, n45, n46, n47, n48, n49, n50, n51, n52,
-         n53, n54, n55, n56, n57, n58, n59, n60, n61, n62, n63, n64, n65, n66,
-         n67, n68, n69, n70, n71, n72, n73, n74, n75, n76;
-
-  INVX0 U2 ( .INP(y[0]), .ZN(n39) );
-  NAND2X0 U3 ( .IN1(n39), .IN2(x[0]), .QN(n41) );
-  INVX0 U4 ( .INP(cmd[1]), .ZN(n44) );
-  NOR2X0 U5 ( .IN1(n39), .IN2(x[0]), .QN(n55) );
-  INVX0 U6 ( .INP(n55), .ZN(n59) );
-  OA221X1 U7 ( .IN1(cmd[1]), .IN2(n41), .IN3(n44), .IN4(n39), .IN5(n59), .Q(
-        n40) );
-  INVX0 U8 ( .INP(cmd[0]), .ZN(n62) );
-  AO21X1 U9 ( .IN1(n62), .IN2(n44), .IN3(rst), .Q(n76) );
-  NOR2X0 U10 ( .IN1(n40), .IN2(n76), .QN(yout[0]) );
-  INVX0 U11 ( .INP(y[1]), .ZN(n61) );
-  INVX0 U12 ( .INP(n41), .ZN(n53) );
-  INVX0 U13 ( .INP(x[1]), .ZN(n57) );
-  OA221X1 U14 ( .IN1(x[1]), .IN2(n53), .IN3(n57), .IN4(n41), .IN5(n44), .Q(n42) );
-  MUX21X1 U15 ( .IN1(n61), .IN2(y[1]), .S(n42), .Q(n43) );
-  NOR2X0 U16 ( .IN1(n76), .IN2(n43), .QN(yout[1]) );
-  INVX0 U17 ( .INP(y[2]), .ZN(n69) );
-  NOR2X0 U18 ( .IN1(y[1]), .IN2(n57), .QN(n60) );
-  OA22X1 U19 ( .IN1(x[1]), .IN2(n61), .IN3(n60), .IN4(n53), .Q(n48) );
-  INVX0 U20 ( .INP(x[2]), .ZN(n65) );
-  INVX0 U21 ( .INP(n48), .ZN(n45) );
-  OA221X1 U22 ( .IN1(x[2]), .IN2(n48), .IN3(n65), .IN4(n45), .IN5(n44), .Q(n46) );
-  MUX21X1 U23 ( .IN1(n69), .IN2(y[2]), .S(n46), .Q(n47) );
-  NOR2X0 U24 ( .IN1(n76), .IN2(n47), .QN(yout[2]) );
-  INVX0 U25 ( .INP(y[3]), .ZN(n71) );
-  INVX0 U26 ( .INP(x[3]), .ZN(n74) );
-  NOR2X0 U27 ( .IN1(y[2]), .IN2(n65), .QN(n68) );
-  OA22X1 U28 ( .IN1(x[2]), .IN2(n69), .IN3(n68), .IN4(n48), .Q(n49) );
-  MUX21X1 U29 ( .IN1(n74), .IN2(x[3]), .S(n49), .Q(n50) );
-  NOR2X0 U30 ( .IN1(cmd[1]), .IN2(n50), .QN(n51) );
-  MUX21X1 U31 ( .IN1(n71), .IN2(y[3]), .S(n51), .Q(n52) );
-  NOR2X0 U32 ( .IN1(n76), .IN2(n52), .QN(yout[3]) );
-  AOI221X1 U33 ( .IN1(n62), .IN2(n55), .IN3(cmd[0]), .IN4(x[0]), .IN5(n53), 
-        .QN(n54) );
-  NOR2X0 U34 ( .IN1(n54), .IN2(n76), .QN(xout[0]) );
-  OA221X1 U35 ( .IN1(y[1]), .IN2(n55), .IN3(n61), .IN4(n59), .IN5(n62), .Q(n56) );
-  MUX21X1 U36 ( .IN1(n57), .IN2(x[1]), .S(n56), .Q(n58) );
-  NOR2X0 U37 ( .IN1(n76), .IN2(n58), .QN(xout[1]) );
-  OA22X1 U38 ( .IN1(x[1]), .IN2(n61), .IN3(n60), .IN4(n59), .Q(n67) );
-  INVX0 U39 ( .INP(n67), .ZN(n63) );
-  OA221X1 U40 ( .IN1(y[2]), .IN2(n63), .IN3(n69), .IN4(n67), .IN5(n62), .Q(n64) );
-  MUX21X1 U41 ( .IN1(n65), .IN2(x[2]), .S(n64), .Q(n66) );
-  NOR2X0 U42 ( .IN1(n76), .IN2(n66), .QN(xout[2]) );
-  OA22X1 U43 ( .IN1(x[2]), .IN2(n69), .IN3(n68), .IN4(n67), .Q(n70) );
-  MUX21X1 U44 ( .IN1(y[3]), .IN2(n71), .S(n70), .Q(n72) );
-  NOR2X0 U45 ( .IN1(cmd[0]), .IN2(n72), .QN(n73) );
-  MUX21X1 U46 ( .IN1(n74), .IN2(x[3]), .S(n73), .Q(n75) );
-  NOR2X0 U47 ( .IN1(n76), .IN2(n75), .QN(xout[3]) );
-endmodule
-
-
-module fsm ( rst, clk, proceed, comparison, enable, ysel, xld, yld, xsel_BAR
- );
-  input [1:0] comparison;
-  input rst, clk, proceed;
-  output enable, ysel, xld, yld, xsel_BAR;
-  wire   nState_2_, n14, n15, n12, n16, n17, n18, n19, n20, n21, n22, n23, n24,
-         n25, n26;
-  wire   [2:0] cState;
-
-  DFFARX1 cState_reg_0_ ( .D(n15), .CLK(clk), .RSTB(n16), .Q(cState[0]), .QN(
-        n26) );
-  DFFARX1 cState_reg_1_ ( .D(n14), .CLK(clk), .RSTB(n16), .QN(n12) );
-  DFFARX1 cState_reg_2_ ( .D(nState_2_), .CLK(clk), .RSTB(n16), .Q(cState[2])
-         );
-  NAND2X0 U3 ( .IN1(cState[2]), .IN2(n26), .QN(xsel_BAR) );
-  NOR2X0 U4 ( .IN1(cState[0]), .IN2(n12), .QN(n22) );
-  INVX0 U5 ( .INP(n22), .ZN(n17) );
-  NAND2X0 U6 ( .IN1(xsel_BAR), .IN2(n17), .QN(xld) );
-  NOR2X0 U7 ( .IN1(n12), .IN2(xsel_BAR), .QN(enable) );
-  AND3X1 U8 ( .IN1(cState[2]), .IN2(cState[0]), .IN3(n12), .Q(n18) );
-  OR2X1 U9 ( .IN1(n18), .IN2(enable), .Q(ysel) );
-  OR2X1 U10 ( .IN1(n18), .IN2(n22), .Q(yld) );
-  OAI21X1 U11 ( .IN1(comparison[1]), .IN2(comparison[0]), .IN3(cState[0]), 
-        .QN(n24) );
-  NOR2X0 U12 ( .IN1(cState[2]), .IN2(n12), .QN(n23) );
-  INVX0 U13 ( .INP(n23), .ZN(n19) );
-  NOR2X0 U14 ( .IN1(n24), .IN2(n19), .QN(nState_2_) );
-  NOR2X0 U15 ( .IN1(n12), .IN2(comparison[1]), .QN(n21) );
-  AND2X1 U16 ( .IN1(proceed), .IN2(n26), .Q(n20) );
-  OR4X1 U17 ( .IN1(cState[2]), .IN2(n22), .IN3(n21), .IN4(n20), .Q(n15) );
-  OA221X1 U18 ( .IN1(n24), .IN2(comparison[0]), .IN3(n24), .IN4(comparison[1]), 
-        .IN5(n23), .Q(n25) );
-  AO221X1 U19 ( .IN1(n12), .IN2(cState[2]), .IN3(n12), .IN4(cState[0]), .IN5(
-        n25), .Q(n14) );
-  INVX0 U20 ( .INP(rst), .ZN(n16) );
-endmodule
-
-
-module SNPS_CLOCK_GATE_HIGH_regis_2_0 ( CLK, EN, ENCLK );
+module SNPS_CLOCK_GATE_HIGH_gcd_0 ( CLK, EN, ENCLK );
   input CLK, EN;
   output ENCLK;
   wire   n1, n2;
@@ -190,27 +16,7 @@ module SNPS_CLOCK_GATE_HIGH_regis_2_0 ( CLK, EN, ENCLK );
 endmodule
 
 
-module regis_2 ( rst, clk, load, input0, output0 );
-  input [3:0] input0;
-  output [3:0] output0;
-  input rst, clk, load;
-  wire   n1, n2;
-
-  DFFARX1 output_reg_3_ ( .D(input0[3]), .CLK(n2), .RSTB(n1), .Q(output0[3])
-         );
-  DFFARX1 output_reg_2_ ( .D(input0[2]), .CLK(n2), .RSTB(n1), .Q(output0[2])
-         );
-  DFFARX1 output_reg_1_ ( .D(input0[1]), .CLK(n2), .RSTB(n1), .Q(output0[1])
-         );
-  DFFARX1 output_reg_0_ ( .D(input0[0]), .CLK(n2), .RSTB(n1), .Q(output0[0])
-         );
-  INVX0 U2 ( .INP(rst), .ZN(n1) );
-  SNPS_CLOCK_GATE_HIGH_regis_2_0 clk_gate_output_reg ( .CLK(clk), .EN(load), 
-        .ENCLK(n2) );
-endmodule
-
-
-module SNPS_CLOCK_GATE_HIGH_regis_1_0 ( CLK, EN, ENCLK );
+module SNPS_CLOCK_GATE_HIGH_gcd_1 ( CLK, EN, ENCLK );
   input CLK, EN;
   output ENCLK;
   wire   n1, n2;
@@ -218,57 +24,6 @@ module SNPS_CLOCK_GATE_HIGH_regis_1_0 ( CLK, EN, ENCLK );
   AND2X1 main_gate ( .IN1(n2), .IN2(CLK), .Q(ENCLK) );
   LATCHX1 latch ( .CLK(n1), .D(EN), .Q(n2) );
   INVX0 U1 ( .INP(CLK), .ZN(n1) );
-endmodule
-
-
-module regis_1 ( rst, clk, load, input0, output0 );
-  input [3:0] input0;
-  output [3:0] output0;
-  input rst, clk, load;
-  wire   n1, n9;
-
-  DFFARX1 output_reg_3_ ( .D(input0[3]), .CLK(n9), .RSTB(n1), .Q(output0[3])
-         );
-  DFFARX1 output_reg_2_ ( .D(input0[2]), .CLK(n9), .RSTB(n1), .Q(output0[2])
-         );
-  DFFARX1 output_reg_1_ ( .D(input0[1]), .CLK(n9), .RSTB(n1), .Q(output0[1])
-         );
-  DFFARX1 output_reg_0_ ( .D(input0[0]), .CLK(n9), .RSTB(n1), .Q(output0[0])
-         );
-  INVX0 U2 ( .INP(rst), .ZN(n1) );
-  SNPS_CLOCK_GATE_HIGH_regis_1_0 clk_gate_output_reg ( .CLK(clk), .EN(load), 
-        .ENCLK(n9) );
-endmodule
-
-
-module SNPS_CLOCK_GATE_HIGH_regis_0_0 ( CLK, EN, ENCLK );
-  input CLK, EN;
-  output ENCLK;
-  wire   n1, n2;
-
-  AND2X1 main_gate ( .IN1(n2), .IN2(CLK), .Q(ENCLK) );
-  LATCHX1 latch ( .CLK(n1), .D(EN), .Q(n2) );
-  INVX0 U1 ( .INP(CLK), .ZN(n1) );
-endmodule
-
-
-module regis_0 ( rst, clk, load, input0, output0 );
-  input [3:0] input0;
-  output [3:0] output0;
-  input rst, clk, load;
-  wire   n1, n9;
-
-  DFFARX1 output_reg_3_ ( .D(input0[3]), .CLK(n9), .RSTB(n1), .Q(output0[3])
-         );
-  DFFARX1 output_reg_2_ ( .D(input0[2]), .CLK(n9), .RSTB(n1), .Q(output0[2])
-         );
-  DFFARX1 output_reg_1_ ( .D(input0[1]), .CLK(n9), .RSTB(n1), .Q(output0[1])
-         );
-  DFFARX1 output_reg_0_ ( .D(input0[0]), .CLK(n9), .RSTB(n1), .Q(output0[0])
-         );
-  INVX0 U2 ( .INP(rst), .ZN(n1) );
-  SNPS_CLOCK_GATE_HIGH_regis_0_0 clk_gate_output_reg ( .CLK(clk), .EN(load), 
-        .ENCLK(n9) );
 endmodule
 
 
@@ -277,31 +32,164 @@ module gcd ( rst, clk, go_i, x_i, y_i, d_o );
   input [3:0] y_i;
   output [3:0] d_o;
   input rst, clk, go_i;
-  wire   enable, xsel, ysel, xld, yld, n3, n4;
-  wire   [1:0] comparison;
-  wire   [3:0] xsub;
-  wire   [3:0] xmux;
-  wire   [3:0] ysub;
-  wire   [3:0] ymux;
+  wire   TOFSM_n13, TOFSM_n12, TOFSM_n15, TOFSM_n14, TOFSM_nState_2_,
+         TOFSM_cState_2_, X_REG_n8, X_REG_n6, X_REG_n4, X_REG_n2, Y_REG_n7,
+         Y_REG_n6, Y_REG_n5, Y_REG_n3, n61, n62, n63, n65, n80, n81, n83, n84,
+         n85, n86, n87, n88, n89, n90, n91, n92, n93, n94, n95, n96, n97, n98,
+         n99, n100, n101, n102, n103, n104, n105, n106, n107, n108, n109, n110,
+         n111, n112, n113, n114, n115, n116, n117, n118, n119, n120, n121,
+         n122, n123, n124, n125, n126, n127, n128, n129, n130, n131, n132,
+         n133, n134, n135, n136, n137, n138, n139, n140, n141, n142, n143,
+         n144, n145, n146, n147, n148, n149, n150, n151, n152, n153, n154,
+         n155, n156, n157, n158, n159, n160, n161, n162, n163, n164, n165,
+         n166, n167;
   wire   [3:0] xreg;
   wire   [3:0] yreg;
 
-  fsm TOFSM ( .rst(rst), .clk(clk), .proceed(go_i), .comparison(comparison), 
-        .enable(enable), .ysel(ysel), .xld(xld), .yld(yld), .xsel_BAR(xsel) );
-  mux_1 X_MUX ( .rst(rst), .load(x_i), .result(xsub), .output0(xmux), 
-        .sLine_BAR(xsel) );
-  mux_0 Y_MUX ( .rst(rst), .sLine(ysel), .load(y_i), .result(ysub), .output0(
-        ymux) );
-  regis_2 X_REG ( .rst(rst), .clk(clk), .load(xld), .input0(xmux), .output0(
-        xreg) );
-  regis_1 Y_REG ( .rst(rst), .clk(clk), .load(yld), .input0(ymux), .output0(
-        yreg) );
-  comparator U_COMP ( .rst(n4), .x(xreg), .y(yreg), .output0(comparison) );
-  subtractor X_SUB ( .rst(rst), .cmd(comparison), .x(xreg), .y(yreg), .xout(
-        xsub), .yout(ysub) );
-  regis_0 OUT_REG ( .rst(n4), .clk(clk), .load(enable), .input0(xsub), 
-        .output0(d_o) );
-  INVX0 U1 ( .INP(rst), .ZN(n3) );
-  INVX0 U2 ( .INP(n3), .ZN(n4) );
+  DFFARX1 TOFSM_cState_reg_2_ ( .D(TOFSM_nState_2_), .CLK(clk), .RSTB(n80), 
+        .Q(TOFSM_cState_2_), .QN(n155) );
+  DFFARX1 TOFSM_cState_reg_1_ ( .D(TOFSM_n14), .CLK(clk), .RSTB(n80), .Q(n157), 
+        .QN(TOFSM_n12) );
+  DFFARX1 TOFSM_cState_reg_0_ ( .D(TOFSM_n15), .CLK(clk), .RSTB(n80), .Q(n158), 
+        .QN(TOFSM_n13) );
+  DFFARX1 X_REG_output_reg_0_ ( .D(X_REG_n2), .CLK(n164), .RSTB(n80), .Q(
+        xreg[0]) );
+  DFFARX1 X_REG_output_reg_1_ ( .D(X_REG_n4), .CLK(n164), .RSTB(n80), .Q(
+        xreg[1]), .QN(n163) );
+  DFFARX1 X_REG_output_reg_2_ ( .D(X_REG_n6), .CLK(n164), .RSTB(n80), .Q(
+        xreg[2]), .QN(n160) );
+  DFFARX1 X_REG_output_reg_3_ ( .D(X_REG_n8), .CLK(n164), .RSTB(n80), .Q(
+        xreg[3]), .QN(n159) );
+  DFFARX1 OUT_REG_output_reg_0_ ( .D(n65), .CLK(n166), .RSTB(n80), .Q(d_o[0])
+         );
+  DFFARX1 OUT_REG_output_reg_1_ ( .D(n63), .CLK(n166), .RSTB(n80), .Q(d_o[1])
+         );
+  DFFARX1 OUT_REG_output_reg_2_ ( .D(n62), .CLK(n166), .RSTB(n80), .Q(d_o[2])
+         );
+  DFFARX1 OUT_REG_output_reg_3_ ( .D(n61), .CLK(n166), .RSTB(n80), .Q(d_o[3])
+         );
+  DFFARX1 Y_REG_output_reg_0_ ( .D(Y_REG_n7), .CLK(n164), .RSTB(n80), .Q(
+        yreg[0]), .QN(n162) );
+  DFFARX1 Y_REG_output_reg_1_ ( .D(Y_REG_n6), .CLK(n164), .RSTB(n80), .Q(
+        yreg[1]), .QN(n161) );
+  DFFARX1 Y_REG_output_reg_2_ ( .D(Y_REG_n5), .CLK(n164), .RSTB(n80), .Q(
+        yreg[2]), .QN(n156) );
+  DFFARX1 Y_REG_output_reg_3_ ( .D(Y_REG_n3), .CLK(n164), .RSTB(n80), .Q(
+        yreg[3]) );
+  SNPS_CLOCK_GATE_HIGH_gcd_0 clk_gate_OUT_REG_output_reg ( .CLK(clk), .EN(n167), .ENCLK(n166) );
+  SNPS_CLOCK_GATE_HIGH_gcd_1 clk_gate_Y_REG_output_reg ( .CLK(clk), .EN(n165), 
+        .ENCLK(n164) );
+  NAND2X0 U94 ( .IN1(n91), .IN2(yreg[2]), .QN(n92) );
+  NAND2X0 U95 ( .IN1(n160), .IN2(yreg[2]), .QN(n113) );
+  NAND2X0 U96 ( .IN1(n96), .IN2(n95), .QN(n99) );
+  NAND2X0 U97 ( .IN1(xreg[0]), .IN2(n162), .QN(n141) );
+  NAND2X0 U98 ( .IN1(yreg[3]), .IN2(n100), .QN(n111) );
+  INVX0 U99 ( .INP(rst), .ZN(n80) );
+  NAND2X0 U100 ( .IN1(n157), .IN2(TOFSM_n13), .QN(n122) );
+  NOR2X0 U101 ( .IN1(n122), .IN2(n155), .QN(n167) );
+  NOR2X0 U102 ( .IN1(n157), .IN2(n155), .QN(n88) );
+  AND2X1 U103 ( .IN1(n158), .IN2(n88), .Q(n85) );
+  OA21X1 U104 ( .IN1(n85), .IN2(n167), .IN3(n80), .Q(n150) );
+  NAND2X0 U106 ( .IN1(yreg[3]), .IN2(n159), .QN(n114) );
+  INVX0 U107 ( .INP(n114), .ZN(n81) );
+  OR2X1 U108 ( .IN1(n159), .IN2(yreg[3]), .Q(n117) );
+  INVX0 U109 ( .INP(n113), .ZN(n98) );
+  NOR2X0 U110 ( .IN1(xreg[0]), .IN2(n162), .QN(n138) );
+  INVX0 U111 ( .INP(n138), .ZN(n126) );
+  OA222X1 U112 ( .IN1(n161), .IN2(n126), .IN3(n161), .IN4(xreg[1]), .IN5(n126), 
+        .IN6(xreg[1]), .Q(n130) );
+  INVX0 U113 ( .INP(n130), .ZN(n129) );
+  NAND2X0 U114 ( .IN1(xreg[2]), .IN2(n156), .QN(n112) );
+  OA21X1 U115 ( .IN1(n98), .IN2(n129), .IN3(n112), .Q(n134) );
+  AO221X1 U116 ( .IN1(1'b1), .IN2(n81), .IN3(n117), .IN4(n134), .IN5(rst), .Q(
+        n146) );
+  INVX0 U117 ( .INP(n146), .ZN(n139) );
+  INVX0 U118 ( .INP(n141), .ZN(n142) );
+  OA222X1 U119 ( .IN1(n161), .IN2(xreg[1]), .IN3(n161), .IN4(n142), .IN5(
+        xreg[1]), .IN6(n142), .Q(n148) );
+  INVX0 U120 ( .INP(n148), .ZN(n147) );
+  NOR2X0 U121 ( .IN1(n147), .IN2(n98), .QN(n84) );
+  NAND2X0 U122 ( .IN1(n112), .IN2(n159), .QN(n83) );
+  NOR2X0 U123 ( .IN1(n84), .IN2(n83), .QN(n86) );
+  INVX0 U124 ( .INP(n122), .ZN(n89) );
+  NOR2X0 U125 ( .IN1(n89), .IN2(n85), .QN(n152) );
+  AO221X1 U126 ( .IN1(n150), .IN2(n139), .IN3(n150), .IN4(n86), .IN5(n152), 
+        .Q(n87) );
+  NOR2X0 U127 ( .IN1(TOFSM_cState_2_), .IN2(n122), .QN(n102) );
+  AND2X1 U128 ( .IN1(n102), .IN2(n80), .Q(n154) );
+  AO22X1 U129 ( .IN1(yreg[3]), .IN2(n87), .IN3(n154), .IN4(y_i[3]), .Q(
+        Y_REG_n3) );
+  NOR2X0 U130 ( .IN1(n89), .IN2(n88), .QN(n108) );
+  NOR3X0 U131 ( .IN1(n108), .IN2(xreg[1]), .IN3(yreg[1]), .QN(n90) );
+  INVX0 U132 ( .INP(n152), .ZN(n97) );
+  NOR2X0 U133 ( .IN1(n158), .IN2(n155), .QN(n136) );
+  NOR2X0 U134 ( .IN1(n89), .IN2(n136), .QN(n137) );
+  INVX0 U135 ( .INP(n137), .ZN(n94) );
+  AO22X1 U136 ( .IN1(yreg[1]), .IN2(n97), .IN3(xreg[1]), .IN4(n94), .Q(n101)
+         );
+  NOR2X0 U137 ( .IN1(n90), .IN2(n101), .QN(n104) );
+  INVX0 U138 ( .INP(n104), .ZN(n91) );
+  NAND2X0 U139 ( .IN1(n156), .IN2(n91), .QN(n93) );
+  MUX21X1 U140 ( .IN1(n93), .IN2(n92), .S(xreg[2]), .Q(n96) );
+  NAND3X0 U141 ( .IN1(n94), .IN2(xreg[2]), .IN3(n156), .QN(n95) );
+  AO22X1 U142 ( .IN1(xreg[3]), .IN2(n99), .IN3(n98), .IN4(n97), .Q(n100) );
+  NOR2X0 U143 ( .IN1(n102), .IN2(n101), .QN(n103) );
+  AO222X1 U144 ( .IN1(n152), .IN2(yreg[3]), .IN3(n152), .IN4(yreg[2]), .IN5(
+        n156), .IN6(n103), .Q(n106) );
+  AO221X1 U145 ( .IN1(yreg[2]), .IN2(n104), .IN3(n156), .IN4(n137), .IN5(n160), 
+        .Q(n105) );
+  OA22X1 U146 ( .IN1(xreg[2]), .IN2(n106), .IN3(yreg[3]), .IN4(n105), .Q(n107)
+         );
+  OA22X1 U147 ( .IN1(n152), .IN2(n114), .IN3(xreg[3]), .IN4(n107), .Q(n110) );
+  OA22X1 U148 ( .IN1(n137), .IN2(n117), .IN3(n108), .IN4(n80), .Q(n109) );
+  NAND3X0 U149 ( .IN1(n111), .IN2(n110), .IN3(n109), .QN(n165) );
+  NAND2X0 U150 ( .IN1(n112), .IN2(n147), .QN(n115) );
+  NAND3X0 U151 ( .IN1(n115), .IN2(n114), .IN3(n113), .QN(n116) );
+  NAND3X0 U152 ( .IN1(n117), .IN2(n80), .IN3(n116), .QN(n133) );
+  AO21X1 U153 ( .IN1(n146), .IN2(n133), .IN3(TOFSM_n13), .Q(n123) );
+  INVX0 U154 ( .INP(n123), .ZN(n118) );
+  NAND2X0 U155 ( .IN1(n157), .IN2(n155), .QN(n124) );
+  AOI221X1 U156 ( .IN1(n118), .IN2(n146), .IN3(n118), .IN4(n133), .IN5(n124), 
+        .QN(n119) );
+  AO221X1 U157 ( .IN1(TOFSM_n12), .IN2(TOFSM_cState_2_), .IN3(TOFSM_n12), 
+        .IN4(n158), .IN5(n119), .Q(TOFSM_n14) );
+  NAND2X0 U158 ( .IN1(n157), .IN2(n146), .QN(n121) );
+  NAND2X0 U159 ( .IN1(TOFSM_n13), .IN2(go_i), .QN(n120) );
+  NAND4X0 U160 ( .IN1(n122), .IN2(n155), .IN3(n121), .IN4(n120), .QN(TOFSM_n15) );
+  NOR2X0 U161 ( .IN1(n124), .IN2(n123), .QN(TOFSM_nState_2_) );
+  MUX21X1 U162 ( .IN1(xreg[0]), .IN2(n138), .S(n133), .Q(n125) );
+  OA21X1 U163 ( .IN1(n142), .IN2(n125), .IN3(n80), .Q(n65) );
+  AO222X1 U164 ( .IN1(n136), .IN2(n65), .IN3(xreg[0]), .IN4(n137), .IN5(n154), 
+        .IN6(x_i[0]), .Q(X_REG_n2) );
+  OA221X1 U165 ( .IN1(n138), .IN2(yreg[1]), .IN3(n126), .IN4(n161), .IN5(n133), 
+        .Q(n127) );
+  MUX21X1 U166 ( .IN1(n163), .IN2(xreg[1]), .S(n127), .Q(n128) );
+  NOR2X0 U167 ( .IN1(rst), .IN2(n128), .QN(n63) );
+  AO222X1 U168 ( .IN1(xreg[1]), .IN2(n137), .IN3(n136), .IN4(n63), .IN5(n154), 
+        .IN6(x_i[1]), .Q(X_REG_n4) );
+  OA221X1 U169 ( .IN1(n130), .IN2(n156), .IN3(n129), .IN4(yreg[2]), .IN5(n133), 
+        .Q(n131) );
+  MUX21X1 U170 ( .IN1(n160), .IN2(xreg[2]), .S(n131), .Q(n132) );
+  NOR2X0 U171 ( .IN1(rst), .IN2(n132), .QN(n62) );
+  AO222X1 U172 ( .IN1(xreg[2]), .IN2(n137), .IN3(n136), .IN4(n62), .IN5(n154), 
+        .IN6(x_i[2]), .Q(X_REG_n6) );
+  OA21X1 U173 ( .IN1(yreg[3]), .IN2(n134), .IN3(n133), .Q(n135) );
+  NOR3X0 U174 ( .IN1(rst), .IN2(n135), .IN3(n159), .QN(n61) );
+  AO222X1 U175 ( .IN1(xreg[3]), .IN2(n137), .IN3(n136), .IN4(n61), .IN5(n154), 
+        .IN6(x_i[3]), .Q(X_REG_n8) );
+  AO221X1 U176 ( .IN1(n139), .IN2(yreg[0]), .IN3(n146), .IN4(n142), .IN5(n138), 
+        .Q(n140) );
+  AO222X1 U177 ( .IN1(n140), .IN2(n150), .IN3(y_i[0]), .IN4(n154), .IN5(n152), 
+        .IN6(yreg[0]), .Q(Y_REG_n7) );
+  OA221X1 U178 ( .IN1(xreg[1]), .IN2(n142), .IN3(n163), .IN4(n141), .IN5(n146), 
+        .Q(n143) );
+  XNOR2X1 U179 ( .IN1(n161), .IN2(n143), .Q(n144) );
+  AO22X1 U180 ( .IN1(yreg[1]), .IN2(n152), .IN3(n144), .IN4(n150), .Q(n145) );
+  AO21X1 U181 ( .IN1(n154), .IN2(y_i[1]), .IN3(n145), .Q(Y_REG_n6) );
+  OA221X1 U182 ( .IN1(xreg[2]), .IN2(n148), .IN3(n160), .IN4(n147), .IN5(n146), 
+        .Q(n149) );
+  XNOR2X1 U183 ( .IN1(n156), .IN2(n149), .Q(n151) );
+  AO22X1 U184 ( .IN1(yreg[2]), .IN2(n152), .IN3(n151), .IN4(n150), .Q(n153) );
+  AO21X1 U185 ( .IN1(n154), .IN2(y_i[2]), .IN3(n153), .Q(Y_REG_n5) );
 endmodule
 

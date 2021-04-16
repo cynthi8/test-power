@@ -3,14 +3,14 @@
 Report : clock_gating
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:31:43 2021
+Date   : Thu Apr 15 23:39:53 2021
 ****************************************
 
 
 
                              Clock Gating Summary
           ------------------------------------------------------------
-          |    Number of Clock gating elements    |        3         |
+          |    Number of Clock gating elements    |        2         |
           |                                       |                  |
           |    Number of Gated registers          |    12 (80.00%)   |
           |                                       |                  |

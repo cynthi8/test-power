@@ -8,15 +8,15 @@ Report : timing
         -sort_by group
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:30:27 2021
+Date   : Thu Apr 15 23:21:50 2021
 ****************************************
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
 Wire Load Model Mode: enclosed
 
-  Startpoint: TOFSM/cState_reg_2_
+  Startpoint: TOFSM_cState_reg_1_
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: OUT_REG/clk_gate_output_reg/latch
+  Endpoint: OUT_REG_clk_gate_output_reg/latch
             (positive level-sensitive latch clocked by clk')
   Path Group: clk
   Path Type: max
@@ -24,122 +24,23 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
-  TOFSM/cState_reg_2_/Q (DFFARX1)                         0.34       0.64 f
-  TOFSM/U8/QN (NAND2X0)                                   0.15       0.79 r
-  TOFSM/U10/QN (NOR2X0)                                   0.15       0.94 f
-  TOFSM/enable (fsm)                                      0.00       0.94 f
-  OUT_REG/load (regis_0)                                  0.00       0.94 f
-  OUT_REG/clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_0)
-                                                          0.00       0.94 f
-  OUT_REG/clk_gate_output_reg/latch/D (LATCHX1)           0.04       0.98 f
-  data arrival time                                                  0.98
-
-  clock clk' (rise edge)                                 12.50      12.50
-  clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
-  time borrowed from endpoint                             0.00      12.80
-  data required time                                                12.80
-  --------------------------------------------------------------------------
-  data required time                                                12.80
-  data arrival time                                                 -0.98
-  --------------------------------------------------------------------------
-  slack (MET)                                                       11.82
-
-  Time Borrowing Information
-  --------------------------------------------------------------
-  clk' nominal pulse width                               12.50   
-  library setup time                                     -0.14   
-  --------------------------------------------------------------
-  max time borrow                                        12.36   
-  actual time borrow                                      0.00   
-  --------------------------------------------------------------
-
-
-  Startpoint: TOFSM/cState_reg_2_
-              (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: OUT_REG/clk_gate_output_reg/latch
-            (positive level-sensitive latch clocked by clk')
-  Path Group: clk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
-  TOFSM/cState_reg_2_/Q (DFFARX1)                         0.31       0.61 r
-  TOFSM/U8/QN (NAND2X0)                                   0.13       0.75 f
-  TOFSM/U10/QN (NOR2X0)                                   0.14       0.89 r
-  TOFSM/enable (fsm)                                      0.00       0.89 r
-  OUT_REG/load (regis_0)                                  0.00       0.89 r
-  OUT_REG/clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_0)
-                                                          0.00       0.89 r
-  OUT_REG/clk_gate_output_reg/latch/D (LATCHX1)           0.04       0.93 r
-  data arrival time                                                  0.93
-
-  clock clk' (rise edge)                                 12.50      12.50
-  clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
-  time borrowed from endpoint                             0.00      12.80
-  data required time                                                12.80
-  --------------------------------------------------------------------------
-  data required time                                                12.80
-  data arrival time                                                 -0.93
-  --------------------------------------------------------------------------
-  slack (MET)                                                       11.87
-
-  Time Borrowing Information
-  --------------------------------------------------------------
-  clk' nominal pulse width                               12.50   
-  library setup time                                     -0.07   
-  --------------------------------------------------------------
-  max time borrow                                        12.43   
-  actual time borrow                                      0.00   
-  --------------------------------------------------------------
-
-
-  Startpoint: TOFSM/cState_reg_2_
-              (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: X_REG/clk_gate_output_reg/latch
-            (positive level-sensitive latch clocked by clk')
-  Path Group: clk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
-  TOFSM/cState_reg_2_/Q (DFFARX1)                         0.34       0.64 f
-  TOFSM/U8/QN (NAND2X0)                                   0.15       0.79 r
-  TOFSM/U9/QN (NAND2X0)                                   0.10       0.89 f
-  TOFSM/xld (fsm)                                         0.00       0.89 f
-  X_REG/load (regis_2)                                    0.00       0.89 f
-  X_REG/clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_2)
+  TOFSM_cState_reg_1_/CLK (DFFARX1)                       0.00       0.30 r
+  TOFSM_cState_reg_1_/Q (DFFARX1)                         0.33       0.63 f
+  U87/QN (NAND2X0)                                        0.13       0.76 r
+  U132/QN (NOR2X0)                                        0.13       0.89 f
+  OUT_REG_clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_0)
                                                           0.00       0.89 f
-  X_REG/clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.93 f
+  OUT_REG_clk_gate_output_reg/latch/D (LATCHX1)           0.04       0.93 f
   data arrival time                                                  0.93
 
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  OUT_REG_clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
   time borrowed from endpoint                             0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
@@ -158,9 +59,9 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------
 
 
-  Startpoint: TOFSM/cState_reg_2_
+  Startpoint: TOFSM_cState_reg_2_
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: X_REG/clk_gate_output_reg/latch
+  Endpoint: Y_REG_clk_gate_output_reg/latch
             (positive level-sensitive latch clocked by clk')
   Path Group: clk
   Path Type: max
@@ -168,26 +69,113 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
-  TOFSM/cState_reg_2_/Q (DFFARX1)                         0.31       0.61 r
-  TOFSM/U8/QN (NAND2X0)                                   0.13       0.75 f
-  TOFSM/U9/QN (NAND2X0)                                   0.12       0.87 r
-  TOFSM/xld (fsm)                                         0.00       0.87 r
-  X_REG/load (regis_2)                                    0.00       0.87 r
-  X_REG/clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_2)
-                                                          0.00       0.87 r
-  X_REG/clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.91 r
+  TOFSM_cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
+  TOFSM_cState_reg_2_/Q (DFFARX1)                         0.35       0.65 f
+  U117/QN (NAND3X0)                                       0.15       0.79 r
+  U118/QN (NAND2X0)                                       0.09       0.89 f
+  Y_REG_clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_1)
+                                                          0.00       0.89 f
+  Y_REG_clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.92 f
+  data arrival time                                                  0.92
+
+  clock clk' (rise edge)                                 12.50      12.50
+  clock network delay (ideal)                             0.30      12.80
+  Y_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  time borrowed from endpoint                             0.00      12.80
+  data required time                                                12.80
+  --------------------------------------------------------------------------
+  data required time                                                12.80
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                       11.88
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk' nominal pulse width                               12.50   
+  library setup time                                     -0.13   
+  --------------------------------------------------------------
+  max time borrow                                        12.37   
+  actual time borrow                                      0.00   
+  --------------------------------------------------------------
+
+
+  Startpoint: TOFSM_cState_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: Y_REG_clk_gate_output_reg/latch
+            (positive level-sensitive latch clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  TOFSM_cState_reg_0_/CLK (DFFARX1)                       0.00       0.30 r
+  TOFSM_cState_reg_0_/Q (DFFARX1)                         0.35       0.65 f
+  U117/QN (NAND3X0)                                       0.14       0.79 r
+  U118/QN (NAND2X0)                                       0.09       0.88 f
+  Y_REG_clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_1)
+                                                          0.00       0.88 f
+  Y_REG_clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.92 f
+  data arrival time                                                  0.92
+
+  clock clk' (rise edge)                                 12.50      12.50
+  clock network delay (ideal)                             0.30      12.80
+  Y_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  time borrowed from endpoint                             0.00      12.80
+  data required time                                                12.80
+  --------------------------------------------------------------------------
+  data required time                                                12.80
+  data arrival time                                                 -0.92
+  --------------------------------------------------------------------------
+  slack (MET)                                                       11.88
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk' nominal pulse width                               12.50   
+  library setup time                                     -0.13   
+  --------------------------------------------------------------
+  max time borrow                                        12.37   
+  actual time borrow                                      0.00   
+  --------------------------------------------------------------
+
+
+  Startpoint: TOFSM_cState_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: X_REG_clk_gate_output_reg/latch
+            (positive level-sensitive latch clocked by clk')
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                8000                  saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  TOFSM_cState_reg_1_/CLK (DFFARX1)                       0.00       0.30 r
+  TOFSM_cState_reg_1_/Q (DFFARX1)                         0.33       0.63 f
+  U87/QN (NAND2X0)                                        0.13       0.76 r
+  U85/QN (NAND2X0)                                        0.11       0.87 f
+  X_REG_clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_2)
+                                                          0.00       0.87 f
+  X_REG_clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.91 f
   data arrival time                                                  0.91
 
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  X_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
   time borrowed from endpoint                             0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
@@ -199,16 +187,16 @@ Wire Load Model Mode: enclosed
   Time Borrowing Information
   --------------------------------------------------------------
   clk' nominal pulse width                               12.50   
-  library setup time                                     -0.07   
+  library setup time                                     -0.13   
   --------------------------------------------------------------
-  max time borrow                                        12.43   
+  max time borrow                                        12.37   
   actual time borrow                                      0.00   
   --------------------------------------------------------------
 
 
-  Startpoint: TOFSM/cState_reg_2_
+  Startpoint: TOFSM_cState_reg_2_
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: Y_REG/clk_gate_output_reg/latch
+  Endpoint: X_REG_clk_gate_output_reg/latch
             (positive level-sensitive latch clocked by clk')
   Path Group: clk
   Path Type: max
@@ -216,26 +204,23 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
   clock clk (rise edge)                                   0.00       0.00
   clock network delay (ideal)                             0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
-  TOFSM/cState_reg_2_/Q (DFFARX1)                         0.34       0.64 f
-  TOFSM/U11/QN (NAND3X0)                                  0.14       0.77 r
-  TOFSM/U5/QN (NAND2X0)                                   0.09       0.87 f
-  TOFSM/yld (fsm)                                         0.00       0.87 f
-  Y_REG/load (regis_1)                                    0.00       0.87 f
-  Y_REG/clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_1)
-                                                          0.00       0.87 f
-  Y_REG/clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.90 f
+  TOFSM_cState_reg_2_/CLK (DFFARX1)                       0.00       0.30 r
+  TOFSM_cState_reg_2_/Q (DFFARX1)                         0.35       0.65 f
+  U88/QN (NAND2X0)                                        0.13       0.77 r
+  U85/QN (NAND2X0)                                        0.09       0.86 f
+  X_REG_clk_gate_output_reg/EN (SNPS_CLOCK_GATE_HIGH_regis_0_2)
+                                                          0.00       0.86 f
+  X_REG_clk_gate_output_reg/latch/D (LATCHX1)             0.04       0.90 f
   data arrival time                                                  0.90
 
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  Y_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  X_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
   time borrowed from endpoint                             0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
@@ -265,15 +250,48 @@ Report : timing
         -sort_by group
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:30:27 2021
+Date   : Thu Apr 15 23:21:50 2021
 ****************************************
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
 Wire Load Model Mode: enclosed
 
-  Startpoint: X_REG/clk_gate_output_reg/latch
+  Startpoint: OUT_REG_clk_gate_output_reg/latch
               (positive level-sensitive latch clocked by clk')
-  Endpoint: X_REG/clk_gate_output_reg/main_gate
+  Endpoint: OUT_REG_clk_gate_output_reg/main_gate
+            (gating element for clock clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SNPS_CLOCK_GATE_HIGH_regis_0_0
+                     ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk' (rise edge)                                 12.50      12.50
+  clock network delay (ideal)                             0.30      12.80
+  OUT_REG_clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
+  OUT_REG_clk_gate_output_reg/latch/Q (LATCHX1)           0.13      12.93 f
+  OUT_REG_clk_gate_output_reg/main_gate/IN1 (AND2X1)      0.03      12.96 f
+  data arrival time                                                 12.96
+
+  clock clk (fall edge)                                  12.50      12.50
+  clock network delay (ideal)                             0.30      12.80
+  OUT_REG_clk_gate_output_reg/main_gate/IN2 (AND2X1)      0.00      12.80 f
+  clock gating hold time                                  0.00      12.80
+  data required time                                                12.80
+  --------------------------------------------------------------------------
+  data required time                                                12.80
+  data arrival time                                                -12.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.16
+
+
+  Startpoint: X_REG_clk_gate_output_reg/latch
+              (positive level-sensitive latch clocked by clk')
+  Endpoint: X_REG_clk_gate_output_reg/main_gate
             (gating element for clock clk)
   Path Group: clk
   Path Type: min
@@ -287,14 +305,14 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
-  X_REG/clk_gate_output_reg/latch/Q (LATCHX1)             0.13      12.93 f
-  X_REG/clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.96 f
+  X_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  X_REG_clk_gate_output_reg/latch/Q (LATCHX1)             0.13      12.93 f
+  X_REG_clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.96 f
   data arrival time                                                 12.96
 
   clock clk (fall edge)                                  12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
+  X_REG_clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
   clock gating hold time                                  0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
@@ -304,9 +322,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                                        0.16
 
 
-  Startpoint: Y_REG/clk_gate_output_reg/latch
+  Startpoint: Y_REG_clk_gate_output_reg/latch
               (positive level-sensitive latch clocked by clk')
-  Endpoint: Y_REG/clk_gate_output_reg/main_gate
+  Endpoint: Y_REG_clk_gate_output_reg/main_gate
             (gating element for clock clk)
   Path Group: clk
   Path Type: min
@@ -320,14 +338,14 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  Y_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
-  Y_REG/clk_gate_output_reg/latch/Q (LATCHX1)             0.13      12.93 f
-  Y_REG/clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.96 f
+  Y_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  Y_REG_clk_gate_output_reg/latch/Q (LATCHX1)             0.13      12.93 f
+  Y_REG_clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.96 f
   data arrival time                                                 12.96
 
   clock clk (fall edge)                                  12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  Y_REG/clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
+  Y_REG_clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
   clock gating hold time                                  0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
@@ -337,9 +355,9 @@ Wire Load Model Mode: enclosed
   slack (MET)                                                        0.16
 
 
-  Startpoint: OUT_REG/clk_gate_output_reg/latch
+  Startpoint: OUT_REG_clk_gate_output_reg/latch
               (positive level-sensitive latch clocked by clk')
-  Endpoint: OUT_REG/clk_gate_output_reg/main_gate
+  Endpoint: OUT_REG_clk_gate_output_reg/main_gate
             (gating element for clock clk)
   Path Group: clk
   Path Type: min
@@ -353,26 +371,26 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
-  OUT_REG/clk_gate_output_reg/latch/Q (LATCHX1)           0.13      12.93 f
-  OUT_REG/clk_gate_output_reg/main_gate/IN1 (AND2X1)      0.03      12.96 f
-  data arrival time                                                 12.96
+  OUT_REG_clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
+  OUT_REG_clk_gate_output_reg/latch/Q (LATCHX1)           0.15      12.95 r
+  OUT_REG_clk_gate_output_reg/main_gate/IN1 (AND2X1)      0.03      12.98 r
+  data arrival time                                                 12.98
 
   clock clk (fall edge)                                  12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/main_gate/IN2 (AND2X1)      0.00      12.80 f
+  OUT_REG_clk_gate_output_reg/main_gate/IN2 (AND2X1)      0.00      12.80 f
   clock gating hold time                                  0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
   data required time                                                12.80
-  data arrival time                                                -12.96
+  data arrival time                                                -12.98
   --------------------------------------------------------------------------
-  slack (MET)                                                        0.16
+  slack (MET)                                                        0.18
 
 
-  Startpoint: X_REG/clk_gate_output_reg/latch
+  Startpoint: X_REG_clk_gate_output_reg/latch
               (positive level-sensitive latch clocked by clk')
-  Endpoint: X_REG/clk_gate_output_reg/main_gate
+  Endpoint: X_REG_clk_gate_output_reg/main_gate
             (gating element for clock clk)
   Path Group: clk
   Path Type: min
@@ -386,47 +404,14 @@ Wire Load Model Mode: enclosed
   --------------------------------------------------------------------------
   clock clk' (rise edge)                                 12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
-  X_REG/clk_gate_output_reg/latch/Q (LATCHX1)             0.15      12.95 r
-  X_REG/clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.98 r
+  X_REG_clk_gate_output_reg/latch/CLK (LATCHX1)           0.00      12.80 r
+  X_REG_clk_gate_output_reg/latch/Q (LATCHX1)             0.15      12.95 r
+  X_REG_clk_gate_output_reg/main_gate/IN1 (AND2X1)        0.03      12.98 r
   data arrival time                                                 12.98
 
   clock clk (fall edge)                                  12.50      12.50
   clock network delay (ideal)                             0.30      12.80
-  X_REG/clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
-  clock gating hold time                                  0.00      12.80
-  data required time                                                12.80
-  --------------------------------------------------------------------------
-  data required time                                                12.80
-  data arrival time                                                -12.98
-  --------------------------------------------------------------------------
-  slack (MET)                                                        0.18
-
-
-  Startpoint: OUT_REG/clk_gate_output_reg/latch
-              (positive level-sensitive latch clocked by clk')
-  Endpoint: OUT_REG/clk_gate_output_reg/main_gate
-            (gating element for clock clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  SNPS_CLOCK_GATE_HIGH_regis_0_0
-                     ForQA                 saed90nm_typ_ht
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock clk' (rise edge)                                 12.50      12.50
-  clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/latch/CLK (LATCHX1)         0.00      12.80 r
-  OUT_REG/clk_gate_output_reg/latch/Q (LATCHX1)           0.15      12.95 r
-  OUT_REG/clk_gate_output_reg/main_gate/IN1 (AND2X1)      0.03      12.98 r
-  data arrival time                                                 12.98
-
-  clock clk (fall edge)                                  12.50      12.50
-  clock network delay (ideal)                             0.30      12.80
-  OUT_REG/clk_gate_output_reg/main_gate/IN2 (AND2X1)      0.00      12.80 f
+  X_REG_clk_gate_output_reg/main_gate/IN2 (AND2X1)        0.00      12.80 f
   clock gating hold time                                  0.00      12.80
   data required time                                                12.80
   --------------------------------------------------------------------------
