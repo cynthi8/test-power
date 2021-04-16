@@ -7,13 +7,13 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:02:24 2021
+Date   : Thu Apr 15 20:02:19 2021
 ****************************************
 
 
 Library(s) Used:
 
-    gtech (File: /opt/eda/synopsys/current/syn/libraries/syn/gtech.db)
+    saed90nm_typ_ht (File: /home/hernannr/test-power/lab3/phase_1_design_compiler/db/saed90nm_typ_ht.db)
 
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
@@ -21,21 +21,15 @@ Wire Load Model Mode: enclosed
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-gcd                    ForQA             saed90nm_typ_ht
-fsm                    ForQA             saed90nm_typ_ht
+gcd                    8000              saed90nm_typ_ht
+fsm                    8000              saed90nm_typ_ht
 mux_1                  ForQA             saed90nm_typ_ht
 regis_2                ForQA             saed90nm_typ_ht
 comparator             ForQA             saed90nm_typ_ht
-subtractor             ForQA             saed90nm_typ_ht
+subtractor             8000              saed90nm_typ_ht
 mux_0                  ForQA             saed90nm_typ_ht
 regis_0                ForQA             saed90nm_typ_ht
 regis_1                ForQA             saed90nm_typ_ht
-*LT_UNS_OP_4_4_1       ForQA             saed90nm_typ_ht
-DW01_cmp2_width4       ForQA             saed90nm_typ_ht
-DW01_cmp2_width4       ForQA             saed90nm_typ_ht
-*SUB_UNS_OP_4_4_4      ForQA             saed90nm_typ_ht
-DW01_sub_width4        ForQA             saed90nm_typ_ht
-DW01_sub_width4        ForQA             saed90nm_typ_ht
 
 
 Global Operating Voltage = 1.2  
@@ -47,12 +41,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   0.0000 uW    (0%)
-  Net Switching Power  = 316.5283 nW  (100%)
+  Cell Internal Power  =   4.3857 uW   (65%)
+  Net Switching Power  =   2.3881 uW   (35%)
                          ---------
-Total Dynamic Power    = 316.5283 nW  (100%)
+Total Dynamic Power    =   6.7738 uW  (100%)
 
-Cell Leakage Power     =   0.0000 pW
+Cell Leakage Power     =  20.9643 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -62,9 +56,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           0.0000        7.7778e-02            0.0000        7.7778e-02  (  24.57%)
+register           0.8027            0.7921        6.4343e+06            8.0290  (  28.95%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.0000            0.2388            0.0000            0.2388  (  75.43%)
+combinational      3.5830            1.5961        1.4530e+07           19.7091  (  71.05%)
 --------------------------------------------------------------------------------------------------
-Total              0.0000 uW         0.3165 uW         0.0000 pW         0.3165 uW
+Total              4.3857 uW         2.3881 uW     2.0964e+07 pW        27.7381 uW
 1

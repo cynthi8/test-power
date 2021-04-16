@@ -267,8 +267,7 @@ set filename [format "%s%s%s" ./reports/ $filebase ".timing"]
 redirect $filename { report_timing -path full -delay max -nworst 5 -significant_digits 2 -sort_by group }
 
 set filename [format "%s%s%s" ./reports/ $filebase ".timing"]
-redirect -append $filename { report_timing -path full -delay min -nworst 5 -significant_digits 2 -
-sort_by group }
+redirect -append $filename { report_timing -path full -delay min -nworst 5 -significant_digits 2 -sort_by group }
 
 ####################################
 # Report_cell and report_area

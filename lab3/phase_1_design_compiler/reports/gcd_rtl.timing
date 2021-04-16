@@ -17,7 +17,7 @@ Report : timing
         -sort_by group
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 19:42:35 2021
+Date   : Thu Apr 15 20:02:24 2021
 ****************************************
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
@@ -288,4 +288,215 @@ Wire Load Model Mode: enclosed
 
 
 1
-Error: extra positional option '-' (CMD-012)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Thu Apr 15 20:02:24 2021
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+  Startpoint: X_REG/output_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: OUT_REG/output_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                ForQA                 saed90nm_typ_ht
+  subtractor         ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  X_REG/output_reg_3_/clocked_on (**SEQGEN**)             0.00       0.30 r
+  X_REG/output_reg_3_/Q (**SEQGEN**)                      0.00       0.30 r
+  X_REG/output0[3] (regis_2)                              0.00       0.30 r
+  X_SUB/x[3] (subtractor)                                 0.00       0.30 r
+  X_SUB/C51/Z_3 (*SELECT_OP_2.4_2.1_4)                    0.01       0.31 r
+  X_SUB/C53/Z_3 (*SELECT_OP_2.4_2.1_4)                    0.00       0.31 r
+  X_SUB/xout[3] (subtractor)                              0.00       0.31 r
+  OUT_REG/input0[3] (regis_0)                             0.00       0.31 r
+  OUT_REG/output_reg_3_/next_state (**SEQGEN**)           0.00       0.32 r
+  data arrival time                                                  0.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  OUT_REG/output_reg_3_/clocked_on (**SEQGEN**)           0.00       0.30 r
+  library hold time                                       0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: X_REG/output_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: OUT_REG/output_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                ForQA                 saed90nm_typ_ht
+  subtractor         ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  X_REG/output_reg_2_/clocked_on (**SEQGEN**)             0.00       0.30 r
+  X_REG/output_reg_2_/Q (**SEQGEN**)                      0.00       0.30 r
+  X_REG/output0[2] (regis_2)                              0.00       0.30 r
+  X_SUB/x[2] (subtractor)                                 0.00       0.30 r
+  X_SUB/C51/Z_2 (*SELECT_OP_2.4_2.1_4)                    0.01       0.31 r
+  X_SUB/C53/Z_2 (*SELECT_OP_2.4_2.1_4)                    0.00       0.31 r
+  X_SUB/xout[2] (subtractor)                              0.00       0.31 r
+  OUT_REG/input0[2] (regis_0)                             0.00       0.31 r
+  OUT_REG/output_reg_2_/next_state (**SEQGEN**)           0.00       0.32 r
+  data arrival time                                                  0.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  OUT_REG/output_reg_2_/clocked_on (**SEQGEN**)           0.00       0.30 r
+  library hold time                                       0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: X_REG/output_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: OUT_REG/output_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                ForQA                 saed90nm_typ_ht
+  subtractor         ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  X_REG/output_reg_1_/clocked_on (**SEQGEN**)             0.00       0.30 r
+  X_REG/output_reg_1_/Q (**SEQGEN**)                      0.00       0.30 r
+  X_REG/output0[1] (regis_2)                              0.00       0.30 r
+  X_SUB/x[1] (subtractor)                                 0.00       0.30 r
+  X_SUB/C51/Z_1 (*SELECT_OP_2.4_2.1_4)                    0.01       0.31 r
+  X_SUB/C53/Z_1 (*SELECT_OP_2.4_2.1_4)                    0.00       0.31 r
+  X_SUB/xout[1] (subtractor)                              0.00       0.31 r
+  OUT_REG/input0[1] (regis_0)                             0.00       0.31 r
+  OUT_REG/output_reg_1_/next_state (**SEQGEN**)           0.00       0.32 r
+  data arrival time                                                  0.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  OUT_REG/output_reg_1_/clocked_on (**SEQGEN**)           0.00       0.30 r
+  library hold time                                       0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: X_REG/output_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: OUT_REG/output_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                ForQA                 saed90nm_typ_ht
+  subtractor         ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  X_REG/output_reg_0_/clocked_on (**SEQGEN**)             0.00       0.30 r
+  X_REG/output_reg_0_/Q (**SEQGEN**)                      0.00       0.30 r
+  X_REG/output0[0] (regis_2)                              0.00       0.30 r
+  X_SUB/x[0] (subtractor)                                 0.00       0.30 r
+  X_SUB/C51/Z_0 (*SELECT_OP_2.4_2.1_4)                    0.01       0.31 r
+  X_SUB/C53/Z_0 (*SELECT_OP_2.4_2.1_4)                    0.00       0.31 r
+  X_SUB/xout[0] (subtractor)                              0.00       0.31 r
+  OUT_REG/input0[0] (regis_0)                             0.00       0.31 r
+  OUT_REG/output_reg_0_/next_state (**SEQGEN**)           0.00       0.32 r
+  data arrival time                                                  0.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  OUT_REG/output_reg_0_/clocked_on (**SEQGEN**)           0.00       0.30 r
+  library hold time                                       0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: X_REG/output_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: OUT_REG/output_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                ForQA                 saed90nm_typ_ht
+  subtractor         ForQA                 saed90nm_typ_ht
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  X_REG/output_reg_0_/clocked_on (**SEQGEN**)             0.00       0.30 r
+  X_REG/output_reg_0_/Q (**SEQGEN**)                      0.00       0.30 f
+  X_REG/output0[0] (regis_2)                              0.00       0.30 f
+  X_SUB/x[0] (subtractor)                                 0.00       0.30 f
+  X_SUB/C51/Z_0 (*SELECT_OP_2.4_2.1_4)                    0.01       0.31 f
+  X_SUB/C53/Z_0 (*SELECT_OP_2.4_2.1_4)                    0.00       0.31 f
+  X_SUB/xout[0] (subtractor)                              0.00       0.31 f
+  OUT_REG/input0[0] (regis_0)                             0.00       0.31 f
+  OUT_REG/output_reg_0_/next_state (**SEQGEN**)           0.00       0.32 f
+  data arrival time                                                  0.32
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  OUT_REG/output_reg_0_/clocked_on (**SEQGEN**)           0.00       0.30 r
+  library hold time                                       0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+1

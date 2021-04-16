@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys Design Compiler(R)
 // Version   : O-2018.06-SP1
-// Date      : Thu Apr 15 19:42:35 2021
+// Date      : Thu Apr 15 20:02:24 2021
 /////////////////////////////////////////////////////////////
 
 
@@ -155,7 +155,7 @@ module comparator ( rst, x, y, output0 );
   input [3:0] y;
   output [1:0] output0;
   input rst;
-  wire   N0, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, net72;
+  wire   N0, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, net3082;
 
   LT_UNS_OP lt_gt_54 ( .A(y), .B(x), .Z(N5) );
   LT_UNS_OP lt_56 ( .A(x), .B(y), .Z(N7) );
@@ -171,7 +171,7 @@ module comparator ( rst, x, y, output0 );
   GTECH_NOT I_2 ( .A(rst), .Z(N3) );
   GTECH_BUF B_3 ( .A(N3), .Z(N4) );
   GTECH_NOT I_3 ( .A(N5), .Z(N6) );
-  GTECH_AND2 C38 ( .A(N4), .B(N6), .Z(net72) );
+  GTECH_AND2 C38 ( .A(N4), .B(N6), .Z(net3082) );
 endmodule
 
 
@@ -184,7 +184,7 @@ module subtractor ( rst, cmd, x, y, xout, yout );
   input rst;
   wire   N0, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12, N13, N14, N15,
          N16, N17, N18, N19, N20, N21, N22, N23, N24, N25, N26, N27, N28, N29,
-         N30, N31, N32, N33, N34, N35, N36, net100, net101;
+         N30, N31, N32, N33, N34, N35, N36, net3110, net3111;
 
   GTECH_OR2 C5 ( .A(cmd[0]), .B(cmd[1]), .Z(N5) );
   GTECH_NOT I_0 ( .A(N5), .Z(N6) );
@@ -212,9 +212,9 @@ module subtractor ( rst, cmd, x, y, xout, yout );
   GTECH_OR2 C57 ( .A(rst), .B(N6), .Z(N7) );
   GTECH_NOT I_5 ( .A(N7), .Z(N8) );
   GTECH_BUF B_5 ( .A(N8), .Z(N9) );
-  GTECH_AND2 C63 ( .A(N9), .B(N12), .Z(net100) );
+  GTECH_AND2 C63 ( .A(N9), .B(N12), .Z(net3110) );
   GTECH_AND2 C64 ( .A(N9), .B(N11), .Z(N17) );
-  GTECH_AND2 C67 ( .A(N17), .B(N20), .Z(net101) );
+  GTECH_AND2 C67 ( .A(N17), .B(N20), .Z(net3111) );
 endmodule
 
 
