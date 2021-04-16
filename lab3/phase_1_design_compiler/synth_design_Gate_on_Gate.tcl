@@ -20,17 +20,17 @@ set basename gcd;               # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
 set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
-set saifName [list ./src/gcd_rtl.saif];
+set saifName [list ./src/gcd_gate_level.saif];
 set saifInstance gcd_tb;
 
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname rtl;                # Name appended to output files
+set runname gate_on_gate;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
 
-set DoSynthesis 0;
+set DoSynthesis 1;
 set pwr_driven_clk_gate 0;
 
 ####################################

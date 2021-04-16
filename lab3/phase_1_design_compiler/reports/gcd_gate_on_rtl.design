@@ -3,7 +3,7 @@
 Report : design
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:02:18 2021
+Date   : Thu Apr 15 20:27:25 2021
 ****************************************
 
 Design allows ideal nets on clock nets.
@@ -100,7 +100,7 @@ Design Parameters:
 Report : hierarchy
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:02:18 2021
+Date   : Thu Apr 15 20:27:25 2021
 ****************************************
 
 gcd

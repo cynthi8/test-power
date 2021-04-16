@@ -26,7 +26,7 @@ set saifInstance gcd_tb;
 ####################################
 # Some runtime options, change only if needed
 ####################################
-set runname syn;                # Name appended to output files
+set runname gate_on_rtl;                # Name appended to output files
 set exit_dc 0;                  # 1 to exit DC after running, 0 to keep DC running
 set verbose 0;                  # 1 Write reports to screen, 0 do not write reports to screen
 
