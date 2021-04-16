@@ -1,2 +1,0 @@
-vcd2saif -input ../phase_1_testbench/gcd_rtl.vcd -output gcd_rtl.saif
-

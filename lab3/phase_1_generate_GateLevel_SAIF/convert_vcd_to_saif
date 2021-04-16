@@ -1,0 +1,2 @@
+vcd2saif -input gcd_gate_level.vcd -output gcd_gate_level.saif
+

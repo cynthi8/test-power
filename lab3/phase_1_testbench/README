@@ -1,4 +1,0 @@
-This directory tests the GCD module to generate switching activity files for power analysis
-
-1. In this directory run
-modelsim -do run_simulation.tcl

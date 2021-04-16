@@ -1,4 +1,0 @@
-This folder holds the script to generate the backwards SAIF file generated with the vcd2saif utility.
-
-Run with:
-./convert_vcd_to_saif

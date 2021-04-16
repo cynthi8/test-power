@@ -1,0 +1,5 @@
+This directory simulates the GCD module to generate Gate Level switching activity files for power analysis
+
+1. In this directory run
+modelsim -do run_simulation.tcl
+./convert_vcd_to_saif

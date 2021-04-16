@@ -1,7 +1,7 @@
 # Compile needed files into work
 vlib work
-vlog -reportprogress 300 -work work *.v 
-vcom -reportprogress 300 -work work *.vhdl
+vlog -reportprogress 300 -work work ../source_design/*.v 
+vcom -reportprogress 300 -work work ../source_design/*.vhdl
 
 # Enter Simulation Mode
 vsim work.gcd_tb

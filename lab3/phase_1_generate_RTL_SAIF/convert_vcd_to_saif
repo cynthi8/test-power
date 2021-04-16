@@ -1,0 +1,2 @@
+vcd2saif -input gcd_rtl.vcd -output gcd_rtl.saif
+
