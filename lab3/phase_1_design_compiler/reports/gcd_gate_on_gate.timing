@@ -8,61 +8,11 @@ Report : timing
         -sort_by group
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:27:18 2021
+Date   : Thu Apr 15 21:58:13 2021
 ****************************************
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
 Wire Load Model Mode: enclosed
-
-  Startpoint: rst (input port clocked by clk)
-  Endpoint: Y_REG/output_reg_3_
-            (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  gcd                8000                  saed90nm_typ_ht
-  comparator         ForQA                 saed90nm_typ_ht
-  subtractor         8000                  saed90nm_typ_ht
-  regis_1            ForQA                 saed90nm_typ_ht
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock clk (rise edge)                    0.00       0.00
-  clock network delay (ideal)              0.30       0.30
-  input external delay                     2.00       2.30 r
-  rst (in)                                 0.07       2.37 r
-  U_COMP/rst (comparator)                  0.00       2.37 r
-  U_COMP/U5/ZN (INVX0)                     0.12       2.49 f
-  U_COMP/U21/Q (OA221X1)                   0.20       2.68 f
-  U_COMP/output0[0] (comparator)           0.00       2.68 f
-  X_SUB/cmd[0] (subtractor)                0.00       2.68 f
-  X_SUB/U4/ZN (INVX0)                      0.15       2.83 r
-  X_SUB/U54/Q (AO21X1)                     0.23       3.06 r
-  X_SUB/U3/QN (NOR2X0)                     0.17       3.24 f
-  X_SUB/U32/QN (NAND3X0)                   0.17       3.40 r
-  X_SUB/U16/QN (NAND2X1)                   0.10       3.51 f
-  X_SUB/yout[3] (subtractor)               0.00       3.51 f
-  Y_MUX/result[3] (mux_0)                  0.00       3.51 f
-  Y_MUX/U5/Q (AO22X1)                      0.18       3.68 f
-  Y_MUX/output0[3] (mux_0)                 0.00       3.68 f
-  Y_REG/input0[3] (regis_1)                0.00       3.68 f
-  Y_REG/U6/Q (AO22X1)                      0.15       3.83 f
-  Y_REG/output_reg_3_/D (DFFARX1)          0.03       3.86 f
-  data arrival time                                   3.86
-
-  clock clk (rise edge)                   25.00      25.00
-  clock network delay (ideal)              0.30      25.30
-  Y_REG/output_reg_3_/CLK (DFFARX1)        0.00      25.30 r
-  library setup time                      -0.11      25.19
-  data required time                                 25.19
-  -----------------------------------------------------------
-  data required time                                 25.19
-  data arrival time                                  -3.86
-  -----------------------------------------------------------
-  slack (MET)                                        21.33
-
 
   Startpoint: rst (input port clocked by clk)
   Endpoint: Y_REG/output_reg_2_
@@ -73,7 +23,6 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  comparator         ForQA                 saed90nm_typ_ht
   subtractor         8000                  saed90nm_typ_ht
   regis_1            ForQA                 saed90nm_typ_ht
 
@@ -81,37 +30,37 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
-  input external delay                     2.00       2.30 r
-  rst (in)                                 0.07       2.37 r
-  U_COMP/rst (comparator)                  0.00       2.37 r
-  U_COMP/U5/ZN (INVX0)                     0.12       2.49 f
-  U_COMP/U21/Q (OA221X1)                   0.20       2.68 f
-  U_COMP/output0[0] (comparator)           0.00       2.68 f
-  X_SUB/cmd[0] (subtractor)                0.00       2.68 f
-  X_SUB/U4/ZN (INVX0)                      0.15       2.83 r
-  X_SUB/U54/Q (AO21X1)                     0.23       3.06 r
-  X_SUB/U3/QN (NOR2X0)                     0.17       3.24 f
-  X_SUB/U37/QN (NAND3X0)                   0.17       3.40 r
-  X_SUB/U15/QN (NAND2X1)                   0.10       3.51 f
-  X_SUB/yout[2] (subtractor)               0.00       3.51 f
-  Y_MUX/result[2] (mux_0)                  0.00       3.51 f
-  Y_MUX/U6/Q (AO22X1)                      0.18       3.68 f
-  Y_MUX/output0[2] (mux_0)                 0.00       3.68 f
-  Y_REG/input0[2] (regis_1)                0.00       3.68 f
-  Y_REG/U4/Q (AO22X1)                      0.15       3.83 f
-  Y_REG/output_reg_2_/D (DFFARX1)          0.03       3.86 f
-  data arrival time                                   3.86
+  input external delay                     2.00       2.30 f
+  rst (in)                                 0.03       2.33 f
+  U1/ZN (INVX0)                            0.11       2.44 r
+  U2/ZN (INVX0)                            0.09       2.53 f
+  U_COMP/rst (comparator)                  0.00       2.53 f
+  U_COMP/U18/QN (NOR2X0)                   0.19       2.72 r
+  U_COMP/output0[1] (comparator)           0.00       2.72 r
+  X_SUB/cmd[1] (subtractor)                0.00       2.72 r
+  X_SUB/U4/ZN (INVX0)                      0.14       2.86 f
+  X_SUB/U22/Q (OA221X1)                    0.20       3.06 f
+  X_SUB/U23/Q (MUX21X1)                    0.20       3.26 f
+  X_SUB/U24/QN (NOR2X0)                    0.11       3.37 r
+  X_SUB/yout[2] (subtractor)               0.00       3.37 r
+  Y_MUX/result[2] (mux_0)                  0.00       3.37 r
+  Y_MUX/U7/Q (AO22X1)                      0.15       3.52 r
+  Y_MUX/output0[2] (mux_0)                 0.00       3.52 r
+  Y_REG/input0[2] (regis_1)                0.00       3.52 r
+  Y_REG/U3/Q (MUX21X1)                     0.17       3.69 r
+  Y_REG/output_reg_2_/D (DFFARX1)          0.03       3.72 r
+  data arrival time                                   3.72
 
   clock clk (rise edge)                   25.00      25.00
   clock network delay (ideal)              0.30      25.30
   Y_REG/output_reg_2_/CLK (DFFARX1)        0.00      25.30 r
-  library setup time                      -0.11      25.19
-  data required time                                 25.19
+  library setup time                      -0.17      25.13
+  data required time                                 25.13
   -----------------------------------------------------------
-  data required time                                 25.19
-  data arrival time                                  -3.86
+  data required time                                 25.13
+  data arrival time                                  -3.72
   -----------------------------------------------------------
-  slack (MET)                                        21.33
+  slack (MET)                                        21.41
 
 
   Startpoint: rst (input port clocked by clk)
@@ -123,7 +72,6 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  comparator         ForQA                 saed90nm_typ_ht
   subtractor         8000                  saed90nm_typ_ht
   regis_1            ForQA                 saed90nm_typ_ht
 
@@ -131,41 +79,41 @@ Wire Load Model Mode: enclosed
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
-  input external delay                     2.00       2.30 r
-  rst (in)                                 0.07       2.37 r
-  U_COMP/rst (comparator)                  0.00       2.37 r
-  U_COMP/U5/ZN (INVX0)                     0.12       2.49 f
-  U_COMP/U21/Q (OA221X1)                   0.20       2.68 f
-  U_COMP/output0[0] (comparator)           0.00       2.68 f
-  X_SUB/cmd[0] (subtractor)                0.00       2.68 f
-  X_SUB/U4/ZN (INVX0)                      0.15       2.83 r
-  X_SUB/U54/Q (AO21X1)                     0.23       3.06 r
-  X_SUB/U3/QN (NOR2X0)                     0.17       3.24 f
-  X_SUB/U41/QN (NAND3X0)                   0.17       3.40 r
-  X_SUB/U17/QN (NAND2X1)                   0.10       3.51 f
-  X_SUB/yout[1] (subtractor)               0.00       3.51 f
-  Y_MUX/result[1] (mux_0)                  0.00       3.51 f
-  Y_MUX/U7/Q (AO22X1)                      0.18       3.68 f
-  Y_MUX/output0[1] (mux_0)                 0.00       3.68 f
-  Y_REG/input0[1] (regis_1)                0.00       3.68 f
-  Y_REG/U3/Q (AO22X1)                      0.15       3.83 f
-  Y_REG/output_reg_1_/D (DFFARX1)          0.03       3.86 f
-  data arrival time                                   3.86
+  input external delay                     2.00       2.30 f
+  rst (in)                                 0.03       2.33 f
+  U1/ZN (INVX0)                            0.11       2.44 r
+  U2/ZN (INVX0)                            0.09       2.53 f
+  U_COMP/rst (comparator)                  0.00       2.53 f
+  U_COMP/U18/QN (NOR2X0)                   0.19       2.72 r
+  U_COMP/output0[1] (comparator)           0.00       2.72 r
+  X_SUB/cmd[1] (subtractor)                0.00       2.72 r
+  X_SUB/U4/ZN (INVX0)                      0.14       2.86 f
+  X_SUB/U14/Q (OA221X1)                    0.20       3.06 f
+  X_SUB/U15/Q (MUX21X1)                    0.20       3.26 f
+  X_SUB/U16/QN (NOR2X0)                    0.11       3.37 r
+  X_SUB/yout[1] (subtractor)               0.00       3.37 r
+  Y_MUX/result[1] (mux_0)                  0.00       3.37 r
+  Y_MUX/U6/Q (AO22X1)                      0.15       3.52 r
+  Y_MUX/output0[1] (mux_0)                 0.00       3.52 r
+  Y_REG/input0[1] (regis_1)                0.00       3.52 r
+  Y_REG/U4/Q (MUX21X1)                     0.17       3.69 r
+  Y_REG/output_reg_1_/D (DFFARX1)          0.03       3.72 r
+  data arrival time                                   3.72
 
   clock clk (rise edge)                   25.00      25.00
   clock network delay (ideal)              0.30      25.30
   Y_REG/output_reg_1_/CLK (DFFARX1)        0.00      25.30 r
-  library setup time                      -0.11      25.19
-  data required time                                 25.19
+  library setup time                      -0.17      25.13
+  data required time                                 25.13
   -----------------------------------------------------------
-  data required time                                 25.19
-  data arrival time                                  -3.86
+  data required time                                 25.13
+  data arrival time                                  -3.72
   -----------------------------------------------------------
-  slack (MET)                                        21.33
+  slack (MET)                                        21.41
 
 
   Startpoint: rst (input port clocked by clk)
-  Endpoint: Y_REG/output_reg_1_
+  Endpoint: X_REG/output_reg_2_
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: max
@@ -173,49 +121,48 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  comparator         ForQA                 saed90nm_typ_ht
   subtractor         8000                  saed90nm_typ_ht
-  regis_1            ForQA                 saed90nm_typ_ht
+  regis_2            ForQA                 saed90nm_typ_ht
 
   Point                                    Incr       Path
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
-  input external delay                     2.00       2.30 r
-  rst (in)                                 0.07       2.37 r
-  U_COMP/rst (comparator)                  0.00       2.37 r
-  U_COMP/U5/ZN (INVX0)                     0.12       2.49 f
-  U_COMP/U21/Q (OA221X1)                   0.20       2.68 f
-  U_COMP/output0[0] (comparator)           0.00       2.68 f
-  X_SUB/cmd[0] (subtractor)                0.00       2.68 f
-  X_SUB/U4/ZN (INVX0)                      0.15       2.83 r
-  X_SUB/U54/Q (AO21X1)                     0.23       3.06 r
-  X_SUB/U6/ZN (INVX0)                      0.14       3.20 f
-  X_SUB/U40/QN (NAND3X0)                   0.15       3.36 r
-  X_SUB/U17/QN (NAND2X1)                   0.10       3.46 f
-  X_SUB/yout[1] (subtractor)               0.00       3.46 f
-  Y_MUX/result[1] (mux_0)                  0.00       3.46 f
-  Y_MUX/U7/Q (AO22X1)                      0.18       3.63 f
-  Y_MUX/output0[1] (mux_0)                 0.00       3.63 f
-  Y_REG/input0[1] (regis_1)                0.00       3.63 f
-  Y_REG/U3/Q (AO22X1)                      0.15       3.79 f
-  Y_REG/output_reg_1_/D (DFFARX1)          0.03       3.82 f
-  data arrival time                                   3.82
+  input external delay                     2.00       2.30 f
+  rst (in)                                 0.03       2.33 f
+  U1/ZN (INVX0)                            0.11       2.44 r
+  U2/ZN (INVX0)                            0.09       2.53 f
+  U_COMP/rst (comparator)                  0.00       2.53 f
+  U_COMP/U24/QN (NOR2X0)                   0.16       2.70 r
+  U_COMP/output0[0] (comparator)           0.00       2.70 r
+  X_SUB/cmd[0] (subtractor)                0.00       2.70 r
+  X_SUB/U8/ZN (INVX0)                      0.13       2.83 f
+  X_SUB/U40/Q (OA221X1)                    0.20       3.03 f
+  X_SUB/U41/Q (MUX21X1)                    0.20       3.23 f
+  X_SUB/U42/QN (NOR2X0)                    0.13       3.35 r
+  X_SUB/xout[2] (subtractor)               0.00       3.35 r
+  X_MUX/result[2] (mux_1)                  0.00       3.35 r
+  X_MUX/U7/Q (AO22X1)                      0.16       3.51 r
+  X_MUX/output0[2] (mux_1)                 0.00       3.51 r
+  X_REG/input0[2] (regis_2)                0.00       3.51 r
+  X_REG/U3/Q (MUX21X1)                     0.17       3.69 r
+  X_REG/output_reg_2_/D (DFFARX1)          0.03       3.72 r
+  data arrival time                                   3.72
 
   clock clk (rise edge)                   25.00      25.00
   clock network delay (ideal)              0.30      25.30
-  Y_REG/output_reg_1_/CLK (DFFARX1)        0.00      25.30 r
-  library setup time                      -0.11      25.19
-  data required time                                 25.19
+  X_REG/output_reg_2_/CLK (DFFARX1)        0.00      25.30 r
+  library setup time                      -0.17      25.13
+  data required time                                 25.13
   -----------------------------------------------------------
-  data required time                                 25.19
-  data arrival time                                  -3.82
+  data required time                                 25.13
+  data arrival time                                  -3.72
   -----------------------------------------------------------
-  slack (MET)                                        21.37
+  slack (MET)                                        21.42
 
 
   Startpoint: rst (input port clocked by clk)
-  Endpoint: Y_REG/output_reg_0_
+  Endpoint: X_REG/output_reg_1_
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: max
@@ -223,44 +170,93 @@ Wire Load Model Mode: enclosed
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   gcd                8000                  saed90nm_typ_ht
-  comparator         ForQA                 saed90nm_typ_ht
   subtractor         8000                  saed90nm_typ_ht
-  regis_1            ForQA                 saed90nm_typ_ht
+  regis_2            ForQA                 saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.30       0.30
+  input external delay                     2.00       2.30 f
+  rst (in)                                 0.03       2.33 f
+  U1/ZN (INVX0)                            0.11       2.44 r
+  U2/ZN (INVX0)                            0.09       2.53 f
+  U_COMP/rst (comparator)                  0.00       2.53 f
+  U_COMP/U24/QN (NOR2X0)                   0.16       2.70 r
+  U_COMP/output0[0] (comparator)           0.00       2.70 r
+  X_SUB/cmd[0] (subtractor)                0.00       2.70 r
+  X_SUB/U8/ZN (INVX0)                      0.13       2.83 f
+  X_SUB/U35/Q (OA221X1)                    0.20       3.03 f
+  X_SUB/U36/Q (MUX21X1)                    0.20       3.23 f
+  X_SUB/U37/QN (NOR2X0)                    0.13       3.35 r
+  X_SUB/xout[1] (subtractor)               0.00       3.35 r
+  X_MUX/result[1] (mux_1)                  0.00       3.35 r
+  X_MUX/U6/Q (AO22X1)                      0.16       3.51 r
+  X_MUX/output0[1] (mux_1)                 0.00       3.51 r
+  X_REG/input0[1] (regis_2)                0.00       3.51 r
+  X_REG/U4/Q (MUX21X1)                     0.17       3.69 r
+  X_REG/output_reg_1_/D (DFFARX1)          0.03       3.72 r
+  data arrival time                                   3.72
+
+  clock clk (rise edge)                   25.00      25.00
+  clock network delay (ideal)              0.30      25.30
+  X_REG/output_reg_1_/CLK (DFFARX1)        0.00      25.30 r
+  library setup time                      -0.17      25.13
+  data required time                                 25.13
+  -----------------------------------------------------------
+  data required time                                 25.13
+  data arrival time                                  -3.72
+  -----------------------------------------------------------
+  slack (MET)                                        21.42
+
+
+  Startpoint: rst (input port clocked by clk)
+  Endpoint: X_REG/output_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                8000                  saed90nm_typ_ht
+  subtractor         8000                  saed90nm_typ_ht
+  regis_2            ForQA                 saed90nm_typ_ht
 
   Point                                    Incr       Path
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
   input external delay                     2.00       2.30 r
-  rst (in)                                 0.07       2.37 r
-  U_COMP/rst (comparator)                  0.00       2.37 r
-  U_COMP/U5/ZN (INVX0)                     0.12       2.49 f
-  U_COMP/U21/Q (OA221X1)                   0.20       2.68 f
-  U_COMP/output0[0] (comparator)           0.00       2.68 f
-  X_SUB/cmd[0] (subtractor)                0.00       2.68 f
-  X_SUB/U4/ZN (INVX0)                      0.15       2.83 r
-  X_SUB/U54/Q (AO21X1)                     0.23       3.06 r
-  X_SUB/U3/QN (NOR2X0)                     0.17       3.24 f
-  X_SUB/U43/Q (AO22X1)                     0.20       3.44 f
-  X_SUB/yout[0] (subtractor)               0.00       3.44 f
-  Y_MUX/result[0] (mux_0)                  0.00       3.44 f
-  Y_MUX/U8/Q (AO22X1)                      0.17       3.61 f
-  Y_MUX/output0[0] (mux_0)                 0.00       3.61 f
-  Y_REG/input0[0] (regis_1)                0.00       3.61 f
-  Y_REG/U2/Q (AO22X1)                      0.16       3.77 f
-  Y_REG/output_reg_0_/D (DFFARX1)          0.03       3.80 f
-  data arrival time                                   3.80
+  rst (in)                                 0.05       2.35 r
+  U1/ZN (INVX0)                            0.11       2.47 f
+  U2/ZN (INVX0)                            0.11       2.57 r
+  U_COMP/rst (comparator)                  0.00       2.57 r
+  U_COMP/U24/QN (NOR2X0)                   0.15       2.72 f
+  U_COMP/output0[0] (comparator)           0.00       2.72 f
+  X_SUB/cmd[0] (subtractor)                0.00       2.72 f
+  X_SUB/U8/ZN (INVX0)                      0.13       2.85 r
+  X_SUB/U35/Q (OA221X1)                    0.16       3.02 r
+  X_SUB/U36/Q (MUX21X1)                    0.20       3.22 f
+  X_SUB/U37/QN (NOR2X0)                    0.13       3.35 r
+  X_SUB/xout[1] (subtractor)               0.00       3.35 r
+  X_MUX/result[1] (mux_1)                  0.00       3.35 r
+  X_MUX/U6/Q (AO22X1)                      0.16       3.51 r
+  X_MUX/output0[1] (mux_1)                 0.00       3.51 r
+  X_REG/input0[1] (regis_2)                0.00       3.51 r
+  X_REG/U4/Q (MUX21X1)                     0.17       3.68 r
+  X_REG/output_reg_1_/D (DFFARX1)          0.03       3.71 r
+  data arrival time                                   3.71
 
   clock clk (rise edge)                   25.00      25.00
   clock network delay (ideal)              0.30      25.30
-  Y_REG/output_reg_0_/CLK (DFFARX1)        0.00      25.30 r
-  library setup time                      -0.11      25.19
-  data required time                                 25.19
+  X_REG/output_reg_1_/CLK (DFFARX1)        0.00      25.30 r
+  library setup time                      -0.17      25.13
+  data required time                                 25.13
   -----------------------------------------------------------
-  data required time                                 25.19
-  data arrival time                                  -3.80
+  data required time                                 25.13
+  data arrival time                                  -3.71
   -----------------------------------------------------------
-  slack (MET)                                        21.39
+  slack (MET)                                        21.43
 
 
 1
@@ -274,7 +270,7 @@ Report : timing
         -sort_by group
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:27:18 2021
+Date   : Thu Apr 15 21:58:13 2021
 ****************************************
 
 Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
@@ -282,7 +278,7 @@ Wire Load Model Mode: enclosed
 
   Startpoint: TOFSM/cState_reg_2_
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: TOFSM/cState_reg_2_
+  Endpoint: TOFSM/cState_reg_0_
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -297,26 +293,26 @@ Wire Load Model Mode: enclosed
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
   TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
-  TOFSM/cState_reg_2_/QN (DFFARX1)         0.22       0.52 f
-  TOFSM/U16/Q (AND3X1)                     0.18       0.69 f
-  TOFSM/cState_reg_2_/D (DFFARX1)          0.03       0.72 f
-  data arrival time                                   0.72
+  TOFSM/cState_reg_2_/QN (DFFARX1)         0.23       0.53 r
+  TOFSM/U16/QN (NAND4X0)                   0.10       0.63 f
+  TOFSM/cState_reg_0_/D (DFFARX1)          0.03       0.67 f
+  data arrival time                                   0.67
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
+  TOFSM/cState_reg_0_/CLK (DFFARX1)        0.00       0.30 r
   library hold time                       -0.04       0.26
   data required time                                  0.26
   -----------------------------------------------------------
   data required time                                  0.26
-  data arrival time                                  -0.72
+  data arrival time                                  -0.67
   -----------------------------------------------------------
-  slack (MET)                                         0.47
+  slack (MET)                                         0.41
 
 
   Startpoint: TOFSM/cState_reg_2_
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: TOFSM/cState_reg_2_
+  Endpoint: TOFSM/cState_reg_0_
             (rising edge-triggered flip-flop clocked by clk)
   Path Group: clk
   Path Type: min
@@ -331,56 +327,21 @@ Wire Load Model Mode: enclosed
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
   TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
-  TOFSM/cState_reg_2_/QN (DFFARX1)         0.24       0.54 r
-  TOFSM/U16/Q (AND3X1)                     0.16       0.70 r
-  TOFSM/cState_reg_2_/D (DFFARX1)          0.03       0.73 r
-  data arrival time                                   0.73
+  TOFSM/cState_reg_2_/QN (DFFARX1)         0.21       0.51 f
+  TOFSM/U16/QN (NAND4X0)                   0.12       0.63 r
+  TOFSM/cState_reg_0_/D (DFFARX1)          0.03       0.66 r
+  data arrival time                                   0.66
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
-  library hold time                       -0.08       0.22
-  data required time                                  0.22
+  TOFSM/cState_reg_0_/CLK (DFFARX1)        0.00       0.30 r
+  library hold time                       -0.09       0.21
+  data required time                                  0.21
   -----------------------------------------------------------
-  data required time                                  0.22
-  data arrival time                                  -0.73
+  data required time                                  0.21
+  data arrival time                                  -0.66
   -----------------------------------------------------------
-  slack (MET)                                         0.51
-
-
-  Startpoint: TOFSM/cState_reg_2_
-              (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: TOFSM/cState_reg_1_
-            (rising edge-triggered flip-flop clocked by clk)
-  Path Group: clk
-  Path Type: min
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  gcd                8000                  saed90nm_typ_ht
-  fsm                8000                  saed90nm_typ_ht
-
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  clock clk (rise edge)                    0.00       0.00
-  clock network delay (ideal)              0.30       0.30
-  TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
-  TOFSM/cState_reg_2_/QN (DFFARX1)         0.22       0.52 f
-  TOFSM/U19/QN (NAND3X0)                   0.14       0.65 r
-  TOFSM/U18/QN (NAND4X0)                   0.10       0.75 f
-  TOFSM/cState_reg_1_/D (DFFARX1)          0.03       0.78 f
-  data arrival time                                   0.78
-
-  clock clk (rise edge)                    0.00       0.00
-  clock network delay (ideal)              0.30       0.30
-  TOFSM/cState_reg_1_/CLK (DFFARX1)        0.00       0.30 r
-  library hold time                       -0.04       0.26
-  data required time                                  0.26
-  -----------------------------------------------------------
-  data required time                                  0.26
-  data arrival time                                  -0.78
-  -----------------------------------------------------------
-  slack (MET)                                         0.53
+  slack (MET)                                         0.44
 
 
   Startpoint: TOFSM/cState_reg_0_
@@ -400,10 +361,11 @@ Wire Load Model Mode: enclosed
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
   TOFSM/cState_reg_0_/CLK (DFFARX1)        0.00       0.30 r
-  TOFSM/cState_reg_0_/QN (DFFARX1)         0.23       0.53 f
-  TOFSM/U21/Q (AO221X1)                    0.25       0.78 f
-  TOFSM/cState_reg_0_/D (DFFARX1)          0.03       0.82 f
-  data arrival time                                   0.82
+  TOFSM/cState_reg_0_/QN (DFFARX1)         0.21       0.51 f
+  TOFSM/U15/QN (NAND2X0)                   0.11       0.62 r
+  TOFSM/U16/QN (NAND4X0)                   0.11       0.73 f
+  TOFSM/cState_reg_0_/D (DFFARX1)          0.03       0.76 f
+  data arrival time                                   0.76
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
@@ -412,9 +374,44 @@ Wire Load Model Mode: enclosed
   data required time                                  0.26
   -----------------------------------------------------------
   data required time                                  0.26
-  data arrival time                                  -0.82
+  data arrival time                                  -0.76
   -----------------------------------------------------------
-  slack (MET)                                         0.56
+  slack (MET)                                         0.51
+
+
+  Startpoint: TOFSM/cState_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: TOFSM/cState_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gcd                8000                  saed90nm_typ_ht
+  fsm                8000                  saed90nm_typ_ht
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.30       0.30
+  TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
+  TOFSM/cState_reg_2_/QN (DFFARX1)         0.21       0.51 f
+  TOFSM/U12/QN (NAND2X0)                   0.12       0.63 r
+  TOFSM/U13/QN (NOR2X0)                    0.12       0.75 f
+  TOFSM/cState_reg_2_/D (DFFARX1)          0.03       0.78 f
+  data arrival time                                   0.78
+
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.30       0.30
+  TOFSM/cState_reg_2_/CLK (DFFARX1)        0.00       0.30 r
+  library hold time                       -0.04       0.26
+  data required time                                  0.26
+  -----------------------------------------------------------
+  data required time                                  0.26
+  data arrival time                                  -0.78
+  -----------------------------------------------------------
+  slack (MET)                                         0.52
 
 
   Startpoint: TOFSM/cState_reg_1_
@@ -435,10 +432,9 @@ Wire Load Model Mode: enclosed
   clock network delay (ideal)              0.30       0.30
   TOFSM/cState_reg_1_/CLK (DFFARX1)        0.00       0.30 r
   TOFSM/cState_reg_1_/QN (DFFARX1)         0.23       0.53 f
-  TOFSM/U12/QN (NAND2X1)                   0.15       0.67 r
-  TOFSM/U18/QN (NAND4X0)                   0.12       0.79 f
-  TOFSM/cState_reg_1_/D (DFFARX1)          0.03       0.82 f
-  data arrival time                                   0.82
+  TOFSM/U19/Q (AO221X1)                    0.22       0.75 f
+  TOFSM/cState_reg_1_/D (DFFARX1)          0.03       0.79 f
+  data arrival time                                   0.79
 
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              0.30       0.30
@@ -447,9 +443,9 @@ Wire Load Model Mode: enclosed
   data required time                                  0.26
   -----------------------------------------------------------
   data required time                                  0.26
-  data arrival time                                  -0.82
+  data arrival time                                  -0.79
   -----------------------------------------------------------
-  slack (MET)                                         0.57
+  slack (MET)                                         0.53
 
 
 1

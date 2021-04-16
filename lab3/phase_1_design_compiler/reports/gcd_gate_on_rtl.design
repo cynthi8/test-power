@@ -3,7 +3,7 @@
 Report : design
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:27:25 2021
+Date   : Thu Apr 15 21:58:47 2021
 ****************************************
 
 Design allows ideal nets on clock nets.
@@ -100,62 +100,60 @@ Design Parameters:
 Report : hierarchy
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:27:25 2021
+Date   : Thu Apr 15 21:58:47 2021
 ****************************************
 
+Attributes:
+    r - licensed design
+
 gcd
-    comparator
-        AO21X1          saed90nm_typ_ht
-        AOI21X1         saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-        NAND2X1         saed90nm_typ_ht
-        NAND3X0         saed90nm_typ_ht
-        NOR2X0          saed90nm_typ_ht
-        OA21X1          saed90nm_typ_ht
-        OA221X1         saed90nm_typ_ht
-        OR3X1           saed90nm_typ_ht
+    INVX0                saed90nm_typ_ht
+    comparator                     r
+        INVX0            saed90nm_typ_ht
+        NAND2X0          saed90nm_typ_ht
+        NAND3X0          saed90nm_typ_ht
+        NOR2X0           saed90nm_typ_ht
+        OA21X1           saed90nm_typ_ht
+        OA221X1          saed90nm_typ_ht
+        OR2X1            saed90nm_typ_ht
     fsm
-        AND3X1          saed90nm_typ_ht
-        AO221X1         saed90nm_typ_ht
-        DFFARX1         saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-        NAND2X1         saed90nm_typ_ht
-        NAND3X0         saed90nm_typ_ht
-        NAND4X0         saed90nm_typ_ht
-        NOR2X0          saed90nm_typ_ht
-        OA21X1          saed90nm_typ_ht
-        OR2X1           saed90nm_typ_ht
-        XOR2X1          saed90nm_typ_ht
+        AO221X1          saed90nm_typ_ht
+        DFFARX1          saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        NAND2X0          saed90nm_typ_ht
+        NAND3X0          saed90nm_typ_ht
+        NAND4X0          saed90nm_typ_ht
+        NOR2X0           saed90nm_typ_ht
+        OA221X1          saed90nm_typ_ht
+        OAI21X1          saed90nm_typ_ht
+        OR2X1            saed90nm_typ_ht
     mux_0
-        AO22X1          saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-        NOR2X0          saed90nm_typ_ht
+        AO22X1           saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        NOR2X0           saed90nm_typ_ht
     mux_1
-        AO22X1          saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-        NOR2X0          saed90nm_typ_ht
+        AO22X1           saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        NOR2X0           saed90nm_typ_ht
     regis_0
-        AO22X1          saed90nm_typ_ht
-        DFFARX1         saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
+        DFFARX1          saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        MUX21X1          saed90nm_typ_ht
     regis_1
-        AO22X1          saed90nm_typ_ht
-        DFFARX1         saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
+        DFFARX1          saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        MUX21X1          saed90nm_typ_ht
     regis_2
-        AO22X1          saed90nm_typ_ht
-        DFFARX1         saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-    subtractor
-        AND2X1          saed90nm_typ_ht
-        AO21X1          saed90nm_typ_ht
-        AO22X1          saed90nm_typ_ht
-        INVX0           saed90nm_typ_ht
-        NAND2X1         saed90nm_typ_ht
-        NAND3X0         saed90nm_typ_ht
-        NOR2X0          saed90nm_typ_ht
-        OA22X1          saed90nm_typ_ht
-        OA221X1         saed90nm_typ_ht
-        XNOR2X1         saed90nm_typ_ht
-        XOR2X1          saed90nm_typ_ht
+        DFFARX1          saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        MUX21X1          saed90nm_typ_ht
+    subtractor                     r
+        AO21X1           saed90nm_typ_ht
+        AOI221X1         saed90nm_typ_ht
+        INVX0            saed90nm_typ_ht
+        MUX21X1          saed90nm_typ_ht
+        NAND2X0          saed90nm_typ_ht
+        NOR2X0           saed90nm_typ_ht
+        OA22X1           saed90nm_typ_ht
+        OA221X1          saed90nm_typ_ht
 1

@@ -1,9 +1,7 @@
 ##################################################################
-#### Design Compiler Script for ECE 128
-#### Performs Synthesis only to AMI .5 technology
-#### author: wgibb
+#### Design Compiler Script for EECS 6082C
+#### author: hernannr
 #### note: this is a TCL script
-#### modified from work done by tjf and eb
 ##################################################################
 
 ####################################
@@ -50,7 +48,7 @@ set myOutputLoad 0.1;                              # output pin loading
 # compiler switches...
 ##################
 set optimizeArea 1;     # 1 for area, 0 for speed
-set useUltra 0;         # 1 for compile_ultra, 0 for compile mapEffort, useUngroup are for non-ultra compile...
+set useUltra 1;         # 1 for compile_ultra, 0 for compile mapEffort, useUngroup are for non-ultra compile...
 set useUngroup 0;       # 0 if no flatten, 1 if flatten
 
 
@@ -188,7 +186,7 @@ if { $optimizeArea == 1} {
 saif_map -start
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
-        compile_ultra
+        compile_ultra -no_autoungroup
     } else {
         if { $useUngroup == 1 } {
             compile -ungroup_all -map_effort medium

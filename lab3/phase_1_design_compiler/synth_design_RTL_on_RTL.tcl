@@ -1,9 +1,7 @@
 ##################################################################
-#### Design Compiler Script for ECE 128
-#### Performs Synthesis only to AMI .5 technology
-#### author: wgibb
+#### Design Compiler Script for EECS 6082C
+#### author: hernannr
 #### note: this is a TCL script
-#### modified from work done by tjf and eb
 ##################################################################
 
 ####################################
@@ -188,7 +186,7 @@ if { $optimizeArea == 1} {
 saif_map -start
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
-        compile_ultra
+        compile_ultra -no_autoungroup
     } else {
         if { $useUngroup == 1 } {
             compile -ungroup_all -map_effort medium

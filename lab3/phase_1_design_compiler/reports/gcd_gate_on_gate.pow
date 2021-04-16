@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 20:27:19 2021
+Date   : Thu Apr 15 21:58:13 2021
 ****************************************
 
 
@@ -27,9 +27,9 @@ mux_1                  ForQA             saed90nm_typ_ht
 regis_2                ForQA             saed90nm_typ_ht
 comparator             ForQA             saed90nm_typ_ht
 subtractor             8000              saed90nm_typ_ht
-mux_0                  ForQA             saed90nm_typ_ht
 regis_0                ForQA             saed90nm_typ_ht
 regis_1                ForQA             saed90nm_typ_ht
+mux_0                  ForQA             saed90nm_typ_ht
 
 
 Global Operating Voltage = 1.2  
@@ -41,12 +41,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   4.3857 uW   (65%)
-  Net Switching Power  =   2.3881 uW   (35%)
+  Cell Internal Power  =   3.7072 uW   (64%)
+  Net Switching Power  =   2.0717 uW   (36%)
                          ---------
-Total Dynamic Power    =   6.7738 uW  (100%)
+Total Dynamic Power    =   5.7790 uW  (100%)
 
-Cell Leakage Power     =  20.9643 uW
+Cell Leakage Power     =  18.8900 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -56,9 +56,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           0.8027            0.7921        6.4343e+06            8.0290  (  28.95%)
+register           0.5772            0.6222        6.4425e+06            7.6419  (  30.98%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      3.5830            1.5961        1.4530e+07           19.7091  (  71.05%)
+combinational      3.1300            1.4496        1.2448e+07           17.0271  (  69.02%)
 --------------------------------------------------------------------------------------------------
-Total              4.3857 uW         2.3881 uW     2.0964e+07 pW        27.7381 uW
+Total              3.7072 uW         2.0717 uW     1.8890e+07 pW        24.6689 uW
 1
