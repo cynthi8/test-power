@@ -9,7 +9,7 @@ vsim work.gcd_tb
 
 # Setup VCD file
 vcd file gcd_gate_level.vcd
-vcd add /gcd_tb/*
+vcd add /gcd_tb/uut/*
 
 # Run Simulation
 add wave -position end sim:/gcd_tb/*
