@@ -189,6 +189,8 @@ if { $optimizeArea == 1} {
 ####################################
 saif_map -start
 set power_driven_clock_gating true;
+
+
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
         compile_ultra -gate_clock

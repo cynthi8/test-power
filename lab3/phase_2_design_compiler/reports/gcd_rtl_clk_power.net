@@ -3,7 +3,7 @@
 Report : net
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:51:07 2021
+Date   : Thu Apr 15 23:32:46 2021
 ****************************************
 
 
@@ -27,7 +27,7 @@ Attributes:
 Net
  Fanout    Fanin     Load      LoadUR    LoadUF    LoadLR    LoadLF    Resist    Pins      Attr
 -----------------------------------------------------------------------------------------------
-OUT_REG_net5012
+OUT_REG_net2851
       4         1        4.87      5.04      4.69      5.04      4.69      0.12       5    dr
 TOFSM_cState[0]
       5         1       10.07     10.25      9.90     10.25      9.90      0.15       6    
@@ -37,9 +37,9 @@ TOFSM_cState[2]
       5         1        9.41      9.73      9.09      9.73      9.09      0.15       6    
 TOFSM_nState_2_
       1         1        1.48      1.48      1.47      1.48      1.47      0.02       2    
-X_REG_net5012
+X_REG_net2851
       4         1        4.87      5.04      4.69      5.04      4.69      0.12       5    dr
-Y_REG_net5012
+Y_REG_net2851
       4         1        4.87      5.04      4.69      5.04      4.69      0.12       5    dr
 clk
       9         1       14.51     14.86     14.16     14.86     14.16      0.35      10    dr

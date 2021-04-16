@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 23:03:18 2021
+Date   : Thu Apr 15 23:19:43 2021
 ****************************************
 
 
@@ -41,12 +41,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   3.7072 uW   (64%)
-  Net Switching Power  =   2.0717 uW   (36%)
+  Cell Internal Power  =   7.0204 uW   (71%)
+  Net Switching Power  =   2.9152 uW   (29%)
                          ---------
-Total Dynamic Power    =   5.7790 uW  (100%)
+Total Dynamic Power    =   9.9356 uW  (100%)
 
-Cell Leakage Power     =  18.8900 uW
+Cell Leakage Power     =  19.1293 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -56,9 +56,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           0.5772            0.6222        6.4425e+06            7.6419  (  30.98%)
+register           0.5264            0.5763        6.6251e+06            7.7278  (  26.59%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      3.1300            1.4496        1.2448e+07           17.0271  (  69.02%)
+combinational      6.4940            2.3390        1.2504e+07           21.3371  (  73.41%)
 --------------------------------------------------------------------------------------------------
-Total              3.7072 uW         2.0717 uW     1.8890e+07 pW        24.6689 uW
+Total              7.0204 uW         2.9152 uW     1.9129e+07 pW        29.0649 uW
 1

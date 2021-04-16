@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:51:08 2021
+Date   : Thu Apr 15 23:32:46 2021
 ****************************************
 
 
@@ -39,12 +39,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   3.8435 uW   (66%)
-  Net Switching Power  =   1.9375 uW   (34%)
+  Cell Internal Power  =   4.4061 uW   (68%)
+  Net Switching Power  =   2.0476 uW   (32%)
                          ---------
-Total Dynamic Power    =   5.7809 uW  (100%)
+Total Dynamic Power    =   6.4536 uW  (100%)
 
-Cell Leakage Power     =  16.0361 uW
+Cell Leakage Power     =  16.0953 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -53,10 +53,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.5469            0.3202        1.7389e+06            2.6060  (  11.94%)
-register           0.8236            0.8098        6.7546e+06            8.3880  (  38.45%)
+clock_network      0.5462            0.3201        1.7396e+06            2.6060  (  11.56%)
+register           0.8031            0.7950        6.7673e+06            8.3655  (  37.10%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      2.4730            0.8074        7.5426e+06           10.8230  (  49.61%)
+combinational      3.0567            0.9324        7.5884e+06           11.5775  (  51.34%)
 --------------------------------------------------------------------------------------------------
-Total              3.8435 uW         1.9375 uW     1.6036e+07 pW        21.8170 uW
+Total              4.4061 uW         2.0476 uW     1.6095e+07 pW        22.5490 uW
 1

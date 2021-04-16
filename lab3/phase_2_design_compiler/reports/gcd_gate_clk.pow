@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 22:50:52 2021
+Date   : Thu Apr 15 23:39:53 2021
 ****************************************
 
 
@@ -37,12 +37,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   5.0354 uW   (65%)
-  Net Switching Power  =   2.6734 uW   (35%)
+  Cell Internal Power  =   6.7748 uW   (70%)
+  Net Switching Power  =   2.9621 uW   (30%)
                          ---------
-Total Dynamic Power    =   7.7087 uW  (100%)
+Total Dynamic Power    =   9.7369 uW  (100%)
 
-Cell Leakage Power     =  18.0584 uW
+Cell Leakage Power     =  18.0844 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -51,10 +51,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.4088            0.3144        1.1658e+06            1.8889  (   7.33%)
-register           0.6842            0.6919        6.5144e+06            7.8906  (  30.62%)
+clock_network      0.3878            0.2983        1.1622e+06            1.8483  (   6.64%)
+register           0.7354            0.7432        6.5906e+06            8.0693  (  29.00%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      3.9424            1.6671        1.0378e+07           15.9875  (  62.05%)
+combinational      5.6515            1.9206        1.0332e+07           17.9038  (  64.35%)
 --------------------------------------------------------------------------------------------------
-Total              5.0354 uW         2.6734 uW     1.8058e+07 pW        25.7671 uW
+Total              6.7748 uW         2.9621 uW     1.8084e+07 pW        27.8214 uW
 1

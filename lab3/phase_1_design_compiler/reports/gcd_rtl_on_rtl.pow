@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 21:51:48 2021
+Date   : Thu Apr 15 23:19:56 2021
 ****************************************
 
 
@@ -48,9 +48,9 @@ Power-specific unit information :
 
 
   Cell Internal Power  =   0.0000 uW    (0%)
-  Net Switching Power  = 316.5283 nW  (100%)
+  Net Switching Power  = 360.9532 nW  (100%)
                          ---------
-Total Dynamic Power    = 316.5283 nW  (100%)
+Total Dynamic Power    = 360.9532 nW  (100%)
 
 Cell Leakage Power     =   0.0000 pW
 
@@ -62,9 +62,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           0.0000        7.7778e-02            0.0000        7.7778e-02  (  24.57%)
+register           0.0000        7.8818e-02            0.0000        7.8818e-02  (  21.84%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      0.0000            0.2388            0.0000            0.2388  (  75.43%)
+combinational      0.0000            0.2821            0.0000            0.2821  (  78.16%)
 --------------------------------------------------------------------------------------------------
-Total              0.0000 uW         0.3165 uW         0.0000 pW         0.3165 uW
+Total              0.0000 uW         0.3610 uW         0.0000 pW         0.3610 uW
 1
