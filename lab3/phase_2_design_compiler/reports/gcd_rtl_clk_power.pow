@@ -1,5 +1,4 @@
 Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
-Warning: The derived toggle rate value (0.080000) for the clock net 'clk' conflicts with the annotated value (0.050000). Using the annotated value. (PWR-12)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
  
 ****************************************
@@ -7,7 +6,7 @@ Report : power
         -analysis_effort high
 Design : gcd
 Version: O-2018.06-SP1
-Date   : Thu Apr 15 23:32:46 2021
+Date   : Fri Apr 16 00:54:37 2021
 ****************************************
 
 
@@ -39,12 +38,12 @@ Power-specific unit information :
     Leakage Power Units = 1pW
 
 
-  Cell Internal Power  =   4.4061 uW   (68%)
-  Net Switching Power  =   2.0476 uW   (32%)
+  Cell Internal Power  =   4.4900 uW   (68%)
+  Net Switching Power  =   2.1055 uW   (32%)
                          ---------
-Total Dynamic Power    =   6.4536 uW  (100%)
+Total Dynamic Power    =   6.5955 uW  (100%)
 
-Cell Leakage Power     =  16.0953 uW
+Cell Leakage Power     =  16.1053 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -53,10 +52,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.5462            0.3201        1.7396e+06            2.6060  (  11.56%)
-register           0.8031            0.7950        6.7673e+06            8.3655  (  37.10%)
+clock_network      0.5618            0.3275        1.7419e+06            2.6312  (  11.59%)
+register           0.8349            0.8257        6.7772e+06            8.4378  (  37.17%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational      3.0567            0.9324        7.5884e+06           11.5775  (  51.34%)
+combinational      3.0933            0.9523        7.5862e+06           11.6318  (  51.24%)
 --------------------------------------------------------------------------------------------------
-Total              4.4061 uW         2.0476 uW     1.6095e+07 pW        22.5490 uW
+Total              4.4900 uW         2.1055 uW     1.6105e+07 pW        22.7008 uW
 1

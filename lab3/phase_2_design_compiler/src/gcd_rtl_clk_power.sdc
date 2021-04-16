@@ -1,6 +1,6 @@
 ###################################################################
 
-# Created by write_sdc on Thu Apr 15 23:32:46 2021
+# Created by write_sdc on Fri Apr 16 00:54:37 2021
 
 ###################################################################
 set sdc_version 2.1
@@ -37,7 +37,7 @@ set_max_fanout 1 [get_ports {y_i[3]}]
 set_max_fanout 1 [get_ports {y_i[2]}]
 set_max_fanout 1 [get_ports {y_i[1]}]
 set_max_fanout 1 [get_ports {y_i[0]}]
-create_clock [get_ports clk]  -period 25  -waveform {0 12.5}
+create_clock [get_ports clk]  -period 40  -waveform {0 20}
 set_clock_latency 0.3  [get_clocks clk]
 set_clock_transition -min -fall 0 [get_clocks clk]
 set_clock_transition -min -rise 0 [get_clocks clk]

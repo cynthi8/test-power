@@ -191,7 +191,7 @@ if { $optimizeArea == 1} {
 saif_map -start
 if { $DoSynthesis == 1} {
     if { $useUltra == 1 } {
-        compile_ultra -no_autoungroup
+        compile_ultra
         compile_ultra -gate_clock
     } else {
         if { $useUngroup == 1 } {

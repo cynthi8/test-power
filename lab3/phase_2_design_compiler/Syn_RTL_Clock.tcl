@@ -252,7 +252,7 @@ if { $verbose == 1 } {
     report_cell
     report_net
     report_port -v
-    report_power -analysis_effort low
+    report_power -analysis_effort high
 }
 
 ####################################

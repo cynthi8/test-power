@@ -17,7 +17,7 @@ set myFiles [list ./src/GCD.vhdl] ;
 set basename gcd;               # Top-level module name
 set myClk clk;                  # The name of your clock
 set virtual 0;                  # 1 if virtual clock, 0 if real clock
-set myPeriod_ns 25;             # desired clock period (in ns) (sets speed goal)
+set myPeriod_ns 40;             # desired clock period (in ns) (sets speed goal)
 set saifName [list ./src/gcd_rtl.saif];
 set saifInstance gcd_tb/uut;
 
@@ -89,7 +89,6 @@ echo IMPORTING DESIGN
 ####################################
 analyze -format $fileFormat -library DEFAULT $myFiles
 elaborate $basename -library DEFAULT
-#elaborate GCD_BSD -architecture GCD_BSD_ARC -library DEFAULT
 
 
 ####################################
@@ -169,7 +168,7 @@ echo DONE SETTING CONSTRAINTS
 # This command will fix the problem of having
 # assign statements left in your structural file.
 # But, it will insert pairs of inverters for feedthroughs!
-set_fix_multiple_port_nets -all -buffer_constants
+#set_fix_multiple_port_nets -all -buffer_constants
 ####################################
 
 
@@ -188,7 +187,7 @@ if { $optimizeArea == 1} {
 # or use the compile_ultra meta-command
 ####################################
 saif_map -start
-set power_driven_clock_gating true;
+set power_driven_clock_gating true
 
 
 if { $DoSynthesis == 1} {
