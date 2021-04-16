@@ -1,0 +1,22 @@
+set output_name syn_RTL_gated_clock
+
+remove_design -all
+read_file -format vhdl ../source_design/09-GCD.vhdl
+current_design gcd
+
+create_clock clk -p 40
+set_fix_hold clk
+set_clock_transition 0 clk
+
+saif_map –start
+
+set_clock_gating_style -sequential latch -min 4 -max_fanout 16
+compile_ultra -gate_clock
+
+read_saif -auto_map_names -input phase_1_generate_RTL_SAIF/gcd_rtl.saif -instance test_gcd/uut
+
+redirect reports/${output_name}.saifr { report_saif -rtl_saif }
+redirect reports/${output_name}.clkg { report_clock_gating }
+redirect reports/${output_name}.pow { report_power -analysis_effort high }
+
+write_file -format verilog -output output/${output_name}.v

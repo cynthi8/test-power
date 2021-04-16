@@ -1,0 +1,60 @@
+Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : gcd
+Version: O-2018.06-SP1
+Date   : Fri Apr 16 00:28:51 2021
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/colden/test-power/lab3/phase_2_GCD/db/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+gcd                    8000              saed90nm_typ_ht
+SNPS_CLOCK_GATE_HIGH_gcd_0
+                       ForQA             saed90nm_typ_ht
+SNPS_CLOCK_GATE_HIGH_gcd_1
+                       ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   2.0171 uW   (63%)
+  Net Switching Power  =   1.1813 uW   (37%)
+                         ---------
+Total Dynamic Power    =   3.1983 uW  (100%)
+
+Cell Leakage Power     =  15.7853 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.2636            0.1920        1.1415e+06            1.5971  (   8.41%)
+register           0.2766            0.3404        5.8822e+06            6.4991  (  34.24%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      1.4769            0.6489        8.7616e+06           10.8874  (  57.35%)
+--------------------------------------------------------------------------------------------------
+Total              2.0171 uW         1.1813 uW     1.5785e+07 pW        18.9837 uW
+1
